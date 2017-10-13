@@ -1,4 +1,4 @@
-$('.collection-search__input').on('click', function () {
+$('.search-js').on('click', function () {
     var t = $(this).parent();
 
     t.addClass('active');
