@@ -1,0 +1,22 @@
+
+
+.flip-card__item {
+  height: 200px; //например
+  display: block;
+  position: relative;
+}
+
+.flip-card__front, .flip-card__back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: #effff2;
+  left: 0;
+  right: 0;
+}
+
+.flip-card__back  {
+  background: #eaf8ff;
+}

@@ -1,0 +1,374 @@
+//
+.my-id {
+  border-bottom: 1px solid #aaa;
+  padding: 0 0 20px 18px;
+  margin: 30px 0 20px;
+  .my-id__id {
+    margin: 0 14px 0 0;
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+    vertical-align: baseline;
+  }
+}
+.my-id__parents {
+  display: table;
+  margin-top: 10px;
+  width: 90%;
+  > div {
+    display: table-cell;
+    &:first-child {
+      padding-left: 30px;
+      width: 180px;
+      text-align: right;
+    }
+  }
+}
+.my-id__parents-id {
+  padding-left: 14px;
+}
+.my-id__parent-block {
+  margin-bottom: 10px;
+  position: relative;
+  padding-right: 30px;
+}
+.mi-id__close-btn {
+  transition: .2s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 13px;
+  color: #848689;
+  cursor: pointer;
+  &:hover {
+    color: #D40505;
+  }
+}
+.my-id__add-child {
+  text-align: center;
+  width: 200px;
+  margin-left: 194px;
+}
+.my-id__add-child__ok {
+  display: none;
+  button {
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+}
+.my-id__add-child__input {
+  display: none;
+  padding: 4.5px 10px;
+  background: #fff;
+  border: 1px solid #aaa;
+  color: #060606;
+  font-size: 15.5px;
+}
+.my-id__popup {
+  .popup-content {
+    width: 400px;
+    text-align: center;
+    font: 18px $roboto-regular;
+    padding: 30px;
+    span {
+      display: block;
+      margin-top: 10px;
+    }
+    button {
+      &:first-of-type {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+//
+
+.outer-blue{
+   background: #0071bc; 
+}
+
+.profile-data{
+   font-family: $roboto-regular;
+   font-size: 16px;
+/* transform: translateY(100%)!important;
+  visibility: visible!important;
+  top: -989px!important;  */
+      .wrapper-content{
+         padding-top: 25px;
+      }
+}
+
+.profile-data__content{
+   .lk__form-block{
+      &:first-of-type{
+         margin-bottom: 45px;
+      }
+   }
+}
+
+.user-action{
+   list-style: none;
+   font-size: 18px;
+   li{
+      display: inline-block;
+      text-decoration: underline;
+      cursor: pointer;
+      border: 1px solid transparent;
+      padding: 3px 10px;
+      border-radius: 20px;
+      @include transition(300);
+      &:hover{
+         text-decoration: none;
+         border: 1px solid #fff;
+         padding: 3px 10px;
+         border-radius: 20px;
+      }
+   }
+   .tab-active{
+       text-decoration: none;
+       border: 1px solid #fff;
+       padding: 3px 10px;
+       border-radius: 20px;
+       cursor: default;
+   }
+   span{
+      font-size: 13.5px;
+      margin: 0 14px;
+   }
+}
+
+.lk__form{
+   margin: 0 auto;
+   width: 670px!important;
+   .input-radio{
+    position: relative;
+    top: -3px;
+   }
+}
+
+#form-enter{
+   width: 400px;
+   .lk__form-row{
+      span{
+         position: relative;
+          top: 5px;
+          right: 14px;
+          display: inline-block;
+          width: 95px;
+          text-align: right;
+      }
+   }
+}
+
+.lk__form-row{
+   margin-bottom: 15px;
+   .lk__input-text{
+      width: 300px;
+      display: inline-block;
+      vertical-align: top;
+      padding: 4.5px 10px;
+      background: #fff;
+      border: 1px solid #aaa;
+      color: #060606;
+     /*  float: right; */
+      font-size: 15.5px;
+   }
+  /* .profile-data__radio{
+      width: 300px;
+      float: right;
+      display: inline-block;
+   }
+   .profile-data__radio-item{
+      display: inline-block;
+   }*/
+   &:after{
+      @include clear();
+
+   }
+}
+
+.social, .private{
+   width: 400px;
+   margin: 50px auto 20px;
+   padding-top: 15px;
+   &:after{
+      @include clear();
+   }
+   span{
+      float: left;
+      position: relative;
+      top: 14px;
+   }
+}
+
+.private{
+   width: 510px;
+}
+
+.lk__form-block.private{
+  width: 670px;
+  p{
+    text-align: center;
+    font: 16px $roboto-ligth;
+    margin-bottom: 30px;
+  }
+}
+
+ .private {
+    span{
+      top: 5px;
+    }
+  }
+
+.social__row{
+   display: inline-block;
+}
+
+.soc-links_white{
+   color: #fff;
+}
+
+.forget-pass{
+   float: left;
+   text-decoration: underline;
+   margin-top: 20px;
+   &:hover{
+      text-decoration: none;
+   }
+}
+
+.profile-data #form-registration{
+   width: 510px;
+}
+
+.lk__form-label{
+   position: relative;
+   top: 4px;
+   right: 12px;
+   display: inline-block;
+   width: 180px;
+   text-align: right;
+   vertical-align: top;
+}
+
+.lk__form-label_top-4{
+  top: -4px;
+}
+
+.lk__form-label-notice{
+   position: relative;
+   top: 5px;
+   left: 10px;
+   text-align: left;
+   vertical-align: top;
+   font-size: 14px;
+}
+
+.profile-data__select {
+   float: right;
+   width: 300px; 
+   text-align: left;
+   select {
+    background: #bababa;
+    width: 68%;
+    color: #fff;
+    border: 0;
+    padding: 10px 10px 10px 22px;
+    border: 1px solid #fff;
+    /*border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;*/
+  } 
+}
+
+.lk-button{
+    text-align: center;
+}
+
+.lk__form-row {
+  .chosen-single{
+    margin-top: 0;
+  }
+  a{
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  i {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    opacity: .9;
+    /*opacity: 0;*/
+    @include transition(200);
+    font-size: 13px;
+    position: relative;
+    top: 5px;
+    &:hover {
+      opacity: 1;
+      &.icon_edit {
+        color: #000;
+      }
+      &.icon_delete-cross {
+        color: #D40505;
+      }
+    }
+  }
+}
+
+.profile-photo-block{
+ display: inline-block;
+  width: 420px;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+
+.profile-image{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 13px;
+}
+
+.profile-option{
+  display: inline-block;
+  width: 300px;
+  a{
+    display: inline-block;
+    &:last-of-type{
+      margin-left: 10px;
+    }
+  }
+  span{
+    display: block;
+    color: #6d6d6d;
+    margin-top: 5px;
+  }
+}
+
+/*.icon_delete-cross_hide {
+  visibility: hidden;
+}
+
+.icon_delete-cross_show {
+  visibility: visible;
+}*/
+
+.contacts .icon_delete-cross{
+  visibility: hidden;
+}
+
+.added-row-displayed .icon_delete-cross{
+  visibility: visible;
+}
+
+.contacts .chosen-container-single .chosen-single span {
+    position: relative;
+    right: 8px;
+    font-size: 14px;
+}

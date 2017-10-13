@@ -1,0 +1,45 @@
+.introjs-skipbutton {
+  display: none;
+}
+
+.introjs-helperNumberLayer {
+  background: #044F87;
+  text-shadow: none;
+  line-height: 21px;
+  padding-right: 3px;
+}
+
+.introjs-button {
+  background: $tiffany;
+  text-shadow: none;
+  color: #fff;
+  border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  @include transition(200);
+  &.introjs-disabled {
+    background: #ccc;
+    color: #ffffff;
+    &:hover {
+      background: #ccc;
+      color: #ffffff;
+    }
+  }
+  &.introjs-skipbutton {
+    background: #FB5E3A;
+    &:hover {
+      background: #FB491F;
+    }
+  }
+  &:hover {
+    background: darken($tiffany, 5);
+    color: #fff;
+  }
+}
+
+.introjs-tooltiptext {
+  font: 16px/16px $roboto-regular ;
+ letter-spacing: -.4px;
+}

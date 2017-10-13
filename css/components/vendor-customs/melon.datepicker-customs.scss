@@ -1,0 +1,29 @@
+.ll-skin-melon .ui-widget {
+  //border: 1px solid #ffffff;
+  border: none;
+  background: #424242;
+
+}
+.ui-widget select {
+  font-family: $roboto-ligth;
+}
+
+.ui-datepicker .ui-datepicker-title select {
+  font-size: 13px;
+}
+.ll-skin-melon td .ui-state-default {
+  font: 14px $roboto-ligth;
+  color: #000;
+
+}
+.ll-skin-melon .ui-datepicker th {
+  border-top-color: #ffffff;
+}
+.ll-skin-melon .ui-datepicker td {
+  background: #fff;
+}
+
+.ll-skin-melon td .ui-state-active, .ll-skin-melon td .ui-state-hover {
+  background: #0071BC;
+  color: #fff;
+}

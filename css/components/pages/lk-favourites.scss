@@ -1,0 +1,79 @@
+.favourites{
+	margin-top: 30px;
+	.lk__form-label{
+		width: auto;
+		right: 0px;
+	}
+	.lk-select {
+    	margin-left: 9px;
+    	&:first-of-type{
+    		margin-right: 45px;
+    	}
+	}
+}
+
+.favourites__grade-block{
+	margin-top: 18px;
+	font-family: $roboto-regular;
+	p{
+		/* font-family: $roboto-regular; */
+	}
+}
+
+.favourites__grade-num{
+	border-bottom: 1px solid #b7b7b7;
+	padding-left: 5px;
+	padding-bottom: 14px;
+	font-size: 18px;
+}
+
+.favourites__grade-subjecs{
+	display: table;
+	vertical-align: top;
+	margin-top: 25px;
+	&:first-of-type{
+		padding-top: 10px;
+		margin-top: 0;
+	}
+
+}
+
+.favourites__subject{
+	display: table-cell;
+	vertical-align: top;
+	width: 180px;
+	padding-left: 5px;
+}
+
+.favourites__lesson-list{
+	display: table-cell;
+	vertical-align: top;
+}
+
+.favourites__lesson-list-item{
+	display: block;
+	margin-bottom: 10px;	
+}
+
+.favourites__video{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.favourites__lesson-theme{
+	display: inline-block;
+	vertical-align: top;
+	width: 345px;
+	font-size: 13px; 
+	margin-left: 14px;
+	font-family: $roboto-ligth;
+	span{
+		display: block;
+		font-size: 14px; 
+		font-family: $roboto-regular;
+		margin-bottom: 4px;
+	}
+	&:hover{
+		text-decoration: underline;
+	}
+}

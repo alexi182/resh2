@@ -1,0 +1,315 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+   @@include('../includes/common/head.html', {})
+</head>
+
+<body>
+@@include('../includes/common/browserhappy.html', {})
+
+<div class="outer-sf">
+   <div class="wrapper-sf">
+
+      @@include('../includes/blocks/header.html', {})
+
+      <main class="main _hideable">
+
+         <div class="wrapper-content">
+
+            <ul class="breadcrumbs">
+               <li><a href="#">Главная</a></li>
+               <li><a href="#">О проекте</a></li>
+            </ul>
+
+            <h1 class="content-title">Анкета участника</h1>
+
+            <div class="block-shadow">
+               <div class="tipical-content">
+
+                  <form class="public-form" name="teacher-profile">
+
+                     <div class="public-form__wrap">
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <label class="public-form__label" for="public-form__surname">Фамилия</label>
+                           </div>
+                           <div class="public-form__col col2  error">
+                              <input class="public-form__input" id="public-form__surname" type="text">
+                              <span class="error">Заполните это поле</span>
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <label class="public-form__label" for="public-form__name">Имя</label>
+                           </div>
+                           <div class="public-form__col col2">
+                              <input class="public-form__input" id="public-form__name" type="text">
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <label class="public-form__label" for="public-form__secondname">Отчество</label>
+                           </div>
+                           <div class="public-form__col col2">
+                              <input class="public-form__input" id="public-form__secondname" type="text">
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <label class="public-form__label" for="course-themes-radio1">Пол</label>
+                           </div>
+                           <div class="public-form__col col2">
+                              <div class="input-radio">
+                                 <div class="input-radio-item">
+                                    <input id="course-themes-radio1" name="lk-course-themes" type="radio">
+                                    <label for="course-themes-radio1">Жен.</label>
+                                 </div>
+                                 <div class="input-radio-item">
+                                    <input id="course-themes-radio2" name="lk-course-themes" type="radio">
+                                    <label for="course-themes-radio2">Муж.</label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <label class="public-form__label" for="public-form__birthdate">Дата рождения</label>
+                           </div>
+                           <div class="public-form__col col2">
+                              <input class="public-form__input datepicker" id="public-form__birthdate" type="text">
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <label for="public__select1" class="public-form__label">Субъект РФ</label>
+                           </div>
+                           <div class="public-form__col col2  error">
+                              <div class="lk-select">
+                                 <select id="public__select1" class="chosen-select" data-placeholder="Субъекты РФ">
+                                    <option></option>
+                                    <option>Математика</option>
+                                    <option>Русский язык</option>
+                                    <option>Литература</option>
+                                    <option>Обществоведение</option>
+                                    <option>История</option>
+                                 </select>
+                              </div>
+                              <span class="error">Выберите субъект РФ из списка</span>
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <label class="public-form__label" for="public-form__place">Населенный пункт</label>
+                           </div>
+                           <div class="public-form__col col2">
+                              <input class="public-form__input" id="public-form__place" type="text">
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <span class="public-form__label">Школа (номер или название)</span>
+                           </div>
+                           <div class="public-form__col col2 error">
+                              <input class="public-form__input" type="text" style="width: 20%" placeholder="Номер">
+                              <input class="public-form__input" type="text" style="width: 78%; margin-left: 2%;" placeholder="Название">
+                              <span class="error">Введите номер или название школы</span>
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <span class="public-form__label">Мобильный телефон</span>
+                           </div>
+                           <div class="public-form__col col2 error">
+                              <input class="public-form__input mask_phone" placeholder="+7 (___) ___-__-__" type="text">
+                              <span class="error">Введите номер телефона</span>
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <span class="public-form__label">Электронная почта</span>
+                           </div>
+                           <div class="public-form__col col2">
+                              <input class="public-form__input" id="feedback-phone" type="email">
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <span class="public-form__label">Ученые степени</span>
+                           </div>
+                           <div class="public-form__col col2">
+                              <div class="lk-select">
+                                 <select class="chosen-select" data-placeholder="Ученая степень">
+                                    <option></option>
+                                    <option>Математика</option>
+                                    <option>Русский язык</option>
+                                    <option>Литература</option>
+                                    <option>Обществоведение</option>
+                                    <option>История</option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <span class="public-form__label">Звания</span>
+                           </div>
+                           <div class="public-form__col col2">
+                              <div class="lk-select">
+                                 <select class="chosen-select" data-placeholder="Ученое звание">
+                                    <option></option>
+                                    <option>Математика</option>
+                                    <option>Русский язык</option>
+                                    <option>Литература</option>
+                                    <option>Обществоведение</option>
+                                    <option>История</option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <span class="public-form__label">Награды, наличие знаков отличия</span>
+                           </div>
+                           <div class="public-form__col col2 error">
+                              <div class="lk-select">
+                                 <select class="chosen-select" data-placeholder="Награды" multiple>
+                                    <option></option>
+                                    <option>Учитель года России</option>
+                                    <option>Почетный работник общего образования</option>
+                                    <option>Заслуженный учитель РФ</option>
+                                    <option>Народный учитель РФ</option>
+                                    <option>История</option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <span class="public-form__label" >Стаж преподавания</span>
+                           </div>
+                           <div class="public-form__col col2">
+                              <input class="public-form__input" type="text">
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <span class="public-form__label">Вы преподаете в:</span>
+                           </div>
+                           <div class="public-form__col col2 error">
+                              <div class="input-radio">
+                                 <div class="input-radio-item">
+                                    <input id="course-themes-radio3" name="lk-course-themes" type="radio">
+                                    <label for="course-themes-radio3" class="course-themes-btn-1">Младшая школа</label>
+                                 </div>
+                                 <div class="input-radio-item">
+                                    <input id="course-themes-radio4" name="lk-course-themes" type="radio">
+                                    <label for="course-themes-radio4" class="course-themes-btn-2">Средняя и старшая школа</label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1">
+                              <span class="public-form__label">Преподаваемые предметы</span>
+                           </div>
+                           <div class="public-form__col col2 error">
+                              <div class="lk-select d-ib" style="width: 77%; margin-right: 2%;">
+                                 <select class="chosen-select" data-placeholder="Предмет" multiple>
+                                    <option></option>
+                                    <option>Математика</option>
+                                    <option>Русский язык</option>
+                                    <option>Литература</option>
+                                    <option>Обществоведение</option>
+                                    <option>История</option>
+                                 </select>
+                              </div>
+                              <div class="lk-select d-ib" style="width: 21%;">
+                                 <select class="chosen-select" data-placeholder="Класс" multiple>
+                                    <option></option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                 </select>
+                              </div>
+                              <span class="error">Веберите предмет и классы/классы</span>
+                           </div>
+                        </div>
+
+                        <div class="public-form__row">
+                           <div class="public-form__col col1"></div>
+                           <div class="public-form__col col2 error">
+                              <div class="public-attach clearfix">
+                                 <input type="file"/>
+                                 <div class="upload-fake-butt"><span class="upload-value">Пример видео урока с вами</span> <span class="lk-form-submit upload-btn">Загрузить файл</span></div>
+                              </div>
+                           </div>
+                        </div>
+
+                     </div>
+
+                     <div class="lk-button">
+                        <button class="lk-form-submit" type="submit">Отправить анкету</button>
+                     </div>
+
+                  </form>
+
+               </div>
+            </div>
+         </div>
+
+         <div class="banner-contain block-shadow wrapper-content _hideable">
+            <a href="#">
+               <img src="/img/1200x135px-2.gif" alt="ads">
+            </a>
+         </div>
+
+      </main>  
+
+   </div>
+
+   @@include('../includes/blocks/footer.html', {})
+
+</div>
+
+<a href="#" class="page-up">
+   <div class="page-up__image">
+      <img src="/img/svg/up.svg" alt="up">
+      <span>вверх</span>
+   </div>
+</a>
+
+
+@@include('../includes/blocks/fs-login-menu.html', {})
+@@include('../includes/blocks/fs-hmbrg-menu.html', {})
+
+
+@@include('../includes/common/scripts.html', {})
+
+
+</body>
+</html>
+

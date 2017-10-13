@@ -1,0 +1,326 @@
+.outer-blue {
+  background: #0071bc;
+}
+
+.menu-slide {
+  font-family: $arimoregular;
+  font-size: 14px;
+  /*     transform: translateY(100%)!important;
+    visibility: visible!important;
+    top: -989px!important;  */
+  .wrapper-content {
+    padding-top: 25px;
+  }
+}
+
+.menu-slide__content {
+  .menu-slide__row {
+    &:first-of-type {
+      margin-bottom: 45px;
+    }
+  }
+}
+
+.user-action {
+  list-style: none;
+  font-size: 18px;
+  li {
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 3px 10px;
+    border-radius: 20px;
+    @include transition(300);
+    &:hover {
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 3px 10px;
+      border-radius: 20px;
+    }
+  }
+  .tab-active {
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 3px 10px;
+    border-radius: 20px;
+    cursor: default;
+  }
+  span {
+    font-size: 13.5px;
+    margin: 0 14px;
+  }
+}
+
+.menu-slide__form {
+  margin: 0 auto;
+}
+
+#form-enter {
+  width: 400px;
+  .menu-slide__form-row {
+    span {
+      position: relative;
+      top: 5px;
+      right: 14px;
+      display: inline-block;
+      width: 95px;
+      text-align: right;
+    }
+  }
+}
+
+.menu-slide__form-row {
+  margin-bottom: 15px;
+  .menu-slide__input-text {
+    width: 300px;
+    padding: 4.5px 10px;
+    background: #0071bc;
+    border: 1px solid #fff;
+    color: #fff;
+    float: right;
+    font-size: 15.5px;
+  }
+  .menu-slide__radio {
+    width: 300px;
+    float: right;
+    display: inline-block;
+  }
+  .menu-slide__radio-item {
+    display: inline-block;
+  }
+  &:after {
+    @include clear();
+  }
+}
+
+.form-submit {
+  margin-top: 15px;
+  background: #0071bc;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px 40px 5px;
+  border-radius: 20px;
+  @include transition(300);
+  &:hover {
+    background: #fff;
+    color: #0071bc;
+  }
+}
+
+.social, .private {
+  width: 400px;
+  margin: 50px auto 20px;
+  border-top: 1px solid #949899;
+  padding-top: 15px;
+  &:after {
+    @include clear();
+  }
+  span {
+    float: left;
+    position: relative;
+    top: 14px;
+  }
+}
+
+.private {
+  width: 510px;
+  p {
+    font-family: $arimoregular;
+    font-size: 14px;
+    margin-top: 0;
+  }
+}
+
+.social__row {
+  display: inline-block;
+}
+
+.soc-links_white {
+  color: #fff;
+}
+
+.forget-pass {
+  float: left;
+  text-decoration: underline;
+  margin-top: 20px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+#form-registration {
+  width: 510px;
+  margin-bottom: 80px;
+  .menu-slide__form-row {
+    .menu-slide__form-label {
+      position: relative;
+      top: 5px;
+      right: 12px;
+      display: inline-block;
+      width: 200px;
+      text-align: right;
+    }
+  }
+}
+
+.menu-slide__select {
+  float: right;
+  width: 300px;
+  text-align: left;
+  select {
+    background: transparent;
+    height: 31px;
+    width: 68%;
+    color: #fff;
+    padding: 7px 10px 7px 22px;
+    border: 1px solid #fff;
+    /*border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;*/
+  }
+  option {
+    background: #fff;
+    color: #000;
+  }
+  .chosen-container {
+    font-size: 15px;
+    width: auto !important;
+  }
+  .chosen-container-single {
+    /* background: #bababa; */
+    .chosen-single div b {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: url(/img/svg/select-arrow.svg) no-repeat right;
+      background-size: 18px;
+      @include transition(300);
+    }
+  }
+  .chosen-container-single .chosen-single {
+    background: #006fb6;
+    border: 1px solid #fff;
+    color: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 4px 26px 5px 27px;
+    height: 31px;
+    box-shadow: none;
+  }
+  .chosen-container-single .chosen-single div {
+    right: 9px;
+  }
+  .chosen-container-active.chosen-with-drop .chosen-single div b {
+    @include rotate(-180deg);
+  }
+  .chosen-container-active.chosen-with-drop .chosen-single {
+    box-shadow: none;
+    border: 1px solid #fff;
+  }
+  .chosen-container-active .chosen-single {
+    /* border: none;*/
+    box-shadow: none;
+    border: 1px solid #fff;
+  }
+
+  .chosen-container-single .chosen-drop {
+    /* margin-top: 1px; */
+    width: 100%;
+  }
+  .chosen-container .chosen-drop {
+    width: 100%;
+  }
+  .chosen-container.chosen-with-drop .chosen-drop {
+    left: 0px;
+  }
+  .chosen-container .chosen-results {
+    color: #444;
+    margin: 0 0px 0px 0;
+    padding: 0 0 0px 0px;
+  }
+  .chosen-container .chosen-results li {
+    padding: 7px 9px 7px 26px;
+    @include transition(100);
+    &:hover {
+      background: lighten(#044f87, 10%);
+    }
+  }
+}
+
+.menu-slide__radio {
+  /* width: 23%; */
+  display: inline-block;
+  label {
+    position: relative;
+    padding: 0 0px 0 27px;
+    margin: 4px 30px 11px 0;
+    display: inline-block;
+    min-height: auto;
+    transition: .5s ease;
+    cursor: pointer;
+  }
+  /*    input[type=radio]:checked,
+  input[type=radio]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+  }
+  input[type=radio]:not(:checked) + label {
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url(/img/svg/radio.svg) no-repeat;
+      width: 18px;
+      height: 18px;
+      background-size: 18px;
+    }
+  }
+  input[type=radio]:checked + label {
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url(/img/svg/radio-checked.svg) no-repeat;
+      width: 18px;
+      height: 18px;
+      background-size: 18px;
+    }
+  } */
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content-visible {
+  display: block;
+  animation: fadeIn 700ms forwards;
+}
+
+.ui-widget {
+  font-family: $roboto-ligth;
+}
+
+.ui-datepicker {
+  .ui-datepicker-title {
+    select {
+      font-size: 15px;
+      margin: 1px 0;
+    }
+  }
+  table {
+    font-size: 14px;
+  }
+  td {
+    text-align: center;
+  }
+}

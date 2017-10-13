@@ -1,0 +1,80 @@
+.main-carousel {
+  .item {
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+    //height: 850px;
+    height: 705px;
+    width: 100%;
+  }
+}
+
+.main-carousel-01 {
+  background: url(/img/main-slider-01.jpg) 50% 10%;
+}
+
+.main-carousel-02 {
+  background: url(/img/main-slider-02.jpg) 50% 50%;
+}
+
+.main-carousel-03 {
+  background: url(/img/main-slider-03.jpg) 50% 80%;
+}
+
+.main-carousel-04 {
+  background: url(/img/main-slider-04.jpg) 50% 25%;
+}
+
+.main-carousel-05 {
+  background: url(/img/main-slider-05.jpg) 50% 55%;
+  .carousel-text__line-01 {
+    font-size: 72px;
+    line-height: 150px;
+  }
+  .carousel-text__line-02 {
+    font-size: 115px;
+    line-height: 0px;
+  }
+}
+
+.carousel-text__line-01 {
+  font: 178px $roboto-regular;
+  color: #fff;
+  margin: 0;
+  height: 215px;
+}
+
+.carousel-text__line-02 {
+  font: 72px $roboto-regular;
+  color: #fff;
+  margin: 10px 0;
+  height: 87px;
+}
+
+.carousel-text__line-03 {
+  color: #ffffff;
+  font: 29px $roboto-ligth;
+  display: inline-block;
+  background: #eac40a;
+  padding: 10px 40px 10px 40px;
+  margin: 10px 0;
+  height: 56px;
+}
+
+.line-col-3 {
+  background: #044F87;
+}
+
+.line-col-2 {
+  background: #FB5E3A;
+}
+
+.line-col-4 {
+  background: #3FB9E6;
+}
+
+.carousel-text__wrapper {
+  position: absolute;
+  //top: 150px;
+  top: 25px;
+}

@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+   @@include('../includes/common/head.html', {})
+</head>
+
+<body>
+@@include('../includes/common/browserhappy.html', {})
+
+<div class="outer-sf">
+   <div class="wrapper-sf">
+
+      @@include('../includes/blocks/header.html', {})
+
+      <main class="main _hideable">
+
+         <div class="wrapper-content">
+
+            <ul class="breadcrumbs">
+               <li><a href="#">Главная</a></li>
+               <li><a href="#">О проекте</a></li>
+            </ul>
+
+            <h1 class="content-title">ЗАДАТЬ ВОПРОС</h1>
+
+            <div class="block-shadow">
+               <div class="tipical-content">
+                  <h2 class="tipical-h2">Обращения в редакцию и службу поддержки</h2>
+
+                  <form class="feedback-form" name="feedback" >
+
+                     <div class="typical-select">
+                        <select class="chosen-select">
+                           <option>Обращение в службу технической поддержки</option>
+                           <option>1 класс</option>
+                           <option>2 класс</option>
+                           <option>3 класс</option>
+                           <option>4 класс</option>
+                           <option>5 класс</option>
+                           <option>6 класс</option>
+                           <option>7 класс</option>
+                           <option>8 класс</option>
+                           <option>9 класс</option>
+                           <option>10 класс</option>
+                        </select>
+                     </div>
+
+                     <p class="feedback-p">
+                        Будем рады вашим предложениям и замечаниям по работе портала. <br/>
+                        Обращаем ваше внимание, что служба технической поддержки Российской электронной школы работает круглосуточно и обрабатывает запросы в порядке их поступления.
+                     </p>
+
+                     <div class="feedback-inputs">
+                        <div class="lk__form-row">
+                           <label class="lk__form-label" for="feedback-message">Описание проблемы</label>
+                           <textarea id="feedback-message" class="lk__input-textarea"></textarea>
+                        </div>
+
+                        <div class="feedback-attach">
+                           <input type="file"/>
+                           <div class="upload-fake-butt"><span>Прикрепить файл</span> <span class="upload-value">не более 5 Мб.</span></div>
+                        </div>
+
+                        <div class="lk__form-row">
+                           <label class="lk__form-label" for="feedback-link">Ссылка на страницу</label>
+                           <input class="lk__input-text" id="feedback-link" type="text">
+                        </div>
+
+                        <div class="lk__form-row">
+                           <label class="lk__form-label" for="feedback-surname">Фамилия</label>
+                           <input class="lk__input-text" id="feedback-surname" type="text">
+                        </div>
+
+                        <div class="lk__form-row">
+                           <label class="lk__form-label" for="feedback-name">Имя</label>
+                           <input class="lk__input-text" id="feedback-name" type="text">
+                        </div>
+
+                        <div class="lk__form-row">
+                           <label class="lk__form-label">Телефон</label>
+                           <input class="lk__input-text mask_phone" placeholder="+7 (___) ___-__-__" type="text">
+                        </div>
+
+                        <div class="lk__form-row">
+                           <label class="lk__form-label" for="feedback-phone">Адрес электронной почты</label>
+                           <input class="lk__input-text" id="feedback-phone" type="email">
+                        </div>
+                     </div>
+
+                     <div class="lk-button">
+                        <button class="lk-form-submit" type="submit">Отправить обращение</button>
+                     </div>
+
+                  </form>
+
+               </div>
+            </div>
+         </div>
+
+         <div class="banner-contain block-shadow wrapper-content _hideable">
+            <a href="#">
+               <img src="/img/1200x135px-2.gif" alt="ads">
+            </a>
+         </div>
+
+      </main>  
+
+   </div>
+
+   @@include('../includes/blocks/footer.html', {})
+
+</div>
+
+<a href="#" class="page-up">
+   <div class="page-up__image">
+      <img src="/img/svg/up.svg" alt="up">
+      <span>вверх</span>
+   </div>
+</a>
+
+
+@@include('../includes/blocks/fs-login-menu.html', {})
+@@include('../includes/blocks/fs-hmbrg-menu.html', {})
+
+
+@@include('../includes/common/scripts.html', {})
+
+
+</body>
+</html>
+

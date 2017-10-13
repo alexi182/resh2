@@ -1,0 +1,68 @@
+<header class="header">
+   <div class="wrapper-main">
+      <div class="header__top lk-header__top d-t">
+         <div class="d-tc header-top__logo-cell">
+            <a href="#" class="logo">
+               <img src="/img/svg/logo.svg" alt="Логотип РЭШ">
+               <p class="logo__name">Российская электронная школа</p>
+            </a>
+         </div>
+         <div class="d-tc header-top__search-cell">
+
+            @@include('search-form.html', {})
+
+         </div>
+
+         <a href="#" class="d-tc header-top__user">
+            <div class="user-image">
+               <img src="/img/users/1.png" alt="">
+            </div>
+            <span class="user-name">
+               Константин К.К.
+            </span>
+         </a> 
+
+         <div class="d-tc header-top__logout-cell">
+            <div href="#" class="header__login">
+               <a href="#">выход</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <nav class="header__menu ">
+
+      <div class="wrapper-main">
+
+         <div class="d-t header__menu__wrapper">
+            <div class="d-tc header__submenu__cell">
+               <div class="header__submenu _clickable d-tc" data-target="hmbrg-menu" data-timer="700">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+            </div>
+            <a href="#" class="header__menu-link d-tc">Предметы</a>
+            <a href="#" class="header__menu-link d-tc">Классы</a>
+            <a href="#" class="header__menu-link d-tc">Ученику</a>
+            <a href="#" class="header__menu-link d-tc">Учителю</a>
+            <a href="#" class="header__menu-link d-tc">Родителю</a>
+            <a href="#" class="header__menu-link d-tc">Школе</a>
+
+            <div class="d-tc nav-icon-cell">
+               <a class="nav-mail" href="#">
+                  <i class="icon icon_mail"></i>
+               </a>
+               <a class="nav-question" href="#">
+                  <i class="icon icon_nav-question"></i>
+               </a>
+               <a class="cecutient" href="#">
+                  <i class="icon icon_glasses"></i>
+               </a>
+            </div>
+
+         </div>
+      </div>
+   </nav>
+
+</header>

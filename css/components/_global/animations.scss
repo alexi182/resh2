@@ -1,0 +1,136 @@
+@-webkit-keyframes fs-menu-in {
+  0% {
+    @include transform_translateY(-100%)
+
+  }
+  100% {
+    @include transform_translateY(0)
+
+  }
+}
+
+@keyframes fs-menu-in {
+  0% {
+    @include transform_translateY(-100%)
+
+  }
+  100% {
+    @include transform_translateY(0)
+
+  }
+}
+
+//-------------------------------------------------------------------------
+//
+// comment
+//
+//-------------------------------------------------------------------------
+
+@-webkit-keyframes fs-menu-out {
+  0% {
+
+  }
+  100% {
+    @include transform_translateY(-100%);
+  }
+}
+
+@keyframes fs-menu-out {
+  0% {
+
+  }
+  100% {
+    @include transform_translateY(-100%);
+  }
+}
+
+//-------------------------------------------------------------------------
+//
+// comment
+//
+//-------------------------------------------------------------------------
+
+@-webkit-keyframes teacher-info-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(50%, 60%);
+    -moz-transform: translate(50%, 60%);
+    -ms-transform: translate(50%, 60%);
+    -o-transform: translate(50%, 60%);
+    transform: translate(50%, 60%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(50%, 0);
+    -moz-transform: translate(50%, 0);
+    -ms-transform: translate(50%, 0);
+    -o-transform: translate(50%, 0);
+    transform: translate(50%, 0);
+
+  }
+}
+
+@keyframes teacher-info-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(50%, 60%);
+    -moz-transform: translate(50%, 60%);
+    -ms-transform: translate(50%, 60%);
+    -o-transform: translate(50%, 60%);
+    transform: translate(50%, 60%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(50%, 0);
+    -moz-transform: translate(50%, 0);
+    -ms-transform: translate(50%, 0);
+    -o-transform: translate(50%, 0);
+    transform: translate(50%, 0);
+  }
+}
+
+//-------------------------------------------------------------------------
+//
+// comment
+//
+//-------------------------------------------------------------------------
+
+@-webkit-keyframes teacher-info-out {
+  0% {
+    opacity: 1;
+    -webkit-transform: translate(50%, 0);
+    -moz-transform: translate(50%, 0);
+    -ms-transform: translate(50%, 0);
+    -o-transform: translate(50%, 0);
+    transform: translate(50%, 0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(50%, 60%);
+    -moz-transform: translate(50%, 60%);
+    -ms-transform: translate(50%, 60%);
+    -o-transform: translate(50%, 60%);
+    transform: translate(50%, 60%);
+
+  }
+}
+
+@keyframes teacher-info-out {
+  0% {
+    opacity: 1;
+    -webkit-transform: translate(50%, 0);
+    -moz-transform: translate(50%, 0);
+    -ms-transform: translate(50%, 0);
+    -o-transform: translate(50%, 0);
+    transform: translate(50%, 0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(50%, 60%);
+    -moz-transform: translate(50%, 60%);
+    -ms-transform: translate(50%, 60%);
+    -o-transform: translate(50%, 60%);
+    transform: translate(50%, 60%);
+
+  }
+}

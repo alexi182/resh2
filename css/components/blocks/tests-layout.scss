@@ -1,0 +1,46 @@
+.tests-layout {
+  display: table;
+  width: 100%;
+}
+
+.test__leftcol {
+  display: table-cell;
+  vertical-align: top;
+  width: 120px;
+}
+
+.test__rightcol {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.test__task-nums {
+  li {
+    text-align: center;
+    font: 36px/120px $roboto-bold;
+    a {
+      transition: .3s;
+      display: block;
+      width: 120px;
+      height: 120px;
+      color: #fff;
+      background: #044f87;
+      &:hover {
+        background: $light-blue;
+      }
+    }
+    span {
+      display: block;
+      width: 120px;
+      height: 120px;
+      background: #fff;
+      color: #262626;
+    }
+  }
+}
+
+.test-content {
+  width: 960px;
+  margin: 35px auto;
+  position: relative;
+}

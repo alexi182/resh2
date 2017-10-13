@@ -1,0 +1,128 @@
+.teachers-filter-box {
+  margin-top: 38px;
+  > div {
+    &:first-of-type {
+      margin-right: 64px;
+    }
+  }
+}
+
+.teachers-abc-choise {
+  margin: 34px 0;
+  button {
+    transition: .3s;
+    background: transparent;
+    margin-left: -6px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font: 20px/28px $roboto-medium;
+    color: #262626;
+    &:hover {
+      color: #32d7c0;
+    }
+    &.active {
+      background: #32d7c0;
+      color: #fff;
+    }
+  }
+  .teachers-abc__all-btn {
+    width: 102px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 36px 0 0;
+  }
+}
+
+.teachers-box {
+  margin-top: 34px;
+  display: table;
+  width: 100%;
+  font-size: 0;
+  .teachers-block {
+    position: relative;
+    transition: .3s;
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: top;
+    width: 235px;
+    height: 396px;
+    overflow: hidden;
+    border: 1px solid #acacac;
+    margin: 0 13px 13px 0;
+    text-align: center;
+    padding: 38px 15px 0;
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+    &:hover {
+      background: $light-blue;
+      color: #fff;
+      .teachers-block__name {
+        color: #fff;
+      }
+      .teachers-subject {
+        color: #fff;
+      }
+      .teacher-about {
+        color: #fafafa;
+      }
+    }
+  }
+  .teachers-block__img {
+    width: 140px;
+    height: 140px;
+  }
+  .teachers-block__name {
+    transition: .3s;
+    margin-top: 14px;
+    color: #262626;
+  }
+}
+.teachers-info-wrap {
+  height: 110px;
+  overflow: hidden;
+  &.open {
+    height: 250px;
+  }
+}
+.teachers-subject {
+  transition: .3s;
+  padding: 12px 0;
+  font: 13px $roboto-regular;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.teacher-about {
+  transition: .3s;
+  font: 13px $roboto-ligth-italic;
+  color: #666;
+}
+.teachers-more {
+  width: 157px;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+.dotdotdot-arr {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  transition: .3s;
+  font-size: 15px;
+  color: #c8c8c8;
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+  }
+  &.open {
+    transform: rotate(180deg);
+    bottom: 3px;
+  }
+}

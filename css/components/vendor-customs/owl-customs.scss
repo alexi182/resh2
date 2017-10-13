@@ -1,0 +1,64 @@
+//main carousel
+
+.main-carousel {
+  .owl-controls {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .owl-buttons {
+    position: absolute;
+    right: 0;
+    top: -349px;
+  }
+  .owl-controls .owl-buttons div {
+    width: 56px;
+    height: 56px;
+
+    opacity: 1;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin: 1px;
+    @include transition(200);
+  }
+  .owl-controls .owl-buttons .owl-prev {
+    -webkit-border-radius: 50% 0 0 50%;
+    -moz-border-radius: 50% 0 0 50%;
+    border-radius: 50% 0 0 50%;
+    background: #32d7c0 url(/img/svg/arrow-small-left.svg) center no-repeat;
+    font-size: 50px;
+    &:hover {
+      background-color: darken(#32d7c0, 5);
+    }
+  }
+  .owl-controls .owl-buttons .owl-next {
+    -webkit-border-radius: 0 50% 50% 0;
+    -moz-border-radius: 0 50% 50% 0;
+    border-radius: 0 50% 50% 0;
+    background: #32d7c0 url(/img/svg/arrow-small-right.svg) center no-repeat;
+    &:hover {
+      background-color: darken(#32d7c0, 5);
+    }
+  }
+}
+
+//block-carousel
+
+.block-carousel {
+  .owl-controls .owl-page span {
+    width: 8px;
+    height: 8px;
+    background: #bababa;
+    border: 1px solid #bababa;
+    margin: 7px 5px;
+  }
+  .owl-controls .owl-page.active span {
+    background: #fff;
+  }
+  &.owl-theme .owl-controls {
+    position: relative;
+    bottom: 5px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+   <title>
+   </title>
+</head>
+<body>
+   @@include('../includes/common/head.html', {}) @@include('../includes/common/browserhappy.html', {})
+   <div class="outer-sf">
+      <div class="wrapper-sf">
+         @@include('../includes/blocks/lk-header.html', {})
+         <main class="main lk-main _hideable">
+            <div class="lk-wrapper">
+               <div class="wrapper-content">
+                  <div class="block-shadow">
+                     @@include('../includes/blocks/lk-menu.html', {})
+                     <div class="lk-cols-wrap d-t">
+
+                        @@include('../includes/blocks/lk-left-col.html', {})
+                        <div class="d-tc lk-col-2">
+                           <h2>Настройки
+                           </h2>
+                           <div class="my-id">
+                              <div class="my-id__id">Ваш идентификатор:</div><span>123456789</span>
+                              <div class="my-id__parents">
+                                 <div>Ваши родители:</div>
+                                 <div class="my-id__parents-id">
+                                    <div class="my-id__parent-block">
+                                       Константинопольская Светлана ID 739405725
+                                       <div class="mi-id__close-btn"><i class="icon icon_delete-cross"></i></div>
+                                    </div>
+                                    <div class="my-id__parent-block">
+                                       Константинопольский Иван ID 7495403856
+                                       <div class="mi-id__close-btn"><i class="icon icon_delete-cross"></i></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="settings">
+                              <form action="#" class="lk__form" id="form-registration" name="form-registration">
+                                 <div class="lk__form-block">
+                                    <div class="lk__form-row">
+                                       <span class="lk__form-label">Пароль
+                                       </span>
+                                       <input class="lk__input-text" type="password">
+                                       <span class="lk__form-label-notice">Старый пароль
+                                       </span>
+
+                                    </div>
+                                    <div class="lk__form-row">
+                                       <span class="lk__form-label"></span>
+                                       <input class="lk__input-text" type="password">
+                                       <span class="lk__form-label-notice">Новый пароль
+                                       </span>
+                                    </div>
+                                    <div class="lk__form-row">
+                                       <span class="lk__form-label"></span>
+                                       <input class="lk__input-text" type="password">
+                                       <span class="lk__form-label-notice">Текущий пароль
+                                       </span>
+                                    </div>
+                                    <div class="lk__form-row">
+                                       <span class="lk__form-label lk__form-label_top-4">Адрес электронной почты
+                                       </span>
+                                       <input class="lk__input-text" value="" type="text">
+                                    </div>
+                                    <div class="lk__form-row">
+                                       <span class="lk__form-label">Телефон
+                                       </span>
+                                       <input class="lk__input-text mask_phone" placeholder="+7 (___) ___-__-__" type="text">
+                                    </div>
+                                    <div class="lk__form-row">
+                                       <span class="lk__form-label">Вид страницы</span>
+                                       <div class="lk__form-checkbox">
+                                          <div class="checkbox-row">
+                                             <input type="checkbox" class="lk-chk" checked="checked" id="lk-themes-all-chk1"/>
+                                             <label for="lk-themes-all-chk1" class="lk-chk-label">показать блок "Моя статистика"</label>
+                                          </div>
+                                          <div class="checkbox-row">
+                                             <input type="checkbox" class="lk-chk" checked="checked" id="lk-themes-all-chk2"/>
+                                             <label for="lk-themes-all-chk2" class="lk-chk-label">показать блок "Активность"</label>
+                                          </div>
+                                          <div class="checkbox-row">
+                                             <input type="checkbox" class="lk-chk" checked="checked" id="lk-themes-all-chk3"/>
+                                             <label for="lk-themes-all-chk3" class="lk-chk-label">показать блок "Мой университет"</label>
+                                          </div>   
+                                       </div>    
+                                    </div>
+                                    <div class="lk__form-add">
+                                       <div class="lk__form-row">
+                                          <span class="lk__form-label">добавить Вуз
+                                          </span>
+                                          <input id="vz" class="lk__input-text" type="text">
+                                       </div>
+                                       <div class="lk__form-row">
+                                          <span class="lk__form-label">специальность
+                                          </span>
+                                          <input id="spec" class="lk__input-text" type="text">
+                                       </div>
+                                       
+                                       <div class="lk__form-row">
+                                          <div class="lk__form-add-data">
+                                             <span class="lk__form-add-data-vz"></span> 
+                                             <span class="lk__form-add-data-devider">/</span>
+                                             <span class="lk__form-add-data-spec"></span>
+                                             <i class="icon icon_delete-cross"></i>
+                                          </div>   
+                                       </div>
+                                       
+                                       <div class="lk__form-row">
+                                          <span class="addbutton2">Добавить
+                                          </span>
+                                       </div>
+
+                                       <div class="lk__form-row">
+                                          <div class="lk__form-add-data">
+                                             <span class="lk__form-add-data-vz">МГУ</span> 
+                                             <span class="lk__form-add-data-devider">/</span>
+                                             <span class="lk__form-add-data-spec">историк</span>
+                                             <i class="icon icon_delete-cross"></i>
+                                          </div>   
+                                       </div>
+                                       
+                                    </div>     
+                                 </div>
+                                 
+                                 <div class="lk-button">
+                                    <button class="lk-form-submit" type="submit">Сохранить
+                                    </button>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                        @@include('../includes/blocks/lk-right-col.html', {})
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="banner-contain block-shadow wrapper-content _hideable">
+               <a href="#">
+                  <img alt="ads" src="/img/1200x135px-2.gif">
+               </a>
+            </div>
+         </main>
+      </div>@@include('../includes/blocks/footer.html', {})
+   </div>
+   <a class="page-up" href="#">
+      <div class="page-up__image">
+         <img alt="up" src="/img/svg/up.svg"> 
+         <span>вверх
+         </span>
+      </div>
+   </a>
+
+   <div class="lk-popup my-id__popup">
+      <div class="popup-content">
+         Вас хочет добавить
+         <span>Константинопольская Светлана</span>
+         <button class="lk-form-submit">Принять</button>
+         <button class="lk-form-submit">Отклонить</button>
+      </div>
+   </div>
+   <div class="mask"></div>
+
+   @@include('../includes/blocks/fs-login-menu.html', {}) @@include('../includes/blocks/fs-hmbrg-menu.html', {}) @@include('../includes/common/scripts.html', {})
+</body>
+</html>

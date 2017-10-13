@@ -1,0 +1,70 @@
+<script src="/js/vendor/intro.min.js"></script>
+
+<script>
+   var intro = introJs();
+
+   $('._help').on('click', function (e) {
+      e.preventDefault();
+      intro.setOptions({
+         showBullets: false,
+         nextLabel: 'следующий',
+         prevLabel: 'предыдущий',
+         doneLabel: 'завершить',
+         skipLabel: '',
+         overlayOpacity: 1,
+         tooltipPosition: 'auto',
+         steps: [
+            {
+               element: '._step-1-desc',
+               intro: "Внимательно ознакомьтесь с текстом задания"
+            },
+            {
+               element: '._step-2-radio',
+               intro: "Выберите один или несколько правильных, на Ваш взгляд, ответов"
+            },
+            {
+               element: '._step-2-connections',
+               intro: "Парно соедините объекты (точки), которые, на Ваш взгляд, имеют соответствие." +
+               "<br>Соединить можно только объекты, расположенные в соседних столбцах"
+            },
+            {
+               element: '._step-2-mark',
+               intro: "Выделите нужные группы слов согласно критерию, указанному в задании" +
+               "<br>Выделите вариант выделения (цвет или подчеркивание)"
+            },
+            {
+               element: '._step-2-insert',
+               intro: "Выберете правильную, на Ваш взгляд, букву, число, словосочетание или другой символ и впишите его в пропущенное место в тексте" +
+               "<br>Если поле содержит только цифры и знаки – возможность вводить буквы заблокирована." +
+               "<br>В зависимости от того, на каким языке написан текст, ученику предоставляется виртуальная клавиатура этого языка"
+            },
+            {
+               element: '._step-3-1-reset',
+               intro: "Нажмите «Сброс выделения», чтобы очистить все заполненные поля для ответов"
+            },
+            {
+               element: '._step-3-2-check',
+               intro: "Нажмите «Проверить», чтобы узнать правильный ответ"
+            },
+            {
+               element: '._step-3-3-again',
+               intro: "Нажмите «Еще раз» и попробуйте пройти задание повторно"
+            }
+         ].filter(function (obj) {
+            return $(obj.element).length;
+         })
+      }).start();
+   });
+
+   intro.onafterchange(function () {
+      if (this._introItems.length - 1 == this._currentStep || this._introItems.length == 1) {
+         $('.introjs-skipbutton').show();
+      } else {
+         $('.introjs-skipbutton').hide();
+      }
+   });
+
+   $('.introjs-skipbutton').hide();
+
+
+</script>

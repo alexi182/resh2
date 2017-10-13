@@ -1,0 +1,270 @@
+.calendar-time-table{
+	ul {
+		margin-left: 0!important;
+		li {
+	    	position: static!important;
+	    	margin-bottom: 0!important;
+		}
+	}
+	.lesson-block {
+	   padding: 15px 25px 15px 25px;
+	}
+}
+
+.calendar-classes__list{
+	text-align: center;
+	margin: 20px 0;
+
+	.calendar-classes__link{
+	      display: inline-block;
+	      vertical-align: middle;
+	      text-align: center;
+	      width: 67px;
+	      height: 67px;
+	      line-height: 67px;
+		   font: 42px $roboto-bold;
+		   position: relative;
+		   margin: 0 1%;
+		   @include transition(300);
+		   &:last-of-type{
+		   	margin-right: 0;
+		   }
+		   &:first-of-type{
+		   	margin-left: 0;
+		   }
+		span{
+			color: #0071bc;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			@include transform_translate(-50%, -50%);
+		}
+		&:hover{
+			background: #0071bc!important;
+			span{
+				color: #fff;
+			}
+		}
+		&.active {
+			background: #0071bc;
+			span{
+				color: #fff;
+			}
+		}
+	}
+}
+
+.calendar__top-text {
+	font-size: 16px;
+	color: #262626;
+	margin-bottom: 30px;
+}
+
+.calendar-stud {
+	.week-switcher__text {
+		font: 24px $roboto-medium;
+	}
+}
+
+.calendar-stud__table {
+	display: table;
+	width: 100%;
+	font-size: 0;
+	margin: 50px 0;
+}
+
+.calendar-stud__cell-th {
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	font-size: 20px;
+	color: #686868;
+	padding: 0 0 12px 15px;
+}
+
+.calendar-stud__cell {
+	display: inline-block;
+	cursor: pointer;
+	width: 140px;
+	height: 140px;
+	border: 1px solid #cbcbcb;
+	border-right: none;
+	vertical-align: top;
+	color: #999;
+	padding: 0 10px;
+	span {
+		display: inline-block;
+		font: 28px $roboto-medium;
+		color: $light-blue;
+		margin-bottom: 5px;
+	}
+	ul {
+		li {
+			font: 13px/15px $roboto-regular !important;
+		}
+	}
+	&:nth-of-type(7n) {
+		border-right: 1px solid #cbcbcb;
+		span {
+			color: #ed1c24;
+		}
+	}
+	&:empty {
+		cursor: default;
+	}
+
+	&._selected {
+		background: $light-blue;
+		span {
+			color: #fff;
+		}
+		li {
+			color: #fff;
+		}
+	}
+}
+
+.calendar-stud__datetable{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.calendar-stud__datetable-head{
+	background: #3fb9e6;
+	padding: 10px 0;
+
+	.calendar-stud__th{
+		display: inline-block;
+		font: 15px $roboto-regular;
+		color: #fff;
+		vertical-align: middle;
+		width: auto;
+		
+		&:nth-of-type(1){
+			width: 9%;
+			padding-left: 20px;
+		}
+		&:nth-of-type(2){
+			width: 100px;
+			text-align: left;
+			padding-left: 10px;
+		}
+		&:nth-of-type(3){
+			width: 158px;
+			text-align: left;
+		}
+		&:nth-of-type(4){
+			width: 49px;
+			text-align: center;
+		}
+		&:nth-of-type(5){
+			width: 343px;
+			text-align: left;
+			padding-left: 30px;
+		}
+		&:nth-of-type(6){
+			width: 220px;
+			text-align: left;
+		}
+	}
+}
+
+.calendar-stud__row{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 20px 0 20px;
+	border-bottom: 1px solid #999999;
+	&:last-of-type{
+		margin-bottom:0;
+	}
+}
+
+.calendar-stud__row-cell{
+	display: inline-block;
+	vertical-align: top;
+
+	&:nth-of-type(1){
+		width: 88px;
+		font-size: 20px;
+		padding-left: 20px;
+		color: #000;
+	}
+	&:nth-of-type(2){
+		width: 100px;
+		font-size: 20px;
+		color: #000;
+	}
+	&:nth-of-type(3){
+		width: 80%;
+		font: 16px $roboto-regular;
+		color: #999999;
+	}
+}
+
+.calendar-stud__row-item{
+	width: 100%;
+	margin-bottom: 10px;
+	&:last-of-type{
+		margin-bottom: 0;
+	}
+}
+
+.calendar-stud__row-cell-item{
+	display: inline-block;
+	vertical-align: top;
+	&:nth-of-type(1){
+		width: 158px;
+	}
+	&:nth-of-type(2){
+		width: 49px;
+		text-align: center;
+	}
+	&:nth-of-type(3){
+		width: 343px;
+		padding-left: 30px;
+	}
+	&:nth-of-type(4){
+		width: 220px;
+		padding-right: 0px;
+	}
+	a{
+		@include transition(300);
+		&:hover{
+			color: #000;
+		}
+	}
+}
+
+.test-number{
+    color: #262626;
+    display: block;
+    margin: 10px 0 17px;
+    padding: 3px 15px;
+    background: #e7c424;
+    border-radius: 13px;
+    font: 15px robotobold, sans-serif;
+    text-transform: uppercase;
+}
+
+.timetbl-wrap{
+	.link-arrow-block .link-arrow-left span{
+		display: inline-block;
+	    position: relative;
+	    text-transform: uppercase;
+	    left: 65px;
+	    top: 10px;
+	    font: 16px robotoregular, sans-serif;
+	    min-width: 205px;
+	    text-align: left;
+	}
+	.link-arrow-block .link-arrow-right span {
+	    display: inline-block;
+	    position: relative;
+	    text-transform: uppercase;
+	    font: 16px robotoregular, sans-serif;
+	    right: 225px;
+	    top: 10px;
+	    min-width: 205px;
+	    text-align: right;
+	}
+}

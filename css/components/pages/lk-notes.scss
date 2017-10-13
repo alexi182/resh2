@@ -1,0 +1,88 @@
+.note-box {
+  border: 1px solid #aaa;
+  padding: 25px;
+  margin-top: 25px;
+  .lk__input-textarea {
+    width: 100%;
+    height: 108px;
+    margin-bottom: 20px;
+  }
+  .lk-chk-label {
+    font-size: 13px;
+    padding: 2px 0 0 29px;
+    margin-right: 15px;
+  }
+  .lk-select {
+    margin-right: 10px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+.note-box__row {
+  white-space: nowrap;
+  margin-bottom: 7px;
+  .chosen-drop {
+    white-space: normal;
+  }
+}
+
+.note-feed-box {
+  margin: 20px 0;
+  width: 100%;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+
+.note-feed-block {
+  display: table-row;
+  margin-bottom: 20px;
+}
+
+.note-feed__date {
+  vertical-align: top;
+  display: table-cell;
+  font-size: 13px;
+  color: #060606;
+  border-right: 1px solid #c2c2c2;
+  padding: 10px 25px 10px 0;
+  span {
+    white-space: nowrap;
+    font-size: 18px;
+  }
+}
+.note-feed__content {
+  position: relative;
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px 40px 10px 20px;
+}
+.note-feed__title {
+  position: relative;
+  font-size: 13px;
+  color: #7d7f83;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: $light-blue;
+    font-size: 16px;
+  }
+}
+
+.note-feed__close-btn {
+  transition: .3s;
+  position: absolute;
+  font-size: 13px;
+  color: #848689;
+  top: 12px;
+  right: 10px;
+  cursor: pointer;
+  &:hover {
+    color: #D40505;
+  }
+}
+

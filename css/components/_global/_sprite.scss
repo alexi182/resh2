@@ -1,0 +1,958 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$app-stope-name: 'app-stope';
+$app-stope-x: 0px;
+$app-stope-y: 379px;
+$app-stope-offset-x: 0px;
+$app-stope-offset-y: -379px;
+$app-stope-width: 164px;
+$app-stope-height: 41px;
+$app-stope-total-width: 488px;
+$app-stope-total-height: 420px;
+$app-stope-image: '/img/sprite.png';
+$app-stope: (0px, 379px, 0px, -379px, 164px, 41px, 488px, 420px, '/img/sprite.png', 'app-stope', );
+$art-name: 'art';
+$art-x: 381px;
+$art-y: 205px;
+$art-offset-x: -381px;
+$art-offset-y: -205px;
+$art-width: 34px;
+$art-height: 31px;
+$art-total-width: 488px;
+$art-total-height: 420px;
+$art-image: '/img/sprite.png';
+$art: (381px, 205px, -381px, -205px, 34px, 31px, 488px, 420px, '/img/sprite.png', 'art', );
+$chemistry-name: 'chemistry';
+$chemistry-x: 415px;
+$chemistry-y: 246px;
+$chemistry-offset-x: -415px;
+$chemistry-offset-y: -246px;
+$chemistry-width: 21px;
+$chemistry-height: 29px;
+$chemistry-total-width: 488px;
+$chemistry-total-height: 420px;
+$chemistry-image: '/img/sprite.png';
+$chemistry: (415px, 246px, -415px, -246px, 21px, 29px, 488px, 420px, '/img/sprite.png', 'chemistry', );
+$chk-chkd-name: 'chk-chkd';
+$chk-chkd-x: 412px;
+$chk-chkd-y: 320px;
+$chk-chkd-offset-x: -412px;
+$chk-chkd-offset-y: -320px;
+$chk-chkd-width: 21px;
+$chk-chkd-height: 21px;
+$chk-chkd-total-width: 488px;
+$chk-chkd-total-height: 420px;
+$chk-chkd-image: '/img/sprite.png';
+$chk-chkd: (412px, 320px, -412px, -320px, 21px, 21px, 488px, 420px, '/img/sprite.png', 'chk-chkd', );
+$chk-name: 'chk';
+$chk-x: 240px;
+$chk-y: 258px;
+$chk-offset-x: -240px;
+$chk-offset-y: -258px;
+$chk-width: 21px;
+$chk-height: 21px;
+$chk-total-width: 488px;
+$chk-total-height: 420px;
+$chk-image: '/img/sprite.png';
+$chk: (240px, 258px, -240px, -258px, 21px, 21px, 488px, 420px, '/img/sprite.png', 'chk', );
+$eye-name: 'eye';
+$eye-x: 425px;
+$eye-y: 205px;
+$eye-offset-x: -425px;
+$eye-offset-y: -205px;
+$eye-width: 39px;
+$eye-height: 19px;
+$eye-total-width: 488px;
+$eye-total-height: 420px;
+$eye-image: '/img/sprite.png';
+$eye: (425px, 205px, -425px, -205px, 39px, 19px, 488px, 420px, '/img/sprite.png', 'eye', );
+$google-play-name: 'google-play';
+$google-play-x: 174px;
+$google-play-y: 379px;
+$google-play-offset-x: -174px;
+$google-play-offset-y: -379px;
+$google-play-width: 138px;
+$google-play-height: 41px;
+$google-play-total-width: 488px;
+$google-play-total-height: 420px;
+$google-play-image: '/img/sprite.png';
+$google-play: (174px, 379px, -174px, -379px, 138px, 41px, 488px, 420px, '/img/sprite.png', 'google-play', );
+$icon-books-name: 'icon-books';
+$icon-books-x: 124px;
+$icon-books-y: 0px;
+$icon-books-offset-x: -124px;
+$icon-books-offset-y: 0px;
+$icon-books-width: 127px;
+$icon-books-height: 111px;
+$icon-books-total-width: 488px;
+$icon-books-total-height: 420px;
+$icon-books-image: '/img/sprite.png';
+$icon-books: (124px, 0px, -124px, 0px, 127px, 111px, 488px, 420px, '/img/sprite.png', 'icon-books', );
+$icon-calendar-name: 'icon-calendar';
+$icon-calendar-x: 0px;
+$icon-calendar-y: 258px;
+$icon-calendar-offset-x: 0px;
+$icon-calendar-offset-y: -258px;
+$icon-calendar-width: 110px;
+$icon-calendar-height: 111px;
+$icon-calendar-total-width: 488px;
+$icon-calendar-total-height: 420px;
+$icon-calendar-image: '/img/sprite.png';
+$icon-calendar: (0px, 258px, 0px, -258px, 110px, 111px, 488px, 420px, '/img/sprite.png', 'icon-calendar', );
+$icon-clock-name: 'icon-clock';
+$icon-clock-x: 381px;
+$icon-clock-y: 0px;
+$icon-clock-offset-x: -381px;
+$icon-clock-offset-y: 0px;
+$icon-clock-width: 107px;
+$icon-clock-height: 111px;
+$icon-clock-total-width: 488px;
+$icon-clock-total-height: 420px;
+$icon-clock-image: '/img/sprite.png';
+$icon-clock: (381px, 0px, -381px, 0px, 107px, 111px, 488px, 420px, '/img/sprite.png', 'icon-clock', );
+$icon-cup-name: 'icon-cup';
+$icon-cup-x: 121px;
+$icon-cup-y: 137px;
+$icon-cup-offset-x: -121px;
+$icon-cup-offset-y: -137px;
+$icon-cup-width: 111px;
+$icon-cup-height: 111px;
+$icon-cup-total-width: 488px;
+$icon-cup-total-height: 420px;
+$icon-cup-image: '/img/sprite.png';
+$icon-cup: (121px, 137px, -121px, -137px, 111px, 111px, 488px, 420px, '/img/sprite.png', 'icon-cup', );
+$icon-globe-name: 'icon-globe';
+$icon-globe-x: 242px;
+$icon-globe-y: 137px;
+$icon-globe-offset-x: -242px;
+$icon-globe-offset-y: -137px;
+$icon-globe-width: 111px;
+$icon-globe-height: 111px;
+$icon-globe-total-width: 488px;
+$icon-globe-total-height: 420px;
+$icon-globe-image: '/img/sprite.png';
+$icon-globe: (242px, 137px, -242px, -137px, 111px, 111px, 488px, 420px, '/img/sprite.png', 'icon-globe', );
+$icon-owl-name: 'icon-owl';
+$icon-owl-x: 261px;
+$icon-owl-y: 0px;
+$icon-owl-offset-x: -261px;
+$icon-owl-offset-y: 0px;
+$icon-owl-width: 110px;
+$icon-owl-height: 119px;
+$icon-owl-total-width: 488px;
+$icon-owl-total-height: 420px;
+$icon-owl-image: '/img/sprite.png';
+$icon-owl: (261px, 0px, -261px, 0px, 110px, 119px, 488px, 420px, '/img/sprite.png', 'icon-owl', );
+$icon-pie-name: 'icon-pie';
+$icon-pie-x: 0px;
+$icon-pie-y: 137px;
+$icon-pie-offset-x: 0px;
+$icon-pie-offset-y: -137px;
+$icon-pie-width: 111px;
+$icon-pie-height: 111px;
+$icon-pie-total-width: 488px;
+$icon-pie-total-height: 420px;
+$icon-pie-image: '/img/sprite.png';
+$icon-pie: (0px, 137px, 0px, -137px, 111px, 111px, 488px, 420px, '/img/sprite.png', 'icon-pie', );
+$icon-rocket-name: 'icon-rocket';
+$icon-rocket-x: 0px;
+$icon-rocket-y: 0px;
+$icon-rocket-offset-x: 0px;
+$icon-rocket-offset-y: 0px;
+$icon-rocket-width: 114px;
+$icon-rocket-height: 127px;
+$icon-rocket-total-width: 488px;
+$icon-rocket-total-height: 420px;
+$icon-rocket-image: '/img/sprite.png';
+$icon-rocket: (0px, 0px, 0px, 0px, 114px, 127px, 488px, 420px, '/img/sprite.png', 'icon-rocket', );
+$icon-student-name: 'icon-student';
+$icon-student-x: 120px;
+$icon-student-y: 258px;
+$icon-student-offset-x: -120px;
+$icon-student-offset-y: -258px;
+$icon-student-width: 110px;
+$icon-student-height: 110px;
+$icon-student-total-width: 488px;
+$icon-student-total-height: 420px;
+$icon-student-image: '/img/sprite.png';
+$icon-student: (120px, 258px, -120px, -258px, 110px, 110px, 488px, 420px, '/img/sprite.png', 'icon-student', );
+$lesson-chk-chkd-name: 'lesson-chk-chkd';
+$lesson-chk-chkd-x: 443px;
+$lesson-chk-chkd-y: 320px;
+$lesson-chk-chkd-offset-x: -443px;
+$lesson-chk-chkd-offset-y: -320px;
+$lesson-chk-chkd-width: 21px;
+$lesson-chk-chkd-height: 21px;
+$lesson-chk-chkd-total-width: 488px;
+$lesson-chk-chkd-total-height: 420px;
+$lesson-chk-chkd-image: '/img/sprite.png';
+$lesson-chk-chkd: (443px, 320px, -443px, -320px, 21px, 21px, 488px, 420px, '/img/sprite.png', 'lesson-chk-chkd', );
+$lesson-chk-name: 'lesson-chk';
+$lesson-chk-x: 381px;
+$lesson-chk-y: 320px;
+$lesson-chk-offset-x: -381px;
+$lesson-chk-offset-y: -320px;
+$lesson-chk-width: 21px;
+$lesson-chk-height: 21px;
+$lesson-chk-total-width: 488px;
+$lesson-chk-total-height: 420px;
+$lesson-chk-image: '/img/sprite.png';
+$lesson-chk: (381px, 320px, -381px, -320px, 21px, 21px, 488px, 420px, '/img/sprite.png', 'lesson-chk', );
+$lesson-diagramm-name: 'lesson-diagramm';
+$lesson-diagramm-x: 446px;
+$lesson-diagramm-y: 246px;
+$lesson-diagramm-offset-x: -446px;
+$lesson-diagramm-offset-y: -246px;
+$lesson-diagramm-width: 24px;
+$lesson-diagramm-height: 24px;
+$lesson-diagramm-total-width: 488px;
+$lesson-diagramm-total-height: 420px;
+$lesson-diagramm-image: '/img/sprite.png';
+$lesson-diagramm: (446px, 246px, -446px, -246px, 24px, 24px, 488px, 420px, '/img/sprite.png', 'lesson-diagramm', );
+$lesson-mark-name: 'lesson-mark';
+$lesson-mark-x: 381px;
+$lesson-mark-y: 290px;
+$lesson-mark-offset-x: -381px;
+$lesson-mark-offset-y: -290px;
+$lesson-mark-width: 27px;
+$lesson-mark-height: 20px;
+$lesson-mark-total-width: 488px;
+$lesson-mark-total-height: 420px;
+$lesson-mark-image: '/img/sprite.png';
+$lesson-mark: (381px, 290px, -381px, -290px, 27px, 20px, 488px, 420px, '/img/sprite.png', 'lesson-mark', );
+$lesson-mark2-name: 'lesson-mark2';
+$lesson-mark2-x: 418px;
+$lesson-mark2-y: 290px;
+$lesson-mark2-offset-x: -418px;
+$lesson-mark2-offset-y: -290px;
+$lesson-mark2-width: 27px;
+$lesson-mark2-height: 20px;
+$lesson-mark2-total-width: 488px;
+$lesson-mark2-total-height: 420px;
+$lesson-mark2-image: '/img/sprite.png';
+$lesson-mark2: (418px, 290px, -418px, -290px, 27px, 20px, 488px, 420px, '/img/sprite.png', 'lesson-mark2', );
+$lk-course-date-arr-l-name: 'lk-course-date-arr-l';
+$lk-course-date-arr-l-x: 469px;
+$lk-course-date-arr-l-y: 351px;
+$lk-course-date-arr-l-offset-x: -469px;
+$lk-course-date-arr-l-offset-y: -351px;
+$lk-course-date-arr-l-width: 18px;
+$lk-course-date-arr-l-height: 14px;
+$lk-course-date-arr-l-total-width: 488px;
+$lk-course-date-arr-l-total-height: 420px;
+$lk-course-date-arr-l-image: '/img/sprite.png';
+$lk-course-date-arr-l: (469px, 351px, -469px, -351px, 18px, 14px, 488px, 420px, '/img/sprite.png', 'lk-course-date-arr-l', );
+$lk-course-date-arr-r-name: 'lk-course-date-arr-r';
+$lk-course-date-arr-r-x: 441px;
+$lk-course-date-arr-r-y: 351px;
+$lk-course-date-arr-r-offset-x: -441px;
+$lk-course-date-arr-r-offset-y: -351px;
+$lk-course-date-arr-r-width: 18px;
+$lk-course-date-arr-r-height: 14px;
+$lk-course-date-arr-r-total-width: 488px;
+$lk-course-date-arr-r-total-height: 420px;
+$lk-course-date-arr-r-image: '/img/sprite.png';
+$lk-course-date-arr-r: (441px, 351px, -441px, -351px, 18px, 14px, 488px, 420px, '/img/sprite.png', 'lk-course-date-arr-r', );
+$lk-select-arr-name: 'lk-select-arr';
+$lk-select-arr-x: 479px;
+$lk-select-arr-y: 160px;
+$lk-select-arr-offset-x: -479px;
+$lk-select-arr-offset-y: -160px;
+$lk-select-arr-width: 8px;
+$lk-select-arr-height: 5px;
+$lk-select-arr-total-width: 488px;
+$lk-select-arr-total-height: 420px;
+$lk-select-arr-image: '/img/sprite.png';
+$lk-select-arr: (479px, 160px, -479px, -160px, 8px, 5px, 488px, 420px, '/img/sprite.png', 'lk-select-arr', );
+$math-name: 'math';
+$math-x: 438px;
+$math-y: 121px;
+$math-offset-x: -438px;
+$math-offset-y: -121px;
+$math-width: 38px;
+$math-height: 29px;
+$math-total-width: 488px;
+$math-total-height: 420px;
+$math-image: '/img/sprite.png';
+$math: (438px, 121px, -438px, -121px, 38px, 29px, 488px, 420px, '/img/sprite.png', 'math', );
+$naturals-name: 'naturals';
+$naturals-x: 381px;
+$naturals-y: 246px;
+$naturals-offset-x: -381px;
+$naturals-offset-y: -246px;
+$naturals-width: 24px;
+$naturals-height: 34px;
+$naturals-total-width: 488px;
+$naturals-total-height: 420px;
+$naturals-image: '/img/sprite.png';
+$naturals: (381px, 246px, -381px, -246px, 24px, 34px, 488px, 420px, '/img/sprite.png', 'naturals', );
+$philology-name: 'philology';
+$philology-x: 430px;
+$philology-y: 160px;
+$philology-offset-x: -430px;
+$philology-offset-y: -160px;
+$philology-width: 39px;
+$philology-height: 30px;
+$philology-total-width: 488px;
+$philology-total-height: 420px;
+$philology-image: '/img/sprite.png';
+$philology: (430px, 160px, -430px, -160px, 39px, 30px, 488px, 420px, '/img/sprite.png', 'philology', );
+$physical-name: 'physical';
+$physical-x: 381px;
+$physical-y: 121px;
+$physical-offset-x: -381px;
+$physical-offset-y: -121px;
+$physical-width: 47px;
+$physical-height: 29px;
+$physical-total-width: 488px;
+$physical-total-height: 420px;
+$physical-image: '/img/sprite.png';
+$physical: (381px, 121px, -381px, -121px, 47px, 29px, 488px, 420px, '/img/sprite.png', 'physical', );
+$social-name: 'social';
+$social-x: 381px;
+$social-y: 160px;
+$social-offset-x: -381px;
+$social-offset-y: -160px;
+$social-width: 39px;
+$social-height: 35px;
+$social-total-width: 488px;
+$social-total-height: 420px;
+$social-image: '/img/sprite.png';
+$social: (381px, 160px, -381px, -160px, 39px, 35px, 488px, 420px, '/img/sprite.png', 'social', );
+$test-chk-correct-name: 'test-chk-correct';
+$test-chk-correct-x: 455px;
+$test-chk-correct-y: 290px;
+$test-chk-correct-offset-x: -455px;
+$test-chk-correct-offset-y: -290px;
+$test-chk-correct-width: 20px;
+$test-chk-correct-height: 14px;
+$test-chk-correct-total-width: 488px;
+$test-chk-correct-total-height: 420px;
+$test-chk-correct-image: '/img/sprite.png';
+$test-chk-correct: (455px, 290px, -455px, -290px, 20px, 14px, 488px, 420px, '/img/sprite.png', 'test-chk-correct', );
+$test-chk-wrong-name: 'test-chk-wrong';
+$test-chk-wrong-x: 381px;
+$test-chk-wrong-y: 351px;
+$test-chk-wrong-offset-x: -381px;
+$test-chk-wrong-offset-y: -351px;
+$test-chk-wrong-width: 20px;
+$test-chk-wrong-height: 14px;
+$test-chk-wrong-total-width: 488px;
+$test-chk-wrong-total-height: 420px;
+$test-chk-wrong-image: '/img/sprite.png';
+$test-chk-wrong: (381px, 351px, -381px, -351px, 20px, 14px, 488px, 420px, '/img/sprite.png', 'test-chk-wrong', );
+$test-chk-name: 'test-chk';
+$test-chk-x: 411px;
+$test-chk-y: 351px;
+$test-chk-offset-x: -411px;
+$test-chk-offset-y: -351px;
+$test-chk-width: 20px;
+$test-chk-height: 14px;
+$test-chk-total-width: 488px;
+$test-chk-total-height: 420px;
+$test-chk-image: '/img/sprite.png';
+$test-chk: (411px, 351px, -411px, -351px, 20px, 14px, 488px, 420px, '/img/sprite.png', 'test-chk', );
+$typical-select-arr-name: 'typical-select-arr';
+$typical-select-arr-x: 474px;
+$typical-select-arr-y: 205px;
+$typical-select-arr-offset-x: -474px;
+$typical-select-arr-offset-y: -205px;
+$typical-select-arr-width: 14px;
+$typical-select-arr-height: 7px;
+$typical-select-arr-total-width: 488px;
+$typical-select-arr-total-height: 420px;
+$typical-select-arr-image: '/img/sprite.png';
+$typical-select-arr: (474px, 205px, -474px, -205px, 14px, 7px, 488px, 420px, '/img/sprite.png', 'typical-select-arr', );
+$typical-select-arr2-name: 'typical-select-arr2';
+$typical-select-arr2-x: 474px;
+$typical-select-arr2-y: 320px;
+$typical-select-arr2-offset-x: -474px;
+$typical-select-arr2-offset-y: -320px;
+$typical-select-arr2-width: 14px;
+$typical-select-arr2-height: 7px;
+$typical-select-arr2-total-width: 488px;
+$typical-select-arr2-total-height: 420px;
+$typical-select-arr2-image: '/img/sprite.png';
+$typical-select-arr2: (474px, 320px, -474px, -320px, 14px, 7px, 488px, 420px, '/img/sprite.png', 'typical-select-arr2', );
+$app-stope-2x-name: 'app-stope@2x';
+$app-stope-2x-x: 0px;
+$app-stope-2x-y: 758px;
+$app-stope-2x-offset-x: 0px;
+$app-stope-2x-offset-y: -758px;
+$app-stope-2x-width: 328px;
+$app-stope-2x-height: 82px;
+$app-stope-2x-total-width: 976px;
+$app-stope-2x-total-height: 840px;
+$app-stope-2x-image: '/img/sprite2x.png';
+$app-stope-2x: (0px, 758px, 0px, -758px, 328px, 82px, 976px, 840px, '/img/sprite2x.png', 'app-stope@2x', );
+$art-2x-name: 'art@2x';
+$art-2x-x: 762px;
+$art-2x-y: 410px;
+$art-2x-offset-x: -762px;
+$art-2x-offset-y: -410px;
+$art-2x-width: 68px;
+$art-2x-height: 62px;
+$art-2x-total-width: 976px;
+$art-2x-total-height: 840px;
+$art-2x-image: '/img/sprite2x.png';
+$art-2x: (762px, 410px, -762px, -410px, 68px, 62px, 976px, 840px, '/img/sprite2x.png', 'art@2x', );
+$chemistry-2x-name: 'chemistry@2x';
+$chemistry-2x-x: 830px;
+$chemistry-2x-y: 492px;
+$chemistry-2x-offset-x: -830px;
+$chemistry-2x-offset-y: -492px;
+$chemistry-2x-width: 42px;
+$chemistry-2x-height: 58px;
+$chemistry-2x-total-width: 976px;
+$chemistry-2x-total-height: 840px;
+$chemistry-2x-image: '/img/sprite2x.png';
+$chemistry-2x: (830px, 492px, -830px, -492px, 42px, 58px, 976px, 840px, '/img/sprite2x.png', 'chemistry@2x', );
+$chk-chkd-2x-name: 'chk-chkd@2x';
+$chk-chkd-2x-x: 824px;
+$chk-chkd-2x-y: 640px;
+$chk-chkd-2x-offset-x: -824px;
+$chk-chkd-2x-offset-y: -640px;
+$chk-chkd-2x-width: 42px;
+$chk-chkd-2x-height: 42px;
+$chk-chkd-2x-total-width: 976px;
+$chk-chkd-2x-total-height: 840px;
+$chk-chkd-2x-image: '/img/sprite2x.png';
+$chk-chkd-2x: (824px, 640px, -824px, -640px, 42px, 42px, 976px, 840px, '/img/sprite2x.png', 'chk-chkd@2x', );
+$chk-2x-name: 'chk@2x';
+$chk-2x-x: 480px;
+$chk-2x-y: 516px;
+$chk-2x-offset-x: -480px;
+$chk-2x-offset-y: -516px;
+$chk-2x-width: 42px;
+$chk-2x-height: 42px;
+$chk-2x-total-width: 976px;
+$chk-2x-total-height: 840px;
+$chk-2x-image: '/img/sprite2x.png';
+$chk-2x: (480px, 516px, -480px, -516px, 42px, 42px, 976px, 840px, '/img/sprite2x.png', 'chk@2x', );
+$eye-2x-name: 'eye@2x';
+$eye-2x-x: 850px;
+$eye-2x-y: 410px;
+$eye-2x-offset-x: -850px;
+$eye-2x-offset-y: -410px;
+$eye-2x-width: 78px;
+$eye-2x-height: 38px;
+$eye-2x-total-width: 976px;
+$eye-2x-total-height: 840px;
+$eye-2x-image: '/img/sprite2x.png';
+$eye-2x: (850px, 410px, -850px, -410px, 78px, 38px, 976px, 840px, '/img/sprite2x.png', 'eye@2x', );
+$google-play-2x-name: 'google-play@2x';
+$google-play-2x-x: 348px;
+$google-play-2x-y: 758px;
+$google-play-2x-offset-x: -348px;
+$google-play-2x-offset-y: -758px;
+$google-play-2x-width: 276px;
+$google-play-2x-height: 82px;
+$google-play-2x-total-width: 976px;
+$google-play-2x-total-height: 840px;
+$google-play-2x-image: '/img/sprite2x.png';
+$google-play-2x: (348px, 758px, -348px, -758px, 276px, 82px, 976px, 840px, '/img/sprite2x.png', 'google-play@2x', );
+$icon-books-2x-name: 'icon-books@2x';
+$icon-books-2x-x: 248px;
+$icon-books-2x-y: 0px;
+$icon-books-2x-offset-x: -248px;
+$icon-books-2x-offset-y: 0px;
+$icon-books-2x-width: 254px;
+$icon-books-2x-height: 222px;
+$icon-books-2x-total-width: 976px;
+$icon-books-2x-total-height: 840px;
+$icon-books-2x-image: '/img/sprite2x.png';
+$icon-books-2x: (248px, 0px, -248px, 0px, 254px, 222px, 976px, 840px, '/img/sprite2x.png', 'icon-books@2x', );
+$icon-calendar-2x-name: 'icon-calendar@2x';
+$icon-calendar-2x-x: 0px;
+$icon-calendar-2x-y: 516px;
+$icon-calendar-2x-offset-x: 0px;
+$icon-calendar-2x-offset-y: -516px;
+$icon-calendar-2x-width: 220px;
+$icon-calendar-2x-height: 222px;
+$icon-calendar-2x-total-width: 976px;
+$icon-calendar-2x-total-height: 840px;
+$icon-calendar-2x-image: '/img/sprite2x.png';
+$icon-calendar-2x: (0px, 516px, 0px, -516px, 220px, 222px, 976px, 840px, '/img/sprite2x.png', 'icon-calendar@2x', );
+$icon-clock-2x-name: 'icon-clock@2x';
+$icon-clock-2x-x: 762px;
+$icon-clock-2x-y: 0px;
+$icon-clock-2x-offset-x: -762px;
+$icon-clock-2x-offset-y: 0px;
+$icon-clock-2x-width: 214px;
+$icon-clock-2x-height: 222px;
+$icon-clock-2x-total-width: 976px;
+$icon-clock-2x-total-height: 840px;
+$icon-clock-2x-image: '/img/sprite2x.png';
+$icon-clock-2x: (762px, 0px, -762px, 0px, 214px, 222px, 976px, 840px, '/img/sprite2x.png', 'icon-clock@2x', );
+$icon-cup-2x-name: 'icon-cup@2x';
+$icon-cup-2x-x: 242px;
+$icon-cup-2x-y: 274px;
+$icon-cup-2x-offset-x: -242px;
+$icon-cup-2x-offset-y: -274px;
+$icon-cup-2x-width: 222px;
+$icon-cup-2x-height: 222px;
+$icon-cup-2x-total-width: 976px;
+$icon-cup-2x-total-height: 840px;
+$icon-cup-2x-image: '/img/sprite2x.png';
+$icon-cup-2x: (242px, 274px, -242px, -274px, 222px, 222px, 976px, 840px, '/img/sprite2x.png', 'icon-cup@2x', );
+$icon-globe-2x-name: 'icon-globe@2x';
+$icon-globe-2x-x: 484px;
+$icon-globe-2x-y: 274px;
+$icon-globe-2x-offset-x: -484px;
+$icon-globe-2x-offset-y: -274px;
+$icon-globe-2x-width: 222px;
+$icon-globe-2x-height: 222px;
+$icon-globe-2x-total-width: 976px;
+$icon-globe-2x-total-height: 840px;
+$icon-globe-2x-image: '/img/sprite2x.png';
+$icon-globe-2x: (484px, 274px, -484px, -274px, 222px, 222px, 976px, 840px, '/img/sprite2x.png', 'icon-globe@2x', );
+$icon-owl-2x-name: 'icon-owl@2x';
+$icon-owl-2x-x: 522px;
+$icon-owl-2x-y: 0px;
+$icon-owl-2x-offset-x: -522px;
+$icon-owl-2x-offset-y: 0px;
+$icon-owl-2x-width: 220px;
+$icon-owl-2x-height: 238px;
+$icon-owl-2x-total-width: 976px;
+$icon-owl-2x-total-height: 840px;
+$icon-owl-2x-image: '/img/sprite2x.png';
+$icon-owl-2x: (522px, 0px, -522px, 0px, 220px, 238px, 976px, 840px, '/img/sprite2x.png', 'icon-owl@2x', );
+$icon-pie-2x-name: 'icon-pie@2x';
+$icon-pie-2x-x: 0px;
+$icon-pie-2x-y: 274px;
+$icon-pie-2x-offset-x: 0px;
+$icon-pie-2x-offset-y: -274px;
+$icon-pie-2x-width: 222px;
+$icon-pie-2x-height: 222px;
+$icon-pie-2x-total-width: 976px;
+$icon-pie-2x-total-height: 840px;
+$icon-pie-2x-image: '/img/sprite2x.png';
+$icon-pie-2x: (0px, 274px, 0px, -274px, 222px, 222px, 976px, 840px, '/img/sprite2x.png', 'icon-pie@2x', );
+$icon-rocket-2x-name: 'icon-rocket@2x';
+$icon-rocket-2x-x: 0px;
+$icon-rocket-2x-y: 0px;
+$icon-rocket-2x-offset-x: 0px;
+$icon-rocket-2x-offset-y: 0px;
+$icon-rocket-2x-width: 228px;
+$icon-rocket-2x-height: 254px;
+$icon-rocket-2x-total-width: 976px;
+$icon-rocket-2x-total-height: 840px;
+$icon-rocket-2x-image: '/img/sprite2x.png';
+$icon-rocket-2x: (0px, 0px, 0px, 0px, 228px, 254px, 976px, 840px, '/img/sprite2x.png', 'icon-rocket@2x', );
+$icon-student-2x-name: 'icon-student@2x';
+$icon-student-2x-x: 240px;
+$icon-student-2x-y: 516px;
+$icon-student-2x-offset-x: -240px;
+$icon-student-2x-offset-y: -516px;
+$icon-student-2x-width: 220px;
+$icon-student-2x-height: 220px;
+$icon-student-2x-total-width: 976px;
+$icon-student-2x-total-height: 840px;
+$icon-student-2x-image: '/img/sprite2x.png';
+$icon-student-2x: (240px, 516px, -240px, -516px, 220px, 220px, 976px, 840px, '/img/sprite2x.png', 'icon-student@2x', );
+$lesson-chk-chkd-2x-name: 'lesson-chk-chkd@2x';
+$lesson-chk-chkd-2x-x: 886px;
+$lesson-chk-chkd-2x-y: 640px;
+$lesson-chk-chkd-2x-offset-x: -886px;
+$lesson-chk-chkd-2x-offset-y: -640px;
+$lesson-chk-chkd-2x-width: 42px;
+$lesson-chk-chkd-2x-height: 42px;
+$lesson-chk-chkd-2x-total-width: 976px;
+$lesson-chk-chkd-2x-total-height: 840px;
+$lesson-chk-chkd-2x-image: '/img/sprite2x.png';
+$lesson-chk-chkd-2x: (886px, 640px, -886px, -640px, 42px, 42px, 976px, 840px, '/img/sprite2x.png', 'lesson-chk-chkd@2x', );
+$lesson-chk-2x-name: 'lesson-chk@2x';
+$lesson-chk-2x-x: 762px;
+$lesson-chk-2x-y: 640px;
+$lesson-chk-2x-offset-x: -762px;
+$lesson-chk-2x-offset-y: -640px;
+$lesson-chk-2x-width: 42px;
+$lesson-chk-2x-height: 42px;
+$lesson-chk-2x-total-width: 976px;
+$lesson-chk-2x-total-height: 840px;
+$lesson-chk-2x-image: '/img/sprite2x.png';
+$lesson-chk-2x: (762px, 640px, -762px, -640px, 42px, 42px, 976px, 840px, '/img/sprite2x.png', 'lesson-chk@2x', );
+$lesson-diagramm-2x-name: 'lesson-diagramm@2x';
+$lesson-diagramm-2x-x: 892px;
+$lesson-diagramm-2x-y: 492px;
+$lesson-diagramm-2x-offset-x: -892px;
+$lesson-diagramm-2x-offset-y: -492px;
+$lesson-diagramm-2x-width: 48px;
+$lesson-diagramm-2x-height: 48px;
+$lesson-diagramm-2x-total-width: 976px;
+$lesson-diagramm-2x-total-height: 840px;
+$lesson-diagramm-2x-image: '/img/sprite2x.png';
+$lesson-diagramm-2x: (892px, 492px, -892px, -492px, 48px, 48px, 976px, 840px, '/img/sprite2x.png', 'lesson-diagramm@2x', );
+$lesson-mark2-2x-name: 'lesson-mark2@2x';
+$lesson-mark2-2x-x: 762px;
+$lesson-mark2-2x-y: 580px;
+$lesson-mark2-2x-offset-x: -762px;
+$lesson-mark2-2x-offset-y: -580px;
+$lesson-mark2-2x-width: 54px;
+$lesson-mark2-2x-height: 40px;
+$lesson-mark2-2x-total-width: 976px;
+$lesson-mark2-2x-total-height: 840px;
+$lesson-mark2-2x-image: '/img/sprite2x.png';
+$lesson-mark2-2x: (762px, 580px, -762px, -580px, 54px, 40px, 976px, 840px, '/img/sprite2x.png', 'lesson-mark2@2x', );
+$lesson-mark-2x-name: 'lesson-mark@2x';
+$lesson-mark-2x-x: 836px;
+$lesson-mark-2x-y: 580px;
+$lesson-mark-2x-offset-x: -836px;
+$lesson-mark-2x-offset-y: -580px;
+$lesson-mark-2x-width: 54px;
+$lesson-mark-2x-height: 40px;
+$lesson-mark-2x-total-width: 976px;
+$lesson-mark-2x-total-height: 840px;
+$lesson-mark-2x-image: '/img/sprite2x.png';
+$lesson-mark-2x: (836px, 580px, -836px, -580px, 54px, 40px, 976px, 840px, '/img/sprite2x.png', 'lesson-mark@2x', );
+$lk-course-date-arr-l-2x-name: 'lk-course-date-arr-l@2x';
+$lk-course-date-arr-l-2x-x: 938px;
+$lk-course-date-arr-l-2x-y: 702px;
+$lk-course-date-arr-l-2x-offset-x: -938px;
+$lk-course-date-arr-l-2x-offset-y: -702px;
+$lk-course-date-arr-l-2x-width: 36px;
+$lk-course-date-arr-l-2x-height: 28px;
+$lk-course-date-arr-l-2x-total-width: 976px;
+$lk-course-date-arr-l-2x-total-height: 840px;
+$lk-course-date-arr-l-2x-image: '/img/sprite2x.png';
+$lk-course-date-arr-l-2x: (938px, 702px, -938px, -702px, 36px, 28px, 976px, 840px, '/img/sprite2x.png', 'lk-course-date-arr-l@2x', );
+$lk-course-date-arr-r-2x-name: 'lk-course-date-arr-r@2x';
+$lk-course-date-arr-r-2x-x: 882px;
+$lk-course-date-arr-r-2x-y: 702px;
+$lk-course-date-arr-r-2x-offset-x: -882px;
+$lk-course-date-arr-r-2x-offset-y: -702px;
+$lk-course-date-arr-r-2x-width: 36px;
+$lk-course-date-arr-r-2x-height: 28px;
+$lk-course-date-arr-r-2x-total-width: 976px;
+$lk-course-date-arr-r-2x-total-height: 840px;
+$lk-course-date-arr-r-2x-image: '/img/sprite2x.png';
+$lk-course-date-arr-r-2x: (882px, 702px, -882px, -702px, 36px, 28px, 976px, 840px, '/img/sprite2x.png', 'lk-course-date-arr-r@2x', );
+$lk-select-arr-2x-name: 'lk-select-arr@2x';
+$lk-select-arr-2x-x: 958px;
+$lk-select-arr-2x-y: 320px;
+$lk-select-arr-2x-offset-x: -958px;
+$lk-select-arr-2x-offset-y: -320px;
+$lk-select-arr-2x-width: 16px;
+$lk-select-arr-2x-height: 10px;
+$lk-select-arr-2x-total-width: 976px;
+$lk-select-arr-2x-total-height: 840px;
+$lk-select-arr-2x-image: '/img/sprite2x.png';
+$lk-select-arr-2x: (958px, 320px, -958px, -320px, 16px, 10px, 976px, 840px, '/img/sprite2x.png', 'lk-select-arr@2x', );
+$math-2x-name: 'math@2x';
+$math-2x-x: 876px;
+$math-2x-y: 242px;
+$math-2x-offset-x: -876px;
+$math-2x-offset-y: -242px;
+$math-2x-width: 76px;
+$math-2x-height: 58px;
+$math-2x-total-width: 976px;
+$math-2x-total-height: 840px;
+$math-2x-image: '/img/sprite2x.png';
+$math-2x: (876px, 242px, -876px, -242px, 76px, 58px, 976px, 840px, '/img/sprite2x.png', 'math@2x', );
+$naturals-2x-name: 'naturals@2x';
+$naturals-2x-x: 762px;
+$naturals-2x-y: 492px;
+$naturals-2x-offset-x: -762px;
+$naturals-2x-offset-y: -492px;
+$naturals-2x-width: 48px;
+$naturals-2x-height: 68px;
+$naturals-2x-total-width: 976px;
+$naturals-2x-total-height: 840px;
+$naturals-2x-image: '/img/sprite2x.png';
+$naturals-2x: (762px, 492px, -762px, -492px, 48px, 68px, 976px, 840px, '/img/sprite2x.png', 'naturals@2x', );
+$philology-2x-name: 'philology@2x';
+$philology-2x-x: 860px;
+$philology-2x-y: 320px;
+$philology-2x-offset-x: -860px;
+$philology-2x-offset-y: -320px;
+$philology-2x-width: 78px;
+$philology-2x-height: 60px;
+$philology-2x-total-width: 976px;
+$philology-2x-total-height: 840px;
+$philology-2x-image: '/img/sprite2x.png';
+$philology-2x: (860px, 320px, -860px, -320px, 78px, 60px, 976px, 840px, '/img/sprite2x.png', 'philology@2x', );
+$physical-2x-name: 'physical@2x';
+$physical-2x-x: 762px;
+$physical-2x-y: 242px;
+$physical-2x-offset-x: -762px;
+$physical-2x-offset-y: -242px;
+$physical-2x-width: 94px;
+$physical-2x-height: 58px;
+$physical-2x-total-width: 976px;
+$physical-2x-total-height: 840px;
+$physical-2x-image: '/img/sprite2x.png';
+$physical-2x: (762px, 242px, -762px, -242px, 94px, 58px, 976px, 840px, '/img/sprite2x.png', 'physical@2x', );
+$social-2x-name: 'social@2x';
+$social-2x-x: 762px;
+$social-2x-y: 320px;
+$social-2x-offset-x: -762px;
+$social-2x-offset-y: -320px;
+$social-2x-width: 78px;
+$social-2x-height: 70px;
+$social-2x-total-width: 976px;
+$social-2x-total-height: 840px;
+$social-2x-image: '/img/sprite2x.png';
+$social-2x: (762px, 320px, -762px, -320px, 78px, 70px, 976px, 840px, '/img/sprite2x.png', 'social@2x', );
+$test-chk-correct-2x-name: 'test-chk-correct@2x';
+$test-chk-correct-2x-x: 910px;
+$test-chk-correct-2x-y: 580px;
+$test-chk-correct-2x-offset-x: -910px;
+$test-chk-correct-2x-offset-y: -580px;
+$test-chk-correct-2x-width: 40px;
+$test-chk-correct-2x-height: 28px;
+$test-chk-correct-2x-total-width: 976px;
+$test-chk-correct-2x-total-height: 840px;
+$test-chk-correct-2x-image: '/img/sprite2x.png';
+$test-chk-correct-2x: (910px, 580px, -910px, -580px, 40px, 28px, 976px, 840px, '/img/sprite2x.png', 'test-chk-correct@2x', );
+$test-chk-wrong-2x-name: 'test-chk-wrong@2x';
+$test-chk-wrong-2x-x: 762px;
+$test-chk-wrong-2x-y: 702px;
+$test-chk-wrong-2x-offset-x: -762px;
+$test-chk-wrong-2x-offset-y: -702px;
+$test-chk-wrong-2x-width: 40px;
+$test-chk-wrong-2x-height: 28px;
+$test-chk-wrong-2x-total-width: 976px;
+$test-chk-wrong-2x-total-height: 840px;
+$test-chk-wrong-2x-image: '/img/sprite2x.png';
+$test-chk-wrong-2x: (762px, 702px, -762px, -702px, 40px, 28px, 976px, 840px, '/img/sprite2x.png', 'test-chk-wrong@2x', );
+$test-chk-2x-name: 'test-chk@2x';
+$test-chk-2x-x: 822px;
+$test-chk-2x-y: 702px;
+$test-chk-2x-offset-x: -822px;
+$test-chk-2x-offset-y: -702px;
+$test-chk-2x-width: 40px;
+$test-chk-2x-height: 28px;
+$test-chk-2x-total-width: 976px;
+$test-chk-2x-total-height: 840px;
+$test-chk-2x-image: '/img/sprite2x.png';
+$test-chk-2x: (822px, 702px, -822px, -702px, 40px, 28px, 976px, 840px, '/img/sprite2x.png', 'test-chk@2x', );
+$typical-select-arr2-2x-name: 'typical-select-arr2@2x';
+$typical-select-arr2-2x-x: 948px;
+$typical-select-arr2-2x-y: 410px;
+$typical-select-arr2-2x-offset-x: -948px;
+$typical-select-arr2-2x-offset-y: -410px;
+$typical-select-arr2-2x-width: 28px;
+$typical-select-arr2-2x-height: 14px;
+$typical-select-arr2-2x-total-width: 976px;
+$typical-select-arr2-2x-total-height: 840px;
+$typical-select-arr2-2x-image: '/img/sprite2x.png';
+$typical-select-arr2-2x: (948px, 410px, -948px, -410px, 28px, 14px, 976px, 840px, '/img/sprite2x.png', 'typical-select-arr2@2x', );
+$typical-select-arr-2x-name: 'typical-select-arr@2x';
+$typical-select-arr-2x-x: 948px;
+$typical-select-arr-2x-y: 640px;
+$typical-select-arr-2x-offset-x: -948px;
+$typical-select-arr-2x-offset-y: -640px;
+$typical-select-arr-2x-width: 28px;
+$typical-select-arr-2x-height: 14px;
+$typical-select-arr-2x-total-width: 976px;
+$typical-select-arr-2x-total-height: 840px;
+$typical-select-arr-2x-image: '/img/sprite2x.png';
+$typical-select-arr-2x: (948px, 640px, -948px, -640px, 28px, 14px, 976px, 840px, '/img/sprite2x.png', 'typical-select-arr@2x', );
+$spritesheet-width: 488px;
+$spritesheet-height: 420px;
+$spritesheet-image: '/img/sprite.png';
+$spritesheet-sprites: ($app-stope, $art, $chemistry, $chk-chkd, $chk, $eye, $google-play, $icon-books, $icon-calendar, $icon-clock, $icon-cup, $icon-globe, $icon-owl, $icon-pie, $icon-rocket, $icon-student, $lesson-chk-chkd, $lesson-chk, $lesson-diagramm, $lesson-mark, $lesson-mark2, $lk-course-date-arr-l, $lk-course-date-arr-r, $lk-select-arr, $math, $naturals, $philology, $physical, $social, $test-chk-correct, $test-chk-wrong, $test-chk, $typical-select-arr, $typical-select-arr2, );
+$spritesheet: (488px, 420px, '/img/sprite.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 976px;
+$retina-spritesheet-height: 840px;
+$retina-spritesheet-image: '/img/sprite2x.png';
+$retina-spritesheet-sprites: ($app-stope-2x, $art-2x, $chemistry-2x, $chk-chkd-2x, $chk-2x, $eye-2x, $google-play-2x, $icon-books-2x, $icon-calendar-2x, $icon-clock-2x, $icon-cup-2x, $icon-globe-2x, $icon-owl-2x, $icon-pie-2x, $icon-rocket-2x, $icon-student-2x, $lesson-chk-chkd-2x, $lesson-chk-2x, $lesson-diagramm-2x, $lesson-mark2-2x, $lesson-mark-2x, $lk-course-date-arr-l-2x, $lk-course-date-arr-r-2x, $lk-select-arr-2x, $math-2x, $naturals-2x, $philology-2x, $physical-2x, $social-2x, $test-chk-correct-2x, $test-chk-wrong-2x, $test-chk-2x, $typical-select-arr2-2x, $typical-select-arr-2x, );
+$retina-spritesheet: (976px, 840px, '/img/sprite2x.png', $retina-spritesheet-sprites, );
+
+/*
+These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+
+The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+*/
+$app-stope-group-name: 'app-stope';
+$app-stope-group: ('app-stope', $app-stope, $app-stope-2x, );
+$art-group-name: 'art';
+$art-group: ('art', $art, $art-2x, );
+$chemistry-group-name: 'chemistry';
+$chemistry-group: ('chemistry', $chemistry, $chemistry-2x, );
+$chk-chkd-group-name: 'chk-chkd';
+$chk-chkd-group: ('chk-chkd', $chk-chkd, $chk-chkd-2x, );
+$chk-group-name: 'chk';
+$chk-group: ('chk', $chk, $chk-2x, );
+$eye-group-name: 'eye';
+$eye-group: ('eye', $eye, $eye-2x, );
+$google-play-group-name: 'google-play';
+$google-play-group: ('google-play', $google-play, $google-play-2x, );
+$icon-books-group-name: 'icon-books';
+$icon-books-group: ('icon-books', $icon-books, $icon-books-2x, );
+$icon-calendar-group-name: 'icon-calendar';
+$icon-calendar-group: ('icon-calendar', $icon-calendar, $icon-calendar-2x, );
+$icon-clock-group-name: 'icon-clock';
+$icon-clock-group: ('icon-clock', $icon-clock, $icon-clock-2x, );
+$icon-cup-group-name: 'icon-cup';
+$icon-cup-group: ('icon-cup', $icon-cup, $icon-cup-2x, );
+$icon-globe-group-name: 'icon-globe';
+$icon-globe-group: ('icon-globe', $icon-globe, $icon-globe-2x, );
+$icon-owl-group-name: 'icon-owl';
+$icon-owl-group: ('icon-owl', $icon-owl, $icon-owl-2x, );
+$icon-pie-group-name: 'icon-pie';
+$icon-pie-group: ('icon-pie', $icon-pie, $icon-pie-2x, );
+$icon-rocket-group-name: 'icon-rocket';
+$icon-rocket-group: ('icon-rocket', $icon-rocket, $icon-rocket-2x, );
+$icon-student-group-name: 'icon-student';
+$icon-student-group: ('icon-student', $icon-student, $icon-student-2x, );
+$lesson-chk-chkd-group-name: 'lesson-chk-chkd';
+$lesson-chk-chkd-group: ('lesson-chk-chkd', $lesson-chk-chkd, $lesson-chk-chkd-2x, );
+$lesson-chk-group-name: 'lesson-chk';
+$lesson-chk-group: ('lesson-chk', $lesson-chk, $lesson-chk-2x, );
+$lesson-diagramm-group-name: 'lesson-diagramm';
+$lesson-diagramm-group: ('lesson-diagramm', $lesson-diagramm, $lesson-diagramm-2x, );
+$lesson-mark-group-name: 'lesson-mark';
+$lesson-mark-group: ('lesson-mark', $lesson-mark, $lesson-mark2-2x, );
+$lesson-mark2-group-name: 'lesson-mark2';
+$lesson-mark2-group: ('lesson-mark2', $lesson-mark2, $lesson-mark-2x, );
+$lk-course-date-arr-l-group-name: 'lk-course-date-arr-l';
+$lk-course-date-arr-l-group: ('lk-course-date-arr-l', $lk-course-date-arr-l, $lk-course-date-arr-l-2x, );
+$lk-course-date-arr-r-group-name: 'lk-course-date-arr-r';
+$lk-course-date-arr-r-group: ('lk-course-date-arr-r', $lk-course-date-arr-r, $lk-course-date-arr-r-2x, );
+$lk-select-arr-group-name: 'lk-select-arr';
+$lk-select-arr-group: ('lk-select-arr', $lk-select-arr, $lk-select-arr-2x, );
+$math-group-name: 'math';
+$math-group: ('math', $math, $math-2x, );
+$naturals-group-name: 'naturals';
+$naturals-group: ('naturals', $naturals, $naturals-2x, );
+$philology-group-name: 'philology';
+$philology-group: ('philology', $philology, $philology-2x, );
+$physical-group-name: 'physical';
+$physical-group: ('physical', $physical, $physical-2x, );
+$social-group-name: 'social';
+$social-group: ('social', $social, $social-2x, );
+$test-chk-correct-group-name: 'test-chk-correct';
+$test-chk-correct-group: ('test-chk-correct', $test-chk-correct, $test-chk-correct-2x, );
+$test-chk-wrong-group-name: 'test-chk-wrong';
+$test-chk-wrong-group: ('test-chk-wrong', $test-chk-wrong, $test-chk-wrong-2x, );
+$test-chk-group-name: 'test-chk';
+$test-chk-group: ('test-chk', $test-chk, $test-chk-2x, );
+$typical-select-arr-group-name: 'typical-select-arr';
+$typical-select-arr-group: ('typical-select-arr', $typical-select-arr, $typical-select-arr2-2x, );
+$typical-select-arr2-group-name: 'typical-select-arr2';
+$typical-select-arr2-group: ('typical-select-arr2', $typical-select-arr2, $typical-select-arr-2x, );
+$retina-groups: ($app-stope-group, $art-group, $chemistry-group, $chk-chkd-group, $chk-group, $eye-group, $google-play-group, $icon-books-group, $icon-calendar-group, $icon-clock-group, $icon-cup-group, $icon-globe-group, $icon-owl-group, $icon-pie-group, $icon-rocket-group, $icon-student-group, $lesson-chk-chkd-group, $lesson-chk-group, $lesson-diagramm-group, $lesson-mark-group, $lesson-mark2-group, $lk-course-date-arr-l-group, $lk-course-date-arr-r-group, $lk-select-arr-group, $math-group, $naturals-group, $philology-group, $physical-group, $social-group, $test-chk-correct-group, $test-chk-wrong-group, $test-chk-group, $typical-select-arr-group, $typical-select-arr2-group, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+  It should be used with a "retina group" variable.
+
+The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+
+$icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+
+.icon-home {
+  @include retina-sprite($icon-home-group);
+}
+*/
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+/*
+The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+  This yields the same output as CSS retina template but can be overridden in SCSS
+
+@include retina-sprites($retina-groups);
+*/
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}

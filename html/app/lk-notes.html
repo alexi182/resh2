@@ -1,0 +1,239 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+   @@include('../includes/common/head.html', {})
+</head>
+
+<body>
+@@include('../includes/common/browserhappy.html', {})
+
+<div class="outer-sf">
+   <div class="wrapper-sf">
+
+      @@include('../includes/blocks/lk-header.html', {})
+
+      <main class="main lk-main _hideable">
+
+         <div class="lk-wrapper">
+            <div class="wrapper-content">
+               <div class="block-shadow">
+
+                  @@include('../includes/blocks/lk-menu.html', {})
+                  
+                  <div class="lk-cols-wrap d-t">
+
+                     @@include('../includes/blocks/lk-left-col.html', {})
+
+                     <div class="d-tc lk-col-2">
+
+                        <h2>Заметки</h2>
+
+                        <form class="note-box" name="notes-form" >
+
+                           <textarea id="notes-textarea" class="lk__input-textarea"></textarea>
+
+                           <div class="note-box__row">
+                              <input type="checkbox" class="lk-chk" id="lk-notes_chk1"/>
+                              <label for="lk-notes_chk1" class="lk-chk-label">Связать с уроком</label>
+
+                              <div class="lk-select">
+                                 <select class="chosen-select">
+                                    <option>1 класс</option>
+                                    <option>2 класс</option>
+                                    <option>3 класс</option>
+                                    <option>4 класс</option>
+                                    <option selected>5 класс</option>
+                                    <option>6 класс</option>
+                                    <option>7 класс</option>
+                                    <option>8 класс</option>
+                                    <option>9 класс</option>
+                                    <option>10 класс</option>
+                                 </select>
+                              </div>
+
+                              <div class="lk-select gradient-hidden">
+                                 <select class="chosen-select" style="width: 138px">
+                                    <option>Математика</option>
+                                    <option selected>Русский язык</option>
+                                    <option>Литература</option>
+                                    <option>Обществоведение</option>
+                                    <option>История</option>
+                                 </select>
+                              </div>
+                              <div class="lk-select gradient-hidden" style="width: 220px;">
+                                 <select class="chosen-select">
+                                    <option>Урок №1. Словари русского языка</option>
+                                    <option>Урок №2. Жы-шы пиши с "и"</option>
+                                 </select>
+                              </div>
+                           </div>
+                           <div class="note-box__row">
+                              <input type="checkbox" class="lk-chk" id="lk-notes_chk2"/>
+                              <label for="lk-notes_chk2" class="lk-chk-label">Связать с курсом</label>
+
+                              <div class="lk-select gradient-hidden" style="width: 240px;">
+                                 <select class="chosen-select">
+                                    <option>Курс "9 класс_факультатив"</option>
+                                    <option>Курс "8 класс_факультатив"</option>
+                                    <option>Курс "9 класс_факультатив"</option>
+                                    <option>Курс "8 класс_факультатив"</option>
+                                    <option>Курс "9 класс_факультатив"</option>
+                                    <option>Курс "8 класс_факультатив"</option>
+                                    <option>Курс "9 класс_факультатив"</option>
+                                    <option>Курс "8 класс_факультатив"</option>
+                                    <option>Курс "9 класс_факультатив"</option>
+                                    <option>Курс "8 класс_факультатив"</option>
+                                    <option>Курс "9 класс_факультатив"</option>
+                                    <option>Курс "8 класс_факультатив"</option>
+                                 </select>
+                              </div>
+                           </div>
+
+                           <div class="lk-button">
+                              <button class="lk-form-submit" type="submit">Добавить заметку</button>
+                           </div>
+
+                        </form>
+
+                        <div class="note-feed-box">
+
+                           <div class="note-feed-block">
+                              <div class="note-feed__date">
+                                 <span>27 сентября</span>
+                                 2016 год
+                              </div>
+                              <div class="note-feed__content">
+                                 <div class="note-feed__title">
+                                    <i class="icon icon_pushpin"></i>
+                                    К уроку №1 "Повторение изученного в 5 классе. Отличие многозначных слов от омонимов", Русский язык, 5 класс
+                                 </div>
+                                 <div class="note-feed__text">
+                                    Взять информацию для доклада на открытый урок (с 3 минуты)
+                                 </div>
+                                 <div class="note-feed__close-btn"><i class="icon icon_delete-cross"></i></div>
+                              </div>
+                           </div>
+
+                           <div class="note-feed-block">
+                              <div class="note-feed__date">
+                                 <span>26 сентября</span>
+                                 2016 год
+                              </div>
+                              <div class="note-feed__content">
+                                 <div class="note-feed__title">
+                                    <i class="icon icon_pushpin"></i>
+                                    К курсу "9 класс_факультатив"
+                                 </div>
+                                 <div class="note-feed__text">
+                                    Добавить в курс информатику
+                                 </div>
+                                 <div class="note-feed__close-btn"><i class="icon icon_delete-cross"></i></div>
+                              </div>
+                           </div>
+
+                           <div class="note-feed-block">
+                              <div class="note-feed__date">
+                                 <span>25 сентября</span>
+                                 2016 год
+                              </div>
+                              <div class="note-feed__content">
+                                 <div class="note-feed__text">
+                                    Какая-то просто ни с чем не связанная заметка. Какая-то просто ни с чем не связанная заметка. Какая-то просто ни с чем не связанная заметка. Какая-то просто ни с чем не связанная заметка. Какая-то просто ни с чем не связанная заметка. Какая-то просто ни с чем не связанная заметка.
+                                 </div>
+                                 <div class="note-feed__close-btn"><i class="icon icon_delete-cross"></i></div>
+                              </div>
+                           </div>
+
+                           <div class="note-feed-block">
+                              <div class="note-feed__date">
+                                 <span>27 сентября</span>
+                                 2016 год
+                              </div>
+                              <div class="note-feed__content">
+                                 <div class="note-feed__title">
+                                    <i class="icon icon_pushpin"></i>
+                                    К уроку №1 "Повторение изученного в 5 классе. Отличие многозначных слов от омонимов", Русский язык, 5 класс
+                                 </div>
+                                 <div class="note-feed__text">
+                                    Взять информацию для доклада на открытый урок (с 3 минуты)
+                                 </div>
+                                 <div class="note-feed__close-btn"><i class="icon icon_delete-cross"></i></div>
+                              </div>
+                           </div>
+
+                           <div class="note-feed-block">
+                              <div class="note-feed__date">
+                                 <span>26 сентября</span>
+                                 2016 год
+                              </div>
+                              <div class="note-feed__content">
+                                 <div class="note-feed__title">
+                                    <i class="icon icon_pushpin"></i>
+                                    К курсу "9 класс_факультатив"
+                                 </div>
+                                 <div class="note-feed__text">
+                                    Добавить в курс информатику
+                                 </div>
+                                 <div class="note-feed__close-btn"><i class="icon icon_delete-cross"></i></div>
+                              </div>
+                           </div>
+
+                           <div class="note-feed-block">
+                              <div class="note-feed__date">
+                                 <span>25 сентября</span>
+                                 2016 год
+                              </div>
+                              <div class="note-feed__content">
+                                 <div class="note-feed__text">
+                                    Какая-то просто ни с чем не связанная заметка. Какая-то просто ни с чем не связанная заметка. Какая-то просто ни с чем не связанная заметка. Какая-то просто ни с чем не связанная заметка. Какая-то просто ни с чем не связанная заметка. Какая-то просто ни с чем не связанная заметка.
+                                 </div>
+                                 <div class="note-feed__close-btn"><i class="icon icon_delete-cross"></i></div>
+                              </div>
+                           </div>
+
+                        </div>
+
+
+                     </div>
+
+                     @@include('../includes/blocks/lk-right-col.html', {})
+
+                  </div>
+               </div>
+            </div>   
+         </div>
+
+         <div class="banner-contain block-shadow wrapper-content _hideable">
+            <a href="#">
+               <img src="/img/1200x135px-2.gif" alt="ads">
+            </a>   
+         </div>
+
+      </main>
+      
+      
+      
+   </div>
+
+   @@include('../includes/blocks/footer.html', {})
+
+</div>
+
+<a href="#" class="page-up">
+   <div class="page-up__image">
+      <img src="/img/svg/up.svg" alt="up">
+      <span>вверх</span>
+   </div>
+</a>
+
+
+@@include('../includes/blocks/fs-login-menu.html', {})
+@@include('../includes/blocks/fs-hmbrg-menu.html', {})
+
+
+@@include('../includes/common/scripts.html', {})
+
+
+</body>
+</html>
+

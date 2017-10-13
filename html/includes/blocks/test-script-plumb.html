@@ -1,0 +1,80 @@
+<script src="/js/vendor/jsPlumb-2.1.7-min.js"></script>
+
+
+<script>
+   jsPlumb.ready(function () {
+
+      jsPlumb.setContainer("_plumb-container");
+
+      var itemLeftSource = $('._lace_left');
+      var itemRightSource = $('._lace_rigth');
+      var itemBtmTarget = $('._lace_btm');
+      var options = {
+         isSource: true,
+         isTarget: true,
+         connector: ["Straight"],
+         maxConnections: 100,
+         endpoint: ["Dot", {radius: 11}],
+//         connectorPaintStyle: {
+//            strokeStyle: "blue",
+//            lineWidth: 1
+//         },
+//         connectorHoverPaintStyle: {
+//            strokeStyle: "red",
+//            outlineColor: "yellow", outlineWidth: 1
+//         },
+         paintStyle: {
+
+            fillStyle: '#32D7C0'
+//            strokeStyle: "#32D7C0",
+//            lineWidth: 3,
+//            outlineColor: "black",
+//            outlineWidth: 4
+
+
+         },
+         hoverPaintStyle: {
+            fillStyle: "#009F8A"
+         }
+
+      };
+
+      jsPlumb.addEndpoint(itemLeftSource, {
+         anchors: ['Left']
+      }, options);
+
+      jsPlumb.addEndpoint(itemBtmTarget, {
+         anchors: ["Bottom"]
+      }, options);
+
+      jsPlumb.addEndpoint(itemRightSource, {
+         anchors: ["Right"]
+      }, options);
+
+      jsPlumb.bind('click', function (connection, e) {
+         jsPlumb.detach(connection);
+      });
+
+      jsPlumb.bind('endpointClick', function (endpoint, event) {
+         jsPlumb.detachAllConnections(endpoint.element);
+      });
+
+
+      jsPlumb.bind("beforeDrop", function (connection) {
+         return ((connection.sourceId !== connection.targetId) &&
+                 ($(connection.connection.source).data('type') !== $(connection.connection.target).data('type'))) ||
+                 ($(connection.connection.source).data('type') === 'multiple');
+      });
+
+      jsPlumb.bind('connection', function (info) {
+         var con = info.connection;
+         var arr = jsPlumb.select({source: con.sourceId, target: con.targetId});
+         if (arr.length > 1) {
+            jsPlumb.detach(con);
+         }
+      });
+
+
+   });
+
+</script>

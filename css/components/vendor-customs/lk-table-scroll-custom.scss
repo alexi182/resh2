@@ -1,0 +1,23 @@
+
+.lk-subjects__stat-table-box,
+.lk-themes-list-box {
+  .mCSB_scrollTools {
+    background: #fff;
+    width: 26px;
+    .mCSB_draggerContainer {
+      border: 1px solid #b7b7b7;
+      left: 5px;
+      top: 5px;
+    }
+    .mCSB_draggerRail {
+      background: #fff;
+    }
+    .mCSB_dragger {
+      .mCSB_dragger_bar {
+        width: 19px;
+        background: #3fb9e6;
+        border: 4px solid #fff;
+      }
+    }
+  }
+}

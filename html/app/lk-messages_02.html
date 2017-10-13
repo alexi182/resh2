@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+   @@include('../includes/common/head.html', {})
+</head>
+
+<body>
+@@include('../includes/common/browserhappy.html', {})
+
+<div class="outer-sf">
+   <div class="wrapper-sf">
+
+      @@include('../includes/blocks/lk-header.html', {})
+
+      <main class="main lk-main _hideable">
+
+         <div class="lk-wrapper">
+            <div class="wrapper-content">
+               <div class="block-shadow">
+
+
+                  @@include('../includes/blocks/lk-menu.html', {})
+
+                  <div class="lk-cols-wrap d-t">
+
+                     @@include('../includes/blocks/lk-left-col.html', {})
+
+                     <div class="d-tc lk-col-2">
+
+                        <div class="lk-block-opts message-optns">
+                           <i class="msg-opt-block__circle"></i>
+                           <i class="icon icon_delete-cross"></i>
+                        </div>
+
+                        <h2>Сообщения</h2>
+
+                        <div class="lk-message-details">
+                           <div class="lk-message-details__title d-t">
+                              <div class="lk-message-details__title-left d-tc">
+                                 <i class="icon-rocket"></i>
+                              </div>
+                              <div class="lk-message-details__title-right d-tc">
+                                 <p class="lk-message-details__date">21 сентября 2016 года</p>
+                                 <h3 class="lk-message-details__heading">Полностью восстановлена работоспособность всех
+                                    серверов системы</h3>
+                              </div>
+                           </div>
+                           <p>Функция многих переменных оправдывает ряд Тейлора. Наряду с этим, функциональный анализ
+                              изящно привлекает положительный натуральный логарифм, что неудивительно. Максимум
+                              стремительно накладывает действительный вектор. Нормальное распределение, как следует
+                              из вышесказанного, развивает многочлен.</p>
+                           <p>Мнимая единица, как следует из вышесказанного, естественно определяет косвенный
+                              интеграл по поверхности. В общем, криволинейный интеграл развивает абстрактный
+                              детерминант. Несмотря на сложности, первая производная искажает положительный разрыв
+                              функции.</p>
+                           <p>
+                              Интеграл Пуассона, не вдаваясь в подробности, проецирует неопровержимый натуральный
+                              логарифм. Система координат масштабирует Наибольший Общий Делитель (НОД). Прямоугольная
+                              матрица, следовательно, очевидна не для всех</p>
+                        </div>
+
+                        <div class="lk-message-back">
+                           <a href="#" class="lk-form-submit">Вернуться в список</a>
+                        </div>
+
+
+                     </div>
+
+
+                     @@include('../includes/blocks/lk-right-col.html', {})
+
+
+
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="banner-contain block-shadow wrapper-content _hideable">
+            <a href="#">
+               <img src="/img/1200x135px-2.gif" alt="ads">
+            </a>
+         </div>
+
+      </main>
+
+   </div>
+
+   @@include('../includes/blocks/footer.html', {})
+
+</div>
+
+<a href="#" class="page-up">
+   <div class="page-up__image">
+      <img src="/img/svg/up.svg" alt="up">
+      <span>вверх</span>
+   </div>
+</a>
+
+
+@@include('../includes/blocks/fs-login-menu.html', {})
+@@include('../includes/blocks/fs-hmbrg-menu.html', {})
+
+
+@@include('../includes/common/scripts.html', {})
+
+<script src="/js/vendor/odometer.js"></script>
+<script>
+   var el = document.getElementsByClassName('odometer');
+   for (var i = 0; i < el.length; i++) {
+      var value = el[i].getAttribute("data-number");
+      new Odometer({
+         el: el[i],
+         value: 0,
+         theme: 'default',
+         duration: 300
+      });
+      el[i].innerHTML = value;
+   }
+</script>
+
+</body>
+</html>
+

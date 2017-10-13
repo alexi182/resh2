@@ -1,0 +1,48 @@
+<script src="/js/vendor/dragula.min.js"></script>
+
+<script> var exContainer;
+var containers = $('._sortable-one-box').toArray();
+dragula([containers], {
+   isContainer: function (el) {
+      return el.classList.contains('_sortable-one-box');
+   }, accepts: function (el, target, source, sibling) {
+      if (target == source) {
+         return true;
+      }
+   }
+});
+var containersMult = $('._sortable').toArray();
+dragula([containersMult], {
+   isContainer: function (el) {
+      return el.classList.contains('_sortable');
+   }
+});
+var containersWords = $('._sortable-words').toArray();
+dragula([containersWords], {
+   isContainer: function (el) {
+      return el.classList.contains('_sortable-words');
+   },
+   over: function (el, target, source, sibling) {
+   },
+   accepts: function (el, target, source, sibling) {
+      if ($(target).children().length < 1 && target !== source) {
+         return true;
+      } else if ($(target).hasClass('_sortable-words--source')) {
+         return true;
+      }
+   }
+}).on('drag', function (el) {
+   exContainer = $(el).closest('.sort-images__container');
+}).on('drop', function (el) {
+   $(el).closest('.sort-images__container').addClass('_no-border');
+   exContainer.removeClass('_no-border');
+});
+
+$('._sortable-words').on('click', $('.sort__item'), function () {
+   var el = $(this);
+   var elTag = el.find('.sort__item-wrap').detach();
+   el.closest('.sort-images__container').removeClass('_no-border');
+   $('._sortable-words--source').prepend(elTag);
+});
+
+</script>

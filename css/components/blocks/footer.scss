@@ -1,0 +1,222 @@
+.footer {
+  background: #424242;
+  padding: 0 0 40px;
+  //min-width: 1400px;
+  /*margin-top: 20px; */
+}
+
+.partners {
+  background: #fff;
+  text-align: center;
+  padding: 30px 0 15px;
+  h1 {
+    text-align: left;
+    margin-top: 0;
+  }
+  a {
+    display: inline-block;
+    margin: 0 7.7%;
+    min-height: 59px;
+    &:first-of-type {
+      margin-left: 0;
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+    img {
+      @include transition(500);
+    }
+    /* &:hover{
+        img{
+        @include transform_scale(1.005, 1.005);
+            box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
+        }
+    } */
+  }
+
+}
+
+.footer__menu {
+  margin-top: 40px;
+  margin-bottom: 55px;
+}
+
+.footer__menu-list {
+  list-style: none;
+  text-align: justify;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+    &:after {
+      content: "";
+      width: 100%;
+      display: inline-block;
+      zoom: 1;
+      //*display: inline;
+    }
+}
+
+.footer__menu-item {
+  display: inline-block;
+  margin: 0 20px;
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.footer__menu-link {
+  font-size: 18px;
+  color: #bababa;
+  @include transition(400);
+  @include animated-underline(#fff);
+  &:hover {
+    color: #fff;
+  }
+}
+
+.footer__social {
+  float: left;
+  margin-right: 55px;
+  .icon {
+    color: #bababa;
+  }
+}
+
+.footer__social-link {
+  display: inline-block;
+  border: 2px solid #bababa;
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+  margin-right: 8px;
+
+  .icon {
+    font-size: 20px;
+    color: #bababa;
+    position: relative;
+
+  }
+  .icon_vk {
+    top: 20%;
+    left: 21%;
+  }
+  .icon_facebook {
+    top: 20%;
+    left: 33%;
+  }
+  .icon_ok {
+    top: 19%;
+    left: 31%;
+  }
+}
+
+.partners__wrap {
+  text-align: justify;
+  &:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+a.partners__link {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  min-height: 0;
+  i {
+    display: block;
+  }
+}
+
+
+
+.soc-links_grey {
+  color: #bababa;
+}
+
+.footer__download {
+  a {
+    display: inline-block;
+    @include transition(700);
+    &:first-of-type {
+      img {
+        @include transition(300);
+        border-radius: 5px;
+      }
+      &:hover {
+        img {
+          -webkit-box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 1);
+          -moz-box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 1);
+          box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 1);
+        }
+      }
+    }
+    &:last-of-type {
+      img {
+        @include transition(300);
+        border-radius: 5px;
+      }
+      &:hover {
+        img {
+          -webkit-box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 1);
+          -moz-box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 1);
+          box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 1);
+        }
+      }
+    }
+
+    &:last-of-type {
+      margin-left: 20px;
+    }
+  }
+}
+
+/* .googleplay-link{
+	 width: 137px;
+    height: 40px;
+    background-repeat: no-repeat;
+    -webkit-transition: transform 0.4s ease-in-out 0s;
+    -moz-transition: transform 0.4s ease-in-out 0s;
+    transition: transform 0.4s ease-in-out 0s;
+    &:hover {
+		background-image: url(/img/svg/googleplay2.svg);
+		width: 137px;
+		 		height: 40px;
+		 		background-repeat: no-repeat;
+	}
+}
+
+.appstore-link{
+	width: 164px;
+    height: 40px;
+    background-repeat: no-repeat;
+    -webkit-transition: transform 0.4s ease-in-out 0s;
+    -moz-transition: transform 0.4s ease-in-out 0s;
+    transition: transform 0.4s ease-in-out 0s;
+} */
+
+.footer__copyright {
+  color: #bababa;
+  margin-top: 40px;
+}
+
+.page-up {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  span {
+    font: 12px $roboto-ligth;
+    position: absolute;
+    top: 60%;
+    left: 27%;
+  }
+}
+
+.page-up__image {
+  position: relative;
+}

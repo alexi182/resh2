@@ -1,0 +1,24 @@
+.tooltipster-content {
+  font: 13px $roboto-regular;
+
+}
+
+.tooltipster-sidetip.tooltipster-light .tooltipster-content {
+  color: #ffffff;
+}
+
+.tooltipster-sidetip.tooltipster-light .tooltipster-box {
+  border-radius: 3px;
+  border: none;
+  background: #3fb9e6;
+
+}
+
+.tooltipster-sidetip.tooltipster-light.tooltipster-bottom .tooltipster-arrow-border {
+  border: 0;
+}
+
+.tooltipster-sidetip.tooltipster-light.tooltipster-bottom .tooltipster-arrow-background {
+  border-bottom-color: #3fb9e6;
+  top: 1px
+}

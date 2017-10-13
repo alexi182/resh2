@@ -1,0 +1,115 @@
+.tbl-timetable {
+  width: 100%;
+  margin: 20px 0 40px;
+  border-collapse: collapse;
+  font: normal 15px $roboto-regular;
+  th, td {
+    border: 1px solid #cccccc;
+    font-weight: normal;
+  }
+  th {
+    padding: 15px 0;
+    color: #fff;
+    background: #3FB9E6;
+  }
+
+  .tbl-timetable__content {
+
+  }
+}
+
+.tbl-pupil {
+  td {
+    &:nth-of-type(odd) {
+      width: 30px;
+    }
+  }
+}
+
+.tbl-timetable__sub-header {
+  td {
+    font: 12px $roboto-ligth;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    background: #fff !important;
+    &:nth-of-type(even) {
+      text-align: left;
+      padding-left: 10px;
+    }
+  }
+}
+
+.tbl-timetable__content {
+  text-align: center;
+  border-bottom: none;
+  border-top: none;
+  &:nth-of-type(even) {
+    background: #E6E6E6;
+  }
+  &:last-of-type {
+    td {
+      border-bottom: 1px solid #cccccc;
+    }
+  }
+  td {
+    padding: 10px 0;
+    border-top: none;
+    border-bottom: none;
+    &:nth-of-type(even) {
+      text-align: left;
+      padding-left: 10px;
+    }
+  }
+
+}
+
+.tbl-timetable__content--teacher {
+  td {
+    &:nth-of-type(3n) {
+      width: 33px;
+      background: #E6E6E6;
+      text-align: center;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &:nth-of-type(3n+1) {
+      width: 30px;
+
+    }
+
+  }
+}
+
+.tbl-timetable__sub-header--teacher {
+  td {
+    &:nth-of-type(3n) {
+      width: 33px;
+      background: #E6E6E6!important;
+      text-align: center;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &:nth-of-type(3n+1) {
+      width: 20px;
+      padding-left: 0;
+      padding-right: 0;
+      text-align: center;
+
+    }
+  }
+}
+
+.tbl-timetable__content-last {
+  border-top: 1px solid #cccccc!important;
+}
+
+tr.tbl-timetable__content-last {
+  td {
+    background: #ffffff!important;
+    &:nth-of-type(2n) {
+      background: #E6E6E6!important;
+    }
+  }
+}

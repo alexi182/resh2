@@ -1,0 +1,320 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+   @@include('../includes/common/head.html', {})
+</head>
+
+<body>
+@@include('../includes/common/browserhappy.html', {})
+
+<div class="outer-sf">
+   <div class="wrapper-sf">
+
+      @@include('../includes/blocks/lk-header.html', {})
+
+      <main class="main lk-main _hideable">
+
+         <div class="lk-wrapper">
+            <div class="wrapper-content">
+               <div class="block-shadow">
+
+                  @@include('../includes/blocks/lk-menu.html', {})
+
+                  <div class="lk-cols-wrap d-t">
+
+                     @@include('../includes/blocks/lk-left-col.html', {})
+
+                     <div class="d-tc lk-col-2">
+
+                        <h2>Конструктор курсов</h2>
+
+                        <div class="lk-desc">
+                           С помощью конструктора ты можешь сформировать удобное именно тебе расписание занятий и включить в него все или только нужные тебе предметы.
+                        </div>
+
+                        <form  class="lk-course__form">
+
+                           <div class="lk-course-name">
+                              <div class="d-tc">
+                                 <label for="lk-corse-name-input">
+                                    Название курса обучения
+                                 </label>
+                              </div>
+                              <div class="d-tc">
+                                 <input type="text" id="lk-corse-name-input" />
+                              </div>
+                           </div>
+
+                           <table class="lk-course-stat">
+                              <tr>
+                                 <th>Выбрано</th>
+                                 <td>
+                                    <div data-theme="default" class="odometer" data-number="12"></div>
+                                    предметов
+                                 </td>
+                                 <td>
+                                    <div data-theme="default" class="odometer" data-number="128"></div>
+                                    уроков
+                                 </td>
+                                 <td>
+                                    <div data-theme="default" class="odometer" data-number="110"></div>
+                                    тем
+                                 </td>
+                                 <td>
+                                    <div data-theme="default" class="odometer" data-number="265"></div>
+                                    дней, из них 64 выходных
+                                 </td>
+                                 <td>
+                                    <div data-theme="default" class="odometer" data-number="4.3"></div>
+                                    урока в день
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <div class="lk-course__lesson">
+                              <span>Класс</span>
+                              <div class="lk-select">
+                                 <select class="chosen-select">
+                                    <option>10</option>
+                                    <option>9</option>
+                                    <option>8</option>
+                                    <option>7</option>
+                                    <option>6</option>
+                                    <option>5</option>
+                                    <option>4</option>
+                                    <option>3</option>
+                                    <option>2</option>
+                                    <option>1</option>
+                                 </select>
+                              </div>
+                              <span>Предмет</span>
+                              <div class="lk-select">
+                                 <select class="chosen-select lk-course__subject-choice">
+                                    <option>Все</option>
+                                    <option>Математика</option>
+                                    <option>Русский язык</option>
+                                    <option>Литература</option>
+                                    <option>Обществоведение</option>
+                                    <option>История</option>
+                                 </select>
+                              </div>
+                           </div>
+
+                           <div class="lk-course__themes">
+                              <span>Темы уроков</span>
+                              <div class="input-radio">
+                                 <div class="input-radio-item">
+                                    <input id="course-themes-radio1" name="lk-course-themes" type="radio" checked>
+                                    <label for="course-themes-radio1" class="course-themes-btn-1">все</label>
+                                 </div>
+                                 <div class="input-radio-item">
+                                    <input id="course-themes-radio2" name="lk-course-themes" type="radio">
+                                    <label for="course-themes-radio2" class="course-themes-btn-2">выбрать</label>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="lk-subject-themes">
+                              <span>Темы по предмету</span>
+                              <div class="lk-select">
+                                 <select class="chosen-select">
+                                    <option>Математика</option>
+                                    <option>Русский язык</option>
+                                    <option>Литература</option>
+                                    <option>Обществоведение</option>
+                                    <option>История</option>
+                                 </select>
+                              </div>
+
+                              <div class="lk-themes-all">
+                                 <div class="lk-themes-all-btn lk-themes-chk">исключить все темы</div>
+                              </div>
+
+                              <div class="lk-themes-list-box custom-scroll">
+                                 <ul>
+                                    <li class="lk-themes__sub-list">
+                                       <span class="lk-themes-list-btn checked">Лексика</span>
+                                       <ul>
+                                          <li>
+                                             <input type="checkbox" class="lk-chk" id="lk-themes-lvl1-chk1-lvl2-chk1" checked/>
+                                             <label for="lk-themes-lvl1-chk1-lvl2-chk1" class="lk-chk-label">Повторение изученного в 5 классе. Отличие многозначных слов от омонимов</label>
+                                          </li>
+                                          <li>
+                                             <input type="checkbox" class="lk-chk" id="lk-themes-lvl1-chk1-lvl2-chk2" checked/>
+                                             <label for="lk-themes-lvl1-chk1-lvl2-chk2" class="lk-chk-label">Повторение изученного в 5 классе в разделе «Лексика». Отличие синонимов от антонимов</label>
+                                          </li>
+                                          <li>
+                                             <input type="checkbox" class="lk-chk" id="lk-themes-lvl1-chk1-lvl2-chk3" checked/>
+                                             <label for="lk-themes-lvl1-chk1-lvl2-chk3" class="lk-chk-label">Словари русского языка</label>
+                                          </li>
+                                          <li>
+                                             <input type="checkbox" class="lk-chk" id="lk-themes-lvl1-chk1-lvl2-chk4" checked/>
+                                             <label for="lk-themes-lvl1-chk1-lvl2-chk4" class="lk-chk-label">Слова, ограниченные в употреблении. Жаргонизмы и профессионализмы</label>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <input type="checkbox" class="lk-chk" id="lk-themes-lvl1-chk2" checked/>
+                                       <label for="lk-themes-lvl1-chk2" class="lk-chk-label">Словообразование</label>
+                                    </li>
+                                    <li class="lk-themes__sub-list">
+                                       <span class="lk-themes-list-btn checked">Лексика</span>
+                                       <ul>
+                                          <li>
+                                             <input type="checkbox" class="lk-chk" id="lk-themes-lvl1-chk3-lvl2-chk1" checked/>
+                                             <label for="lk-themes-lvl1-chk3-lvl2-chk1" class="lk-chk-label">Повторение изученного в 5 классе. Отличие многозначных слов от омонимов</label>
+                                          </li>
+                                          <li>
+                                             <input type="checkbox" class="lk-chk" id="lk-themes-lvl1-chk3-lvl2-chk2" checked/>
+                                             <label for="lk-themes-lvl1-chk3-lvl2-chk2" class="lk-chk-label">Повторение изученного в 5 классе в разделе «Лексика». Отличие синонимов от антонимов</label>
+                                          </li>
+                                          <li>
+                                             <input type="checkbox" class="lk-chk" id="lk-themes-lvl1-chk3-lvl2-chk3" checked/>
+                                             <label for="lk-themes-lvl1-chk3-lvl2-chk3" class="lk-chk-label">Словари русского языка</label>
+                                          </li>
+                                          <li>
+                                             <input type="checkbox" class="lk-chk" id="lk-themes-lvl1-chk3-lvl2-chk4" checked/>
+                                             <label for="lk-themes-lvl1-chk3-lvl2-chk4" class="lk-chk-label">Слова, ограниченные в употреблении. Жаргонизмы и профессионализмы</label>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <input type="checkbox" class="lk-chk" id="lk-themes-lvl1-chk4" checked/>
+                                       <label for="lk-themes-lvl1-chk4" class="lk-chk-label">Словообразование</label>
+                                    </li>
+                                 </ul>
+                              </div>
+
+                              <button class="lk-form-submit">Сохранить</button>
+
+                           </div>
+
+                           <div class="lk-training-period">
+                              <div class="lk-training-h">Период обучения</div>
+                              <div class="lk-training-date__box">
+                                 <div class="lk-training-date__block">
+                                    <div>Начало обучения: <input type="text" class="lk-datepicker lk-training-date-calendar" value="сегодня"/></div>
+                                    <div class="lk-training-date__end-study">Окончание обучения:  <input type="text" class="lk-datepicker lk-training-date-calendar" value="20 апреля 2017 г."/></div>
+                                 </div>
+                                 <div class="lk-training-date__figure">}</div>
+                                 <div class="lk-training-date__sum">
+                                    <div data-theme="default" class="odometer" data-number="265"></div>
+                                    дней,<br/>
+                                    из них <br/>
+                                    64 выходных
+                                 </div>
+                              </div>
+                              <div class="lk-training-week">
+                                 <span>Обучение по:</span>
+                                 <input type="checkbox" class="lk-chk" id="lk-training-week-chk-1"/>
+                                 <label for="lk-training-week-chk-1" class="lk-chk-label">пн</label>
+                                 <input type="checkbox" class="lk-chk" id="lk-training-week-chk-2"/>
+                                 <label for="lk-training-week-chk-2" class="lk-chk-label">вт</label>
+                                 <input type="checkbox" class="lk-chk" id="lk-training-week-chk-3"/>
+                                 <label for="lk-training-week-chk-3" class="lk-chk-label">ср</label>
+                                 <input type="checkbox" class="lk-chk" id="lk-training-week-chk-4"/>
+                                 <label for="lk-training-week-chk-4" class="lk-chk-label">чт</label>
+                                 <input type="checkbox" class="lk-chk" id="lk-training-week-chk-5"/>
+                                 <label for="lk-training-week-chk-5" class="lk-chk-label">пт</label>
+                                 <input type="checkbox" class="lk-chk" id="lk-training-week-chk-6"/>
+                                 <label for="lk-training-week-chk-6" class="lk-chk-label">сб</label>
+                                 <input type="checkbox" class="lk-chk" id="lk-training-week-chk-7"/>
+                                 <label for="lk-training-week-chk-7" class="lk-chk-label">вс</label>
+                              </div>
+                              <div class="fz13 lk-training-nomore">
+                                 <input type="checkbox" class="lk-chk" id="lk-training-nomore"/>
+                                 <label for="lk-training-nomore" class="lk-chk-label">не более 6 уроков в день</label>
+                              </div>
+                              <div class="lk-training-radio">
+                                 <span>День повтора:</span>
+                                 <div class="input-radio">
+                                    <div class="input-radio-item">
+                                       <input id="train-radio1" name="training-radio" type="radio" checked>
+                                       <label for="train-radio1">пн</label>
+                                    </div>
+                                    <div class="input-radio-item">
+                                       <input id="train-radio2" name="training-radio" type="radio">
+                                       <label for="train-radio2">вт</label>
+                                    </div>
+                                    <div class="input-radio-item">
+                                       <input id="train-radio3" name="training-radio" type="radio">
+                                       <label for="train-radio3">ср</label>
+                                    </div>
+                                    <div class="input-radio-item">
+                                       <input id="train-radio4" name="training-radio" type="radio">
+                                       <label for="train-radio4">чт</label>
+                                    </div>
+                                    <div class="input-radio-item">
+                                       <input id="train-radio5" name="training-radio" type="radio">
+                                       <label for="train-radio5">пт</label>
+                                    </div>
+                                    <div class="input-radio-item">
+                                       <input id="train-radio6" name="training-radio" type="radio">
+                                       <label for="train-radio6">сб</label>
+                                    </div>
+                                    <div class="input-radio-item">
+                                       <input id="train-radio7" name="training-radio" type="radio">
+                                       <label for="train-radio7">вс</label>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <input type="submit" value="Создать курс" class="lk-form-submit lk-course-submit"/>
+
+                        </form>
+
+                     </div>
+
+                     @@include('../includes/blocks/lk-right-col.html', {})
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="banner-contain block-shadow wrapper-content _hideable">
+            <a href="#">
+               <img src="/img/1200x135px-2.gif" alt="ads">
+            </a>
+         </div>
+
+      </main>
+
+   </div>
+
+   @@include('../includes/blocks/footer.html', {})
+
+</div>
+
+<a href="#" class="page-up">
+   <div class="page-up__image">
+      <img src="/img/svg/up.svg" alt="up">
+      <span>вверх</span>
+   </div>
+</a>
+
+
+@@include('../includes/blocks/fs-login-menu.html', {})
+@@include('../includes/blocks/fs-hmbrg-menu.html', {})
+
+
+@@include('../includes/common/scripts.html', {})
+
+<script src="/js/vendor/odometer.js"></script>
+<script>
+   var el = document.getElementsByClassName('odometer');
+   for (var i = 0; i < el.length; i++) {
+      var value = el[i].getAttribute("data-number");
+      new Odometer({
+         el: el[i],
+         value: 0,
+         theme: 'default',
+         duration: 300
+      });
+      el[i].innerHTML= value;
+   }
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+   <title>
+   </title>
+</head>
+<body>
+@@include('../includes/common/head.html', {}) @@include('../includes/common/browserhappy.html', {})
+<div class="outer-sf">
+   <div class="wrapper-sf">
+      @@include('../includes/blocks/lk-header.html', {})
+      <main class="main lk-main _hideable">
+         <div class="lk-wrapper">
+            <div class="wrapper-content">
+               <div class="block-shadow">
+                  @@include('../includes/blocks/lk-menu.html', {})
+                  <div class="lk-cols-wrap d-t">
+
+                     @@include('../includes/blocks/lk-left-col.html', {})
+
+                     <div class="d-tc lk-col-2">
+                        <h2>Мой профиль
+                        </h2>
+                        <div class="contacts">
+                           <form action="#" class="lk__form" id="form-registration" name="form-registration">
+                              <div class="lk__form-block">
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Статус
+                                       </span>
+                                    <div class="input-radio">
+                                       <div class="input-radio-item">
+                                          <input id="radio1" name="radio-type" type="radio" checked="checked">
+                                          <label for="radio1">Ученик
+                                          </label>
+                                       </div>
+                                       <div class="input-radio-item">
+                                          <input id="radio2" name="radio-type" type="radio">
+                                          <label for="radio2">Родитель
+                                          </label>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Имя
+                                       </span>
+                                    <input class="lk__input-text" value="Константин" type="text">
+                                 </div>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Фамилия
+                                       </span>
+                                    <input class="lk__input-text" value="Иванов" type="text">
+                                 </div>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Отчество
+                                       </span>
+                                    <input class="lk__input-text" value="Иванович" type="text">
+                                 </div>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Дата
+                                          рождения
+                                       </span>
+                                    <input class="lk__input-text datepicker" value="03.03.2001" type="text">
+                                 </div>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Пол
+                                       </span>
+                                    <div class="input-radio">
+                                       <div class="input-radio-item">
+                                          <input id="radio3" name="radio-type2" type="radio" checked="checked">
+                                          <label for="radio3">Мужской
+                                          </label>
+                                       </div>
+                                       <div class="input-radio-item">
+                                          <input id="radio4" name="radio-type2" type="radio">
+                                          <label for="radio4">Женский
+                                          </label>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Место
+                                          проживания
+                                       </span>
+                                    <input class="lk__input-text" value="Москва" type="text">
+                                 </div>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Школа
+                                       </span>
+                                    <input class="lk__input-text" value="Лицей #1515" type="text">
+                                 </div>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Класс
+                                       </span>
+                                    <div class="lk-select">
+                                       <select class="chosen-select">
+                                          <option>
+                                             1
+                                          </option>
+                                          <option>
+                                             2
+                                          </option>
+                                          <option>
+                                             3
+                                          </option>
+                                          <option>
+                                             4
+                                          </option>
+                                          <option selected>
+                                             5
+                                          </option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Мои
+                                          родители
+                                       </span>
+                                    <input class="lk__input-text" value="Иванов Иван Иванович" type="text">
+                                    <i class="icon icon_delete-cross">
+                                    </i>
+                                 </div>
+                                 <div class="lk__form-row">
+
+                                       <span class="addbutton">Добавить
+                                       </span>
+                                 </div>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Фото
+                                          профиля
+                                       </span>
+                                    <div class="profile-photo-block">
+                                       <div class="profile-image">
+                                          <img alt="" src="/img/users/2.png">
+                                       </div>
+                                       <div class="profile-option">
+                                          <a href="#">Удалить
+                                          </a>
+                                          <a href="#">Заменить
+                                          </a>
+                                          <span>Выберите фотографию размером до 2 мегабайт в формате *.jpg, *.gif или *.png.
+                                             </span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="lk__form-block private">
+                                 <p>Контактная информация, которую видят только друзья
+                                 </p>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Телефон
+                                       </span>
+                                    <input class="lk__input-text mask_phone" placeholder="+7 (___) ___-__-__"
+                                           type="text">
+                                 </div>
+                                 <div class="lk__form-row">
+                                       <span class="lk__form-label">Skype
+                                       </span>
+                                    <input class="lk__input-text" type="text">
+                                 </div>
+                              </div>
+                              <div class="lk-button">
+                                 <button class="lk-form-submit" type="submit">Сохранить
+                                 </button>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     @@include('../includes/blocks/lk-right-col.html', {})
+
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="banner-contain block-shadow wrapper-content _hideable">
+            <a href="#">
+               <img alt="ads" src="/img/1200x135px-2.gif">
+            </a>
+         </div>
+      </main>
+   </div>
+   @@include('../includes/blocks/footer.html', {})
+</div>
+<a class="page-up" href="#">
+   <div class="page-up__image">
+      <img alt="up" src="/img/svg/up.svg">
+      <span>вверх
+         </span>
+   </div>
+</a> @@include('../includes/blocks/fs-login-menu.html', {}) @@include('../includes/blocks/fs-hmbrg-menu.html', {})
+@@include('../includes/common/scripts.html', {})
+</body>
+</html>

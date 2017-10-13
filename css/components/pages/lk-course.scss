@@ -1,0 +1,258 @@
+.lk-desc {
+  margin-bottom: 30px;
+}
+
+.lk-course__form {
+  input[type='text'] {
+    border: 1px solid #e1e1e1;
+    padding: 5px 10px;
+  }
+}
+
+.lk-course-name {
+  display: table;
+  width: 100%;
+  margin-bottom: 30px;
+  .d-tc {
+    vertical-align: middle;
+    &:first-of-type {
+      width: 200px;
+    }
+  }
+}
+.lk-course__lesson {
+  margin: 30px 0 18px;
+  select {
+    min-width: 65px;
+  }
+  span {
+    display: inline-block;
+    margin-right: 5px;
+    &:nth-of-type(2) {
+      margin-left: 50px;
+    }
+  }
+  .lk-course__subject-choice {
+    min-width: 250px;
+  }
+}
+.lk-course__themes {
+  font-size: 13px;
+  span {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    font-size: 16px;
+    margin: 0 20px 0 0;
+  }
+  .input-radio {
+    vertical-align: middle;
+    label {
+      margin-right: 10px;
+    }
+  }
+}
+.lk-subject-themes {
+  display: none;
+  margin: 20px 0 0;
+  span {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .chosen-container {
+    min-width: 250px;
+  }
+  .lk-form-submit {
+    font-size: 14px;
+    padding: 7px 17px;
+  }
+}
+.lk-themes-all-btn,
+.lk-themes-list-btn {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-top: 3px;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 5px;
+    vertical-align: middle;
+    @include sprite($chk);
+  }
+  &.checked {
+    &:before {
+      @include sprite($chk-chkd);
+    }
+  }
+}
+.lk-themes-all {
+  font-size: 13px;
+  margin: 10px 0;
+  padding: 12px 0 14px;
+  border-top: 1px solid #b7b7b7;
+  border-bottom: 1px solid #b7b7b7;
+  > div {
+    margin-right: 30px;
+    padding-top: 3px;
+  }
+}
+.lk-themes-list-box {
+  height: 185px;
+  overflow: auto;
+  font-size: 13px;
+  border-bottom: 1px solid #b7b7b7;
+  label {
+    padding-top: 3px;
+  }
+  ul {
+    li {
+      margin-bottom: 14px;
+    }
+    ul {
+      margin: 10px 0 0 30px;
+    }
+  }
+  .mCSB_scrollTools {
+    top: -5px;
+    bottom: 10px;
+  }
+}
+
+.lk-training-period {
+  margin: 30px 0 0;
+}
+.lk-training-h {
+  font-size: 16px;
+  margin-bottom: -5px;
+}
+.lk-training-date__box {
+  display: table;
+  width: 100%;
+}
+.lk-training-date__block {
+  display: table-cell;
+  padding-right: 50px;
+  > div {
+    white-space: nowrap;
+    font-size: 13px;
+    &:first-of-type {
+      margin: 22px 0 15px;
+      &:before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+        @include sprite($lk-course-date-arr-r);
+      }
+    }
+    &:last-of-type {
+      &:before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+        @include sprite($lk-course-date-arr-l);
+      }
+    }
+  }
+  input[type='text'].lk-training-date-calendar {
+    padding: 0;
+    border: none;
+    width: 94px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-bottom: 1px dashed $light-blue;
+    text-align: center;
+  }
+}
+
+.ui-datepicker-trigger {
+  border: none;
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  vertical-align: middle;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url(/img/svg/calendar.svg) no-repeat;
+  background-size: cover;
+}
+.lk-training-date__end-study {
+  width: 400px;
+}
+
+.lk-training-date__figure {
+  color: $light-blue;
+  display: table-cell;
+  vertical-align: top;
+  font-size: 80px;
+  line-height: 80px;
+}
+.lk-training-date__sum {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 0 0 15px;
+  font-size: 13px;
+  .odometer {
+    display: block;
+    color: $light-blue;
+    font-size: 30px;
+  }
+}
+
+.lk-training-week {
+  margin: 30px 0 15px 0;
+  label {
+    font-size: 13px;
+    padding: 2px 0 0 25px;
+    margin-right: 10px;
+    &:first-of-type {
+      margin-left: 20px;
+    }
+  }
+}
+.lk-training-nomore {
+  position: relative;
+  label {
+    padding-top: 2px;
+  }
+}
+.lk-training-radio {
+  margin: 10px 0 30px;
+  font-size: 13px;
+  span {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+  }
+  .input-radio {
+    vertical-align: middle;
+    label {
+      padding-left: 22px;
+      margin-right: 12px;
+    }
+
+  }
+  .input-radio-item {
+    &:first-of-type {
+      margin-left: 20px;
+    }
+  }
+}
+.lk-course-submit {
+  display: block;
+  //height: 42px;
+  margin: 0 auto 40px;
+  padding: 10px 37px;
+  border-radius: 25px;
+  &:hover {
+    text-decoration: underline;
+  }
+}

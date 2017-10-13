@@ -1,0 +1,315 @@
+.lk-main {
+   padding-bottom: 1px;
+}
+
+.lk-wrapper {
+  padding-top: 45px;
+  margin-bottom: 40px;
+  background: #f4f4f4 url(/img/lk-background-01.jpg) top center no-repeat;
+  background-size: 100% 830px;
+}
+
+.lk-top-nav {
+  table-layout: auto;
+  background: #fb5e3a;
+  color: #fff;
+  font: 18px $roboto-regular;
+  > .d-tc {
+    padding: 0 30px 0 25px;
+    height: 50px;
+    text-align: center;
+    @include transition(200);
+    &:hover {
+      background: #3fbae6;
+    }
+  }
+}
+
+.lk-cols-wrap {
+  background: #fff;
+  >.d-tc {
+    vertical-align: top;
+  }
+}
+
+.lk-col-1 {
+  width: 20%;
+  //height: 960px;
+}
+
+.lk-col-3 {
+  width: 20%;
+}
+
+.lk-col-2 {
+  padding: 20px;
+  position: relative;
+
+  h2 {
+    margin-top: 10px;
+  }
+}
+
+.lk-col-3 {
+  border-left: 1px solid #e1e1e1;
+}
+
+.lk-greet-wrap {
+  text-align: center;
+  padding-top: 60px;
+  p {
+    margin: 0;
+    font: 16px/22px $roboto-ligth;
+    > a {
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.lk-greet-title {
+  font: 22px $roboto-ligth;
+  color: #060606;
+}
+
+.lk-greet-img {
+  margin: 40px 0;
+}
+
+p.lk-wish {
+  font: 16px $roboto-bold;
+  color: #32d7c0;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+
+.lk-small-block {
+  height: 240px;
+  position: relative;
+  padding: 20px 15px 20px 25px;
+}
+
+.lk-user-block {
+  background: #ccc url(/img/temp/pupil-01.jpg) center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.lk-user-block__name-wrap {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px 10px 10px 25px;
+  font: 18px $roboto-ligth;
+}
+
+.lk-user-details {
+  background: #eac40a;
+  color: #fff;
+
+  p {
+    margin: 0;
+    font-family: $roboto-ligth;
+  }
+  a {
+    font-family: $roboto-ligth;
+    font-size: 14px;
+  }
+}
+
+.lk-user-details__links-block {
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  padding: 10px 10px;
+  position: absolute;
+  bottom: 35px;
+  left: 21px;
+  right: 15px;
+  a {
+    display: block;
+    &:hover {
+      text-decoration: underline;
+    }
+    + a {
+      margin-top: 5px;
+    }
+  }
+
+}
+
+.lk-user-stats {
+  background: #3fb9e6;
+  color: #fff;
+  p {
+    font: 13px $roboto-ligth;
+    margin: 0;
+  }
+}
+
+.lk-user-stats__scale-wrap {
+  height: 20px;
+  background: #fff;
+  position: relative;
+  border-radius: 10em;
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+.lk-user-stats__scale-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #fb5e3a;
+  border-radius: 10em;
+}
+
+.lk-sm-block-title {
+  margin-top: 5px;
+  font: 22px $roboto-ligth;
+}
+
+.lk-block-opts {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 13px;
+  i {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    opacity: .9;
+    @include transition(200);
+    &:hover {
+      opacity: 1;
+      &.icon_edit {
+        color: #000;
+      }
+      &.icon_delete-cross {
+        color: #D40505;
+      }
+    }
+  }
+
+}
+
+.lk-right-block {
+  background: #fff;
+  position: relative;
+  padding: 30px 20px 20px;
+  + .lk-right-block {
+    border-top: 1px solid #e1e1e1;
+  }
+  i.icon_edit {
+    &:hover {
+      color: #000;
+    }
+  }
+  .icon {
+    color: #848689;
+  }
+}
+
+.lk-right-block-title {
+  font: 22px $roboto-ligth;
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: #0071bc;
+}
+
+.lk-activity {
+  //height: 470px; //подгон по высоте к левой колонке. Следует убрать и уточнить у дизайнеров поведение
+
+}
+
+.lk-activity__item {
+  border-left: 1px solid #32d7c0;
+  padding: 0 0 10px 15px;
+  position: relative;
+  &:last-of-type {
+    border-left: none;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 15px;
+    height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #32d7c0;
+    background: #ffffff;
+  }
+  p {
+    font: 14px $roboto-ligth;
+    color: #666666;
+    margin: 0;
+    line-height: 18px;
+    &.lk-activity__time {
+      color: #006699;
+      line-height: 23px;
+
+    }
+  }
+}
+
+.lk-institution {
+  color: #666666;
+  display: none;
+}
+
+.lk-institution__content {
+  /*padding-left: 10px;*/
+}
+
+.lk-institution__selected {
+  font: 14px $roboto-ligth;
+}
+
+.lk-institution__aver_points_title {
+  font: 13px $roboto-bold;
+}
+
+.lk-institution__selected {
+  margin: 5px 0;
+  line-height: 14px;
+}
+
+.lk-institution__inst-name {
+  font: 14px $roboto-ligth;
+  color: #666;
+  margin: 10px 0 3px;
+}
+
+.lk-institution__details {
+  margin: 0;
+  font: 13px $roboto-ligth;
+}
+
+.lk-institution__my-points {
+  font-family: $roboto-bold;
+}
+
+.lk-ege-link {
+  margin-top: 15px;
+}
+
+.ege-not-enough {
+  color: #f90707;
+}
+
+.closeblock {
+  -webkit-animation: scale-out 700ms forwards;
+  -o-animation: scale-out 700ms forwards;
+  animation: scale-out 700ms forwards;
+}

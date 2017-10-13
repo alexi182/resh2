@@ -1,0 +1,192 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+   @@include('../includes/common/head.html', {})
+</head>
+
+<body>
+@@include('../includes/common/browserhappy.html', {})
+
+<div class="outer-sf">
+   <div class="wrapper-sf">
+
+      @@include('../includes/blocks/header.html', {})
+
+      <main class="main _hideable">
+
+         <div class="wrapper-content">
+
+            <ul class="breadcrumbs">
+               <li><a href="#">Главная</a></li>
+               <li><a href="#">О проекте</a></li>
+            </ul>
+
+            <h1 class="content-title">Новости</h1>
+
+            <div class="block-shadow">
+               <div class="newsfeed-wrap">
+                  <h2>Новости проекта
+                     <a class="news-feed__rss"><i class="icon icon_rss"></i></a>
+                     <a class="news-feed__tomail">
+                        <i class="icon icon_mail"></i>
+                        <form class="news-feed__tomail-box">
+                           Подписка на новости
+                           <span>Введите ваш e-mail</span>
+                           <input type="text">
+                           <button class="lk-form-submit">Подписаться</button>
+                        </form>
+                     </a>
+                  </h2>
+
+                  <div class="newsfeed-date-filter__box">
+                     <div class="newsfeed-date-filter__btn">
+                        <span>Фильтр по дате</span>
+                        <div><i class="icon icon_arrow-small-down"></i></div>
+                     </div>
+                     <div class="newsfeed-date-filter__dropdown">
+                        <form  name="newsfeed-date-filter" class="newsfeed-date-filter__form">
+                           <div class="newsfeed-date-filter__year-choice">
+                              <div class="year-choice__left-arr"> <i class="icon icon_video-arrow-left"></i> </div>
+                              <div class="year-choice__year">
+                                 2016
+                              </div>
+                              <div class="year-choice__right-arr"> <i class="icon icon_video-arrow-right"></i> </div>
+                           </div>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk1" />
+                           <label for="newsfeed-date-filter__chk1" class="lk-chk-label">Январь</label>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk2" />
+                           <label for="newsfeed-date-filter__chk2" class="lk-chk-label">Февраль</label>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk3" />
+                           <label for="newsfeed-date-filter__chk3" class="lk-chk-label">Март</label>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk4" />
+                           <label for="newsfeed-date-filter__chk4" class="lk-chk-label">Апрель</label>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk5" />
+                           <label for="newsfeed-date-filter__chk5" class="lk-chk-label">Май</label>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk6" />
+                           <label for="newsfeed-date-filter__chk6" class="lk-chk-label">Июнь</label>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk7" />
+                           <label for="newsfeed-date-filter__chk7" class="lk-chk-label">Июль</label>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk8" />
+                           <label for="newsfeed-date-filter__chk8" class="lk-chk-label">Август</label>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk9" />
+                           <label for="newsfeed-date-filter__chk9" class="lk-chk-label">Сентябрь</label>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk10" />
+                           <label for="newsfeed-date-filter__chk10" class="lk-chk-label">Октябрь</label>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk11" />
+                           <label for="newsfeed-date-filter__chk11" class="lk-chk-label">Ноябрь</label>
+                           <input type="checkbox" class="lk-chk" id="newsfeed-date-filter__chk12" />
+                           <label for="newsfeed-date-filter__chk12" class="lk-chk-label">Декабрь</label>
+
+                           <button class="lk-form-submit" type="submit">Выбрать</button>
+                        </form>
+                     </div>
+                  </div>
+
+                  <div class="newsfeed-type-choise">
+                     <button class="active all-button">Все</button>
+                     <button>Новости проекта</button>
+                     <button>СМИ о проекте</button>
+                     <button>Сообщения службы технической поддержки</button>
+                  </div>
+
+                  <div class="newsfeed__box">
+
+                     <div class="news-feed-block">
+                        <div class="news-feed__date">
+                           <span>29 июля</span>
+                           2016 год
+                        </div>
+                        <div class="news-feed__content">
+                           <a href="#" class="news-feed__text">
+                              Дмитрий Ливанов подтвердил
+                           </a>
+                           <div class="news-feed__type">
+                              СМИ о проекте
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="news-feed-block">
+                        <div class="news-feed__date">
+                           <span>9 августа</span>
+                           2016 год
+                        </div>
+                        <div class="news-feed__content">
+                           <a href="#" class="news-feed__text">
+                              Дмитрий Ливанов подтвердил, что ученики Российской электронной школы смогут получить аттестат об образовании
+                           </a>
+                           <div class="news-feed__type">
+                              Новости проекта
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="news-feed-block">
+                        <div class="news-feed__date">
+                           <span>29 декабря</span>
+                           2016 год
+                        </div>
+                        <div class="news-feed__content">
+                           <a href="#" class="news-feed__text">
+                              Дмитрий Ливанов подтвердил, что ученики Российской электронной школы смогут получить аттестат об образовании. Дмитрий Ливанов подтвердил, что ученики Российской электронной школы смогут получить аттестат об образовании
+                           </a>
+                           <div class="news-feed__type">
+                              Сообщения службы технической поддержки
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="news-feed-block">
+                        <div class="news-feed__date">
+                           <span>29 июля</span>
+                           2016 год
+                        </div>
+                        <div class="news-feed__content">
+                           <a href="#" class="news-feed__text">
+                              Дмитрий Ливанов подтвердил
+                           </a>
+                           <div class="news-feed__type">
+                              СМИ о проекте
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+
+                  <div class="more-teachers-btn">
+                     <button class="lk-form-submit">Показать еще</button>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+
+         <div class="banner-contain block-shadow wrapper-content _hideable">
+            <a href="#">
+               <img src="/img/1200x135px-2.gif" alt="ads">
+            </a>
+         </div>
+
+      </main>
+
+   </div>
+
+   @@include('../includes/blocks/footer.html', {})
+
+</div>
+
+<a href="#" class="page-up">
+   <div class="page-up__image">
+      <img src="/img/svg/up.svg" alt="up">
+      <span>вверх</span>
+   </div>
+</a>
+
+@@include('../includes/blocks/fs-login-menu.html', {})
+@@include('../includes/blocks/fs-hmbrg-menu.html', {})
+
+@@include('../includes/common/scripts.html', {})
+
+</body>
+</html>
+

@@ -1,0 +1,111 @@
+.class-page__subjects-block {
+  margin: 0 -10px 40px 0;
+  .subject-cell,
+  .subject-cell__item_back,
+  .subject-cell__item_front {
+    //width: 233px;
+  }
+}
+.popular-lessons {
+  margin-bottom: 75px;
+  .popular-lessons__h {
+    font: 24px $roboto-bold;
+    color: #545454;
+    margin: 0;
+    padding-left: 24px;
+  }
+  .typical-select {
+    margin: 18px 0 10px 25px;
+    select {
+      width: 255px;
+    }
+  }
+}
+
+.popular-lessons__box {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0 30px;
+  width: 100%;
+  color: #545454;
+  font-size: 18px;
+}
+  .popular-lessons__block {
+    display: table-row;
+  }
+    .popular-lessons__name {
+      font-family: $roboto-regular;
+      display: table-cell;
+      vertical-align: top;
+      font-size: 20px;
+      min-width: 185px;
+      padding:0 24px;
+    }
+    .popular-lessons__info-box {
+      display: table-cell;
+      vertical-align: top;
+    }
+      .popular-lessons__info-block {
+        display: table;
+        border-collapse: collapse;
+        width: 100%;
+        + .popular-lessons__info-block {
+          margin-top: 30px;
+        }
+      }
+
+    .popular-lessons__poster {
+      display: table-cell;
+      width: 130px;
+      vertical-align: top;
+      padding-top: 5px;
+    }
+    .popular-lessons__description {
+      display: table-cell;
+      vertical-align: top;
+      padding-left: 23px;
+    }
+      .pop-lessons__number {
+        color: #262626;
+        display: inline-block;
+        margin: 7px 0 17px;
+        padding: 3px 15px;
+        background: #e7c424;
+        border-radius: 13px;
+        font: 15px $roboto-bold;
+        text-transform: uppercase;
+      }
+      .pop-lessons__text {
+        padding:0 40px 0 12px;
+        display: block;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .pop-lessons__teacher {
+        padding: 10px 0 0 12px;
+        font-family: $roboto-ligth-italic;
+        a {
+          color: #3fb9e6;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    .popular-lessons__likes {
+      display: table-cell;
+      vertical-align: top;
+      width: 50px;
+      text-align: center;
+      i {
+        display: block;
+        margin: 5px 0;
+        color: $light-blue;
+        font-size: 45px;
+      }
+    }
+
+.popular-lessons__more {
+  width: 157px;
+  margin: 5px auto 0;
+}

@@ -1,0 +1,138 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+   @@include('../includes/common/head.html', {})
+</head>
+
+<body>
+@@include('../includes/common/browserhappy.html', {})
+
+<div class="outer-sf">
+   <div class="wrapper-sf">
+
+      @@include('../includes/blocks/header.html', {})
+
+      <main class="main _hideable">
+
+         <div class="wrapper-content">
+
+            <ul class="breadcrumbs">
+               <li><a href="#">Главная</a></li>
+               <li><a href="#">5 класс</a></li>
+               <li><a href="#">русский язык</a></li>
+               <li><a href="#">урок № 2</a></li>
+               <li><a href="#">упражнения и задачи</a></li>
+               <li><a href="#">№5</a></li>
+            </ul>
+
+            <h1 class="content-title">Род имен существительных</h1>
+
+            <div class="block-shadow">
+               <div class="tests-layout">
+
+                  @@include('../includes/blocks/test-leftcol.html', {})
+
+                  <div class="test__rightcol">
+                     <div class="test-content">
+
+                        @@include('../includes/blocks/test-arrows.html', {})
+
+                        @@include('../includes/blocks/test-tasks-line.html', {})
+
+                        <section class="test__task-section">
+                           <h2>Подчеркните подлежащее и сказуемое</h2>
+
+                           <div class="test__task-block">
+
+                           <div class="test-sentence">
+
+                              <div class="test-sentence__text-area">
+                                 <span class="gramm-object-true">Утром</span> <span class="predicate-true">солнце</span> <span class="gramm-modifier-true">осветило</span> <span class="gramm-subject-true">родную</span> <span class="adverbial-false">деревню</span>
+                                 <br>
+                                 <span class="gramm-object-false">Утром</span> <span class="predicate-false">солнце</span> <span class="gramm-modifier-false">осветило</span> <span  class="gramm-subject-false">родную</span> <span class="adverbial-true">деревню</span>
+                                 <br>
+                                 <span class="gramm-object">Утром</span> <span class="predicate">солнце</span> <span class="gramm-modifier">осветило</span> <span class="gramm-subject">родную</span> <span class="adverbial-common">деревню</span>
+                              </div>
+
+                              <div class="input-radio test-sentence__buttons-line">
+                                 <input id="test-sentence__btn1" class="gramm-subject-input test-sentense-input" name="test-sentence-radio" type="radio">
+                                 <label for="test-sentence__btn1" class="test-sentence__label gramm-subject-btn">
+                                    <span></span>
+                                 </label>
+
+                                 <input id="test-sentence__btn2" class="predicate-input test-sentense-input" name="test-sentence-radio" type="radio" checked>
+                                 <label for="test-sentence__btn2" class="test-sentence__label predicate-btn">
+                                    <span></span>
+                                 </label>
+
+                                 <input id="test-sentence__btn3" class="gramm-object-input test-sentense-input" name="test-sentence-radio" type="radio">
+                                 <label for="test-sentence__btn3" class="test-sentence__label gramm-object-btn">
+                                    <span></span>
+                                 </label>
+
+                                 <input id="test-sentence__btn4" class="gramm-modifier-input test-sentense-input" name="test-sentence-radio" type="radio">
+                                 <label for="test-sentence__btn4" class="test-sentence__label gramm-modifier-btn">
+                                    <span></span>
+                                 </label>
+
+                                 <input id="test-sentence__btn5" class="adverbial-input test-sentense-input" name="test-sentence-radio" type="radio">
+                                 <label for="test-sentence__btn5" class="test-sentence__label adverbial-btn">
+                                    <span></span>
+                                 </label>
+
+                                 <span class="test-sentence__clear-btn">Сброс</span>
+                              </div>
+
+                           </div>
+
+                           </div>
+
+                           <div class="test__buttons-line">
+                              <a href="#" class="lk-form-submit">Вернуться в урок</a>
+                              <a href="#" class="lk-form-submit">Повторить</a>
+                              <a href="#" class="lk-form-submit test-correct">Верно</a>
+                              <a href="#" class="lk-form-submit test-wrong">Неверно</a>
+                           </div>
+
+                        </section>
+
+                        @@include('../includes/blocks/test-arrows.html', {})
+
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+
+         <div class="banner-contain block-shadow wrapper-content _hideable">
+            <a href="#">
+               <img src="/img/1200x135px-2.gif" alt="ads">
+            </a>
+         </div>
+
+      </main>
+
+   </div>
+
+   @@include('../includes/blocks/footer.html', {})
+
+</div>
+
+<a href="#" class="page-up">
+   <div class="page-up__image">
+      <img src="/img/svg/up.svg" alt="up">
+      <span>вверх</span>
+   </div>
+</a>
+
+@@include('../includes/blocks/fs-login-menu.html', {})
+@@include('../includes/blocks/fs-hmbrg-menu.html', {})
+
+
+@@include('../includes/common/scripts.html', {})
+
+
+</body>
+</html>
+
