@@ -54,7 +54,7 @@
     border: 1px solid #acacac;
     margin: 0 13px 13px 0;
     text-align: center;
-    padding: 38px 15px 0;
+   /* padding: 0px 15px 0;*/
     &:nth-child(4n) {
       margin-right: 0;
     }
@@ -73,12 +73,12 @@
     }
   }
   .teachers-block__img {
-    width: 140px;
-    height: 140px;
+    width: 237px;
+    height: 193px;
   }
   .teachers-block__name {
     transition: .3s;
-    margin-top: 14px;
+    margin-top: 8px;
     color: #262626;
   }
 }
@@ -91,16 +91,17 @@
 }
 .teachers-subject {
   transition: .3s;
-  padding: 12px 0;
+  padding: 6px 0 0;
   font: 13px $roboto-regular;
   color: #000;
-  text-transform: uppercase;
 }
 
 .teacher-about {
   transition: .3s;
-  font: 13px $roboto-ligth-italic;
+  font: 13px robotolight_italic, sans-serif;
   color: #666;
+  display: block;
+  margin-top: 15px;
 }
 .teachers-more {
   width: 157px;

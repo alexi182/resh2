@@ -1,0 +1,49 @@
+.films-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.films-block {
+   position: relative;
+   width: 49.5%;
+   margin-bottom: 3px;
+   &:hover {
+      .play-video {
+         /*@include transform_translate_scale(1.03, 1.03, 1.03, 1.03);*/
+      }
+   }
+}
+
+.icon_play-btn2  {
+   position: absolute;
+   color: #ffffff;
+   top: 50%;
+   left: 50%;
+   @include transform_translate(-50%, -50%);
+   font-size: 44px;
+   @include transition(300);
+}
+
+.play-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform_translate(-50%, -50%);
+    @include transition(300);
+ }
+
+.play-video2 {
+   position: absolute;
+   width: 49px;
+   height: 52px;
+   top: 25%;
+   left: 51%;
+   background-repeat: no-repeat;
+   @include transform_translate(-50%, -50%);
+   @include transition(300);
+}
+
+.teachers-number {
+   margin-top: 50px;
+}
