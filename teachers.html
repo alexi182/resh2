@@ -117,11 +117,30 @@
                <li><a href="#">Главная</a></li>
             </ul>
 
-            <h1 class="content-title">Фильмография</h1>
+            <h1 class="content-title">Фильмотека</h1>
 
             <div class="block-shadow">
                <div class="tipical-content">
-                  <h2 class="tipical-h2">Фильмография</h2>
+                  <form class="collection-search" name="themes-search" action="">
+                     <span class="collection-search-close search-close_hide">✕</span>
+                     <div class="themes-search__themes-box">
+                        <span class="collection-search-title">Область поиска:</span>
+                        <select name="category" onchange="find(this);" class="chosen-select themes-search__select" data-placeholder="везде" style="display: none;">
+                           <option>Везде</option>
+                           <option value="1">Рабочая программа по предмету</option>
+                           <option value="3">Расписание</option>
+                           <option value="5">Тематические планы</option>
+                           <option value="8">Видео</option>
+                        </select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 220px;" title=""><a class="chosen-single"><span>Везде</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off" readonly=""></div><ul class="chosen-results"></ul></div></div>
+                     </div>
+                     <div class="collection-search__input">
+                        <span class="search-input__clear-btn"><i class="icon icon_delete-cross"></i></span>
+                        <input name="search" type="search" value="" placeholder="Поиск в коллекции">
+                        <button>
+                           <i class="icon icon_search-glass"></i>
+                        </button>
+                     </div>
+                  </form>
 
                   <div class="teachers-filter-box">
                      <div class="typical-select">
