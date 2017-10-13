@@ -8060,8 +8060,8 @@ img.mfp-img {
 }
 
 .footer__menu {
-   margin-top: 40px;
-   margin-bottom: 55px
+   margin-bottom: 55px;
+   padding-top: 40px;
 }
 
 .footer__menu-list {
