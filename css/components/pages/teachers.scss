@@ -74,7 +74,9 @@
   }
   .teachers-block__img {
     width: 237px;
-    height: 193px;
+    height: 226px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .teachers-block__name {
     transition: .3s;

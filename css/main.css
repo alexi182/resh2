@@ -2,91 +2,91 @@
 @import url("//fonts.googleapis.com/css?family=Arimo");
 @font-face {
   font-family: 'open_sans-bold';
-  src: url("../assets/fonts/open-sans/bold/opensans-bold-webfont.eot");
-  src: url("../assets/fonts/open-sans/bold/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/open-sans/bold/opensans-bold-webfont.woff2") format("woff2"), url("../assets/fonts/open-sans/bold/opensans-bold-webfont.woff") format("woff"), url("../assets/fonts/open-sans/bold/opensans-bold-webfont.ttf") format("truetype");
+  src: url("/assets/fonts/open-sans/bold/opensans-bold-webfont.eot");
+  src: url("/assets/fonts/open-sans/bold/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/open-sans/bold/opensans-bold-webfont.woff2") format("woff2"), url("/assets/fonts/open-sans/bold/opensans-bold-webfont.woff") format("woff"), url("/assets/fonts/open-sans/bold/opensans-bold-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotobold';
-  src: url("../assets/fonts/roboto/bold/roboto-bold-webfont.eot");
-  src: url("../assets/fonts/roboto/bold/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/bold/roboto-bold-webfont.woff2") format("woff2"), url("../assets/fonts/roboto/bold/roboto-bold-webfont.woff") format("woff"), url("../assets/fonts/roboto/bold/roboto-bold-webfont.ttf") format("truetype"), url("../assets/fonts/roboto/bold/roboto-bold-webfont.svg#robotobold") format("svg");
+  src: url("/assets/fonts/roboto/bold/roboto-bold-webfont.eot");
+  src: url("/assets/fonts/roboto/bold/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto/bold/roboto-bold-webfont.woff2") format("woff2"), url("/assets/fonts/roboto/bold/roboto-bold-webfont.woff") format("woff"), url("/assets/fonts/roboto/bold/roboto-bold-webfont.ttf") format("truetype"), url("/assets/fonts/roboto/bold/roboto-bold-webfont.svg#robotobold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotoitalic';
-  src: url("../assets/fonts/roboto/italic/roboto-italic-webfont.eot");
-  src: url("../assets/fonts/roboto/italic/roboto-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/italic/roboto-italic-webfont.woff2") format("woff2"), url("../assets/fonts/roboto/italic/roboto-italic-webfont.woff") format("woff"), url("../assets/fonts/roboto/italic/roboto-italic-webfont.ttf") format("truetype"), url("../assets/fonts/roboto/italic/roboto-italic-webfont.svg#robotoitalic") format("svg");
+  src: url("/assets/fonts/roboto/italic/roboto-italic-webfont.eot");
+  src: url("/assets/fonts/roboto/italic/roboto-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto/italic/roboto-italic-webfont.woff2") format("woff2"), url("/assets/fonts/roboto/italic/roboto-italic-webfont.woff") format("woff"), url("/assets/fonts/roboto/italic/roboto-italic-webfont.ttf") format("truetype"), url("/assets/fonts/roboto/italic/roboto-italic-webfont.svg#robotoitalic") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotolight';
-  src: url("../assets/fonts/roboto/light/roboto-light-webfont.eot");
-  src: url("../assets/fonts/roboto/light/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/light/roboto-light-webfont.woff2") format("woff2"), url("../assets/fonts/roboto/light/roboto-light-webfont.woff") format("woff"), url("../assets/fonts/roboto/light/roboto-light-webfont.ttf") format("truetype"), url("../assets/fonts/roboto/light/roboto-light-webfont.svg#robotolight") format("svg");
+  src: url("/assets/fonts/roboto/light/roboto-light-webfont.eot");
+  src: url("/assets/fonts/roboto/light/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto/light/roboto-light-webfont.woff2") format("woff2"), url("/assets/fonts/roboto/light/roboto-light-webfont.woff") format("woff"), url("/assets/fonts/roboto/light/roboto-light-webfont.ttf") format("truetype"), url("/assets/fonts/roboto/light/roboto-light-webfont.svg#robotolight") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotolight-2';
-  src: url("../assets/fonts/roboto/light-2/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/light-2/Roboto-Light.woff") format("woff"), url("../assets/fonts/roboto/light-2/Roboto-Light.ttf") format("truetype"), url("../assets/fonts/roboto/light-2/Roboto-Light.svg#Roboto-Light") format("svg");
+  src: url("/assets/fonts/roboto/light-2/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto/light-2/Roboto-Light.woff") format("woff"), url("/assets/fonts/roboto/light-2/Roboto-Light.ttf") format("truetype"), url("/assets/fonts/roboto/light-2/Roboto-Light.svg#Roboto-Light") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotolight_italic';
-  src: url("../assets/fonts/roboto/light-italic/roboto-lightitalic-webfont.eot");
-  src: url("../assets/fonts/roboto/light-italic/roboto-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/light-italic/roboto-lightitalic-webfont.woff2") format("woff2"), url("../assets/fonts/roboto/light-italic/roboto-lightitalic-webfont.woff") format("woff"), url("../assets/fonts/roboto/light-italic/Roboto-LightItalic.ttf") format("truetype"), url("../assets/fonts/roboto/light-italic/roboto-lightitalic-webfont.svg#robotolight_italic") format("svg");
+  src: url("/assets/fonts/roboto/light-italic/roboto-lightitalic-webfont.eot");
+  src: url("/assets/fonts/roboto/light-italic/roboto-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto/light-italic/roboto-lightitalic-webfont.woff2") format("woff2"), url("/assets/fonts/roboto/light-italic/roboto-lightitalic-webfont.woff") format("woff"), url("/assets/fonts/roboto/light-italic/Roboto-LightItalic.ttf") format("truetype"), url("/assets/fonts/roboto/light-italic/roboto-lightitalic-webfont.svg#robotolight_italic") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotomedium';
-  src: url("../assets/fonts/roboto/medium/roboto-medium-webfont.eot");
-  src: url("../assets/fonts/roboto/medium/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/medium/roboto-medium-webfont.woff2") format("woff2"), url("../assets/fonts/roboto/medium/roboto-medium-webfont.woff") format("woff"), url("../assets/fonts/roboto/medium/roboto-medium-webfont.ttf") format("truetype"), url("../assets/fonts/roboto/medium/roboto-medium-webfont.svg#robotomedium") format("svg");
+  src: url("/assets/fonts/roboto/medium/roboto-medium-webfont.eot");
+  src: url("/assets/fonts/roboto/medium/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto/medium/roboto-medium-webfont.woff2") format("woff2"), url("/assets/fonts/roboto/medium/roboto-medium-webfont.woff") format("woff"), url("/assets/fonts/roboto/medium/roboto-medium-webfont.ttf") format("truetype"), url("/assets/fonts/roboto/medium/roboto-medium-webfont.svg#robotomedium") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotoregular';
-  src: url("../assets/fonts/roboto/regular/roboto-regular-webfont.eot");
-  src: url("../assets/fonts/roboto/regular/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/regular/roboto-regular-webfont.woff2") format("woff2"), url("../assets/fonts/roboto/regular/roboto-regular-webfont.woff") format("woff"), url("../assets/fonts/roboto/regular/roboto-regular-webfont.ttf") format("truetype"), url("../assets/fonts/roboto/regular/roboto-regular-webfont.svg#robotoregular") format("svg");
+  src: url("/assets/fonts/roboto/regular/roboto-regular-webfont.eot");
+  src: url("/assets/fonts/roboto/regular/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto/regular/roboto-regular-webfont.woff2") format("woff2"), url("/assets/fonts/roboto/regular/roboto-regular-webfont.woff") format("woff"), url("/assets/fonts/roboto/regular/roboto-regular-webfont.ttf") format("truetype"), url("/assets/fonts/roboto/regular/roboto-regular-webfont.svg#robotoregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'robotothin';
-  src: url("../assets/fonts/roboto/thin/roboto-thin.eot");
-  src: url("../assets/fonts/roboto/thin/roboto-thin.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/thin/roboto-thin.woff2") format("woff2"), url("../assets/fonts/roboto/thin/roboto-thin.woff") format("woff"), url("../assets/fonts/roboto/thin/roboto-thin.ttf") format("truetype"), url("../assets/fonts/roboto/thin/roboto-thin.svg#robotothin") format("svg");
+  src: url("/assets/fonts/roboto/thin/roboto-thin.eot");
+  src: url("/assets/fonts/roboto/thin/roboto-thin.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto/thin/roboto-thin.woff2") format("woff2"), url("/assets/fonts/roboto/thin/roboto-thin.woff") format("woff"), url("/assets/fonts/roboto/thin/roboto-thin.ttf") format("truetype"), url("/assets/fonts/roboto/thin/roboto-thin.svg#robotothin") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../assets/fonts/roboto/regular/roboto-regular-webfont.eot");
-  src: url("../assets/fonts/roboto/regular/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/regular/roboto-regular-webfont.woff2") format("woff2"), url("../assets/fonts/roboto/regular/roboto-regular-webfont.woff") format("woff"), url("../assets/fonts/roboto/regular/roboto-regular-webfont.ttf") format("truetype"), url("../assets/fonts/roboto/regular/roboto-regular-webfont.svg#robotoregular") format("svg");
+  src: url("/assets/fonts/roboto/regular/roboto-regular-webfont.eot");
+  src: url("/assets/fonts/roboto/regular/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto/regular/roboto-regular-webfont.woff2") format("woff2"), url("/assets/fonts/roboto/regular/roboto-regular-webfont.woff") format("woff"), url("/assets/fonts/roboto/regular/roboto-regular-webfont.ttf") format("truetype"), url("/assets/fonts/roboto/regular/roboto-regular-webfont.svg#robotoregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../assets/fonts/roboto/bold/roboto-bold-webfont.eot");
-  src: url("../assets/fonts/roboto/bold/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/bold/roboto-bold-webfont.woff2") format("woff2"), url("../assets/fonts/roboto/bold/roboto-bold-webfont.woff") format("woff"), url("../assets/fonts/roboto/bold/roboto-bold-webfont.ttf") format("truetype"), url("../assets/fonts/roboto/bold/roboto-bold-webfont.svg#robotobold") format("svg");
+  src: url("/assets/fonts/roboto/bold/roboto-bold-webfont.eot");
+  src: url("/assets/fonts/roboto/bold/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto/bold/roboto-bold-webfont.woff2") format("woff2"), url("/assets/fonts/roboto/bold/roboto-bold-webfont.woff") format("woff"), url("/assets/fonts/roboto/bold/roboto-bold-webfont.ttf") format("truetype"), url("/assets/fonts/roboto/bold/roboto-bold-webfont.svg#robotobold") format("svg");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../assets/fonts/roboto/italic/roboto-italic-webfont.eot");
-  src: url("../assets/fonts/roboto/italic/roboto-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/roboto/italic/roboto-italic-webfont.woff2") format("woff2"), url("../assets/fonts/roboto/italic/roboto-italic-webfont.woff") format("woff"), url("../assets/fonts/roboto/italic/roboto-italic-webfont.ttf") format("truetype"), url("../assets/fonts/roboto/italic/roboto-italic-webfont.svg#robotoitalic") format("svg");
+  src: url("/assets/fonts/roboto/italic/roboto-italic-webfont.eot");
+  src: url("/assets/fonts/roboto/italic/roboto-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto/italic/roboto-italic-webfont.woff2") format("woff2"), url("/assets/fonts/roboto/italic/roboto-italic-webfont.woff") format("woff"), url("/assets/fonts/roboto/italic/roboto-italic-webfont.ttf") format("truetype"), url("/assets/fonts/roboto/italic/roboto-italic-webfont.svg#robotoitalic") format("svg");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
   font-family: "icon-font";
-  src: url("../assets/fonts/icon-font/icon-font.eot?0804bb8c2d6b24da7847d1cd810aaf13");
-  src: url("../assets/fonts/icon-font/icon-font.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/icon-font/icon-font.woff2?0804bb8c2d6b24da7847d1cd810aaf13") format("woff2"), url("../assets/fonts/icon-font/icon-font.woff?0804bb8c2d6b24da7847d1cd810aaf13") format("woff"), url("../assets/fonts/icon-font/icon-font.ttf?0804bb8c2d6b24da7847d1cd810aaf13") format("truetype"), url("../assets/fonts/icon-font/icon-font.svg?0804bb8c2d6b24da7847d1cd810aaf13#icon-font") format("svg");
+  src: url("/assets/fonts/icon-font/icon-font.eot?0804bb8c2d6b24da7847d1cd810aaf13");
+  src: url("/assets/fonts/icon-font/icon-font.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/icon-font/icon-font.woff2?0804bb8c2d6b24da7847d1cd810aaf13") format("woff2"), url("/assets/fonts/icon-font/icon-font.woff?0804bb8c2d6b24da7847d1cd810aaf13") format("woff"), url("/assets/fonts/icon-font/icon-font.ttf?0804bb8c2d6b24da7847d1cd810aaf13") format("truetype"), url("/assets/fonts/icon-font/icon-font.svg?0804bb8c2d6b24da7847d1cd810aaf13#icon-font") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -1746,7 +1746,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
         position: absolute;
         top: 13px;
         right: 8px;
-        background-image: url(../img/sprite.png);
+        background-image: url(/img/sprite.png);
         background-position: -479px -160px;
         width: 8px;
         height: 5px; }
@@ -1754,7 +1754,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
     background-image: none;
     box-shadow: none; }
     .lk-select .chosen-container-active.chosen-with-drop .chosen-single div b {
-      background-image: url(../img/sprite.png);
+      background-image: url(/img/sprite.png);
       background-position: -479px -160px;
       width: 8px;
       height: 5px;
@@ -1807,7 +1807,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
         position: absolute;
         top: 22px;
         left: 0;
-        background-image: url(../img/sprite.png);
+        background-image: url(/img/sprite.png);
         background-position: -474px -205px;
         width: 14px;
         height: 7px; }
@@ -1821,7 +1821,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
     box-shadow: none;
     border: 1px solid #32d7c0; }
     .typical-select .chosen-container-active.chosen-with-drop .chosen-single div b {
-      background-image: url(../img/sprite.png);
+      background-image: url(/img/sprite.png);
       background-position: -474px -205px;
       width: 14px;
       height: 7px;
@@ -1860,46 +1860,46 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   left: 0;
   margin-right: 5px;
   vertical-align: middle;
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -240px -258px;
   width: 21px;
   height: 21px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .lk-chk + .lk-chk-label:before,
     .tests-chk + .tests-chk-label:before {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .lk-chk:checked + .lk-chk-label:before,
 .tests-chk:checked + .tests-chk-label:before {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -412px -320px;
   width: 21px;
   height: 21px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .lk-chk:checked + .lk-chk-label:before,
     .tests-chk:checked + .tests-chk-label:before {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .lesson-chk .lk-chk + .lk-chk-label:before {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -381px -320px;
   width: 21px;
   height: 21px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .lesson-chk .lk-chk + .lk-chk-label:before {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .lesson-chk .lk-chk:checked + .lk-chk-label:before {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -443px -320px;
   width: 21px;
   height: 21px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .lesson-chk .lk-chk:checked + .lk-chk-label:before {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .dashed-blue {
@@ -2003,7 +2003,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
     position: absolute;
     top: 0;
     left: 0;
-    /*   //background: url(../img/svg/radio.svg) no-repeat; */
+    /*   //background: url(/img/svg/radio.svg) no-repeat; */
     background: #fff;
     border: 1px solid #b7b7b7;
     -webkit-border-radius: 50%;
@@ -2036,7 +2036,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
     position: absolute;
     top: 0;
     left: 0;
-    /* background: url(../img/svg/radio.svg) no-repeat; */
+    /* background: url(/img/svg/radio.svg) no-repeat; */
     background: #fff;
     border: 1px solid #b7b7b7;
     -webkit-border-radius: 50%;
@@ -2305,7 +2305,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
         display: block;
         width: 100%;
         height: 100%;
-        background: url(../img/svg/select-arrow.svg) no-repeat right;
+        background: url(/img/svg/select-arrow.svg) no-repeat right;
         background-size: 18px;
         -webkit-transition: all 300ms;
         -moz-transition: all 300ms;
@@ -2318,7 +2318,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
   .themes-search__themes-box .chosen-container-active.chosen-with-drop .chosen-single div b {
     -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg);
-    background: url(../img/svg/select-arrow.svg) no-repeat right;
+    background: url(/img/svg/select-arrow.svg) no-repeat right;
     background-size: 18px; }
 
 .themes-search__themes-box .chosen-container .chosen-results {
@@ -2514,7 +2514,7 @@ The `retina-sprites` mixin generates a CSS rule and media query for retina group
       .public-form__col .lk-select .chosen-container-single .chosen-single div b {
         top: 18px; }
     .public-form__col .lk-select .chosen-container-active.chosen-with-drop .chosen-single div b {
-      background-image: url(../img/sprite.png);
+      background-image: url(/img/sprite.png);
       background-position: -479px -160px;
       width: 8px;
       height: 5px;
@@ -3350,7 +3350,7 @@ ul, li {
     position: absolute;
     width: 23px;
     height: 23px;
-    background: url(../img/svg/plus.svg) center no-repeat;
+    background: url(/img/svg/plus.svg) center no-repeat;
     bottom: 5px;
     right: 5px;
     -webkit-transition: all 200ms;
@@ -3396,13 +3396,13 @@ ul, li {
   top: 8px;
   left: 4px;
   transform: scale(0, 0);
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -411px -351px;
   width: 20px;
   height: 14px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .tests-checkboxes .tests-chk + .tests-chk-label:after {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .tests-checkboxes .tests-chk + .tests-chk-label:hover:before {
@@ -3412,26 +3412,26 @@ ul, li {
   border: 1px solid #ed1c24; }
 
 .tests-checkboxes .tests-chk + .tests-chk-label.wrong:after {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -381px -351px;
   width: 20px;
   height: 14px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .tests-checkboxes .tests-chk + .tests-chk-label.wrong:after {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .tests-checkboxes .tests-chk + .tests-chk-label.correct:before {
   border: 1px solid #39b54a; }
 
 .tests-checkboxes .tests-chk + .tests-chk-label.correct:after {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -455px -290px;
   width: 20px;
   height: 14px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .tests-checkboxes .tests-chk + .tests-chk-label.correct:after {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .tests-checkboxes .tests-chk:checked + .tests-chk-label:before {
@@ -3622,7 +3622,7 @@ p {
   display: block;
   width: 12px;
   height: 12px;
-  background: url(../img/chosen-sprite.png) -42px 1px no-repeat;
+  background: url(/img/chosen-sprite.png) -42px 1px no-repeat;
   font-size: 1px; }
 
 .chosen-container-single .chosen-single abbr:hover {
@@ -3643,7 +3643,7 @@ p {
   display: block;
   width: 100%;
   height: 100%;
-  background: url(../img/chosen-sprite.png) no-repeat 0 2px; }
+  background: url(/img/chosen-sprite.png) no-repeat 0 2px; }
 
 .chosen-container-single .chosen-search {
   position: relative;
@@ -3659,8 +3659,8 @@ p {
   height: auto;
   outline: 0;
   border: 1px solid #aaa;
-  background: #fff url(../img/chosen-sprite.png) no-repeat 100% -20px;
-  background: url(../img/chosen-sprite.png) no-repeat 100% -20px;
+  background: #fff url(/img/chosen-sprite.png) no-repeat 100% -20px;
+  background: url(/img/chosen-sprite.png) no-repeat 100% -20px;
   font-size: 1em;
   font-family: sans-serif;
   line-height: normal;
@@ -3799,7 +3799,7 @@ p {
   display: block;
   width: 12px;
   height: 12px;
-  background: url(../img/chosen-sprite.png) -42px 1px no-repeat;
+  background: url(/img/chosen-sprite.png) -42px 1px no-repeat;
   font-size: 1px; }
 
 .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
@@ -3926,8 +3926,8 @@ p {
 
 .chosen-rtl .chosen-search input[type=text] {
   padding: 4px 5px 4px 20px;
-  background: #fff url(../img/chosen-sprite.png) no-repeat -30px -20px;
-  background: url(../img/chosen-sprite.png) no-repeat -30px -20px;
+  background: #fff url(/img/chosen-sprite.png) no-repeat -30px -20px;
+  background: url(/img/chosen-sprite.png) no-repeat -30px -20px;
   direction: rtl; }
 
 .chosen-rtl.chosen-container-single .chosen-single div b {
@@ -3944,7 +3944,7 @@ p {
   .chosen-container-multi .chosen-choices .search-choice .search-choice-close,
   .chosen-container .chosen-results-scroll-down span,
   .chosen-container .chosen-results-scroll-up span {
-    /* background-image: url(../img/chosen-sprite@2x.png)!important;*/
+    /* background-image: url(/img/chosen-sprite@2x.png)!important;*/
     background-size: 52px 37px !important;
     background-repeat: no-repeat !important; } }
 
@@ -4706,7 +4706,7 @@ tr.introjs-showElement > th {
 
 .ui-widget-content {
   border: 1px solid #dddddd;
-  background: #eeeeee url(../img/jqui-sprites/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x;
+  background: #eeeeee url(/img/jqui-sprites/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x;
   color: #333333; }
 
 .ui-widget-content a {
@@ -4714,7 +4714,7 @@ tr.introjs-showElement > th {
 
 .ui-widget-header {
   border: 1px solid #e78f08;
-  background: #f6a828 url(../img/jqui-sprites/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x;
+  background: #f6a828 url(/img/jqui-sprites/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x;
   color: #ffffff;
   font-weight: bold; }
 
@@ -4727,7 +4727,7 @@ tr.introjs-showElement > th {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid #cccccc;
-  background: #f6f6f6 url(../img/jqui-sprites/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+  background: #f6f6f6 url(/img/jqui-sprites/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
   font-weight: bold;
   color: #1c94c4; }
 
@@ -4744,7 +4744,7 @@ tr.introjs-showElement > th {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
 	border: 1px solid #fbcb09;
-	background: #fdf5ce url(../img/jqui-sprites/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x;
+	background: #fdf5ce url(/img/jqui-sprites/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #c77405;
 } */
@@ -4759,7 +4759,7 @@ tr.introjs-showElement > th {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
   border: 1px solid #fbd850;
-  background: #ffffff url(../img/jqui-sprites/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+  background: #ffffff url(/img/jqui-sprites/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
   font-weight: bold;
   color: #eb8f00; }
 
@@ -4775,7 +4775,7 @@ tr.introjs-showElement > th {
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
   border: 1px solid #fed22f;
-  background: #ffe45c url(../img/jqui-sprites/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x;
+  background: #ffe45c url(/img/jqui-sprites/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x;
   color: #363636; }
 
 .ui-state-highlight a,
@@ -4787,7 +4787,7 @@ tr.introjs-showElement > th {
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
   border: 1px solid #cd0a0a;
-  background: #b81900 url(../img/jqui-sprites/ui-bg_diagonals-thick_18_b81900_40x40.png) 50% 50% repeat;
+  background: #b81900 url(/img/jqui-sprites/ui-bg_diagonals-thick_18_b81900_40x40.png) 50% 50% repeat;
   color: #ffffff; }
 
 .ui-state-error a,
@@ -4833,27 +4833,27 @@ tr.introjs-showElement > th {
 
 .ui-icon,
 .ui-widget-content .ui-icon {
-  background-image: url(../img/jqui-sprites/ui-icons_222222_256x240.png); }
+  background-image: url(/img/jqui-sprites/ui-icons_222222_256x240.png); }
 
 .ui-widget-header .ui-icon {
-  background-image: url(../img/jqui-sprites/ui-icons_ffffff_256x240.png); }
+  background-image: url(/img/jqui-sprites/ui-icons_ffffff_256x240.png); }
 
 .ui-state-default .ui-icon {
-  background-image: url(../img/jqui-sprites/ui-icons_ef8c08_256x240.png); }
+  background-image: url(/img/jqui-sprites/ui-icons_ef8c08_256x240.png); }
 
 /* .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url(../img/jqui-sprites/ui-icons_ef8c08_256x240.png);
+	background-image: url(/img/jqui-sprites/ui-icons_ef8c08_256x240.png);
 } */
 .ui-state-active .ui-icon {
-  background-image: url(../img/jqui-sprites/ui-icons_ef8c08_256x240.png); }
+  background-image: url(/img/jqui-sprites/ui-icons_ef8c08_256x240.png); }
 
 .ui-state-highlight .ui-icon {
-  background-image: url(../img/jqui-sprites/ui-icons_228ef1_256x240.png); }
+  background-image: url(/img/jqui-sprites/ui-icons_228ef1_256x240.png); }
 
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-  background-image: url(../img/jqui-sprites/ui-icons_ffd27a_256x240.png); }
+  background-image: url(/img/jqui-sprites/ui-icons_ffd27a_256x240.png); }
 
 /* positioning */
 .ui-icon-carat-1-n {
@@ -5408,14 +5408,14 @@ tr.introjs-showElement > th {
 
 /* Overlays */
 .ui-widget-overlay {
-  background: #666666 url(../img/jqui-sprites/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat;
+  background: #666666 url(/img/jqui-sprites/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat;
   opacity: .5;
   filter: Alpha(Opacity=50); }
 
 .ui-widget-shadow {
   margin: -5px 0 0 -5px;
   padding: 5px;
-  background: #000000 url(../img/jqui-sprites/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x;
+  background: #000000 url(/img/jqui-sprites/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x;
   opacity: .2;
   filter: Alpha(Opacity=20);
   border-radius: 5px; }
@@ -5468,7 +5468,7 @@ tr.introjs-showElement > th {
 
 .ll-skin-melon .ui-datepicker .ui-datepicker-next span,
 .ll-skin-melon .ui-datepicker .ui-datepicker-prev span {
-  background-image: url(../img/jq-ui-datepicker/ui-icons_ffffff_256x240.png);
+  background-image: url(/img/jq-ui-datepicker/ui-icons_ffffff_256x240.png);
   background-position: -32px 0;
   margin-top: 0;
   top: 0;
@@ -8548,19 +8548,19 @@ corresponds to the arrow we want to display */
   width: 100%; }
 
 .main-carousel-01 {
-  background: url(../img/main-slider-01.jpg) 50% 10%; }
+  background: url(/img/main-slider-01.jpg) 50% 10%; }
 
 .main-carousel-02 {
-  background: url(../img/main-slider-02.jpg) 50% 50%; }
+  background: url(/img/main-slider-02.jpg) 50% 50%; }
 
 .main-carousel-03 {
-  background: url(../img/main-slider-03.jpg) 50% 80%; }
+  background: url(/img/main-slider-03.jpg) 50% 80%; }
 
 .main-carousel-04 {
-  background: url(../img/main-slider-04.jpg) 50% 25%; }
+  background: url(/img/main-slider-04.jpg) 50% 25%; }
 
 .main-carousel-05 {
-  background: url(../img/main-slider-05.jpg) 50% 55%; }
+  background: url(/img/main-slider-05.jpg) 50% 55%; }
   .main-carousel-05 .carousel-text__line-01 {
     font-size: 72px;
     line-height: 150px; }
@@ -8694,8 +8694,8 @@ corresponds to the arrow we want to display */
       transition: all 500ms; }
 
 .footer__menu {
-  margin-bottom: 55px;
-  padding-top: 30px; }
+  margin-top: 40px;
+  margin-bottom: 55px; }
 
 .footer__menu-list {
   list-style: none;
@@ -8829,7 +8829,7 @@ a.partners__link {
     -moz-transition: transform 0.4s ease-in-out 0s;
     transition: transform 0.4s ease-in-out 0s;
     &:hover {
-		background-image: url(../img/svg/googleplay2.svg);
+		background-image: url(/img/svg/googleplay2.svg);
 		width: 137px;
 		 		height: 40px;
 		 		background-repeat: no-repeat;
@@ -9147,38 +9147,38 @@ a.partners__link {
 
 .eye-icon {
   display: inline-block;
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -425px -205px;
   width: 39px;
   height: 19px;
   vertical-align: text-bottom; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .eye-icon {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .fs-menu-gp {
   display: inline-block;
   vertical-align: middle;
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -174px -379px;
   width: 138px;
   height: 41px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .fs-menu-gp {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .fs-menu-app-store {
   display: inline-block;
   vertical-align: middle;
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: 0px -379px;
   width: 164px;
   height: 41px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .fs-menu-app-store {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .slider-exit {
@@ -9401,7 +9401,7 @@ a.partners__link {
       display: block;
       width: 100%;
       height: 100%;
-      background: url(../img/svg/select-arrow.svg) no-repeat right;
+      background: url(/img/svg/select-arrow.svg) no-repeat right;
       background-size: 18px;
       -webkit-transition: all 300ms;
       -moz-transition: all 300ms;
@@ -9476,7 +9476,7 @@ a.partners__link {
     position: absolute;
     top: 0;
     left: 0;
-    /*   //background: url(../img/svg/radio.svg) no-repeat; */
+    /*   //background: url(/img/svg/radio.svg) no-repeat; */
     background: #fff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -9508,7 +9508,7 @@ a.partners__link {
     position: absolute;
     top: 0;
     left: 0;
-    /* background: url(../img/svg/radio.svg) no-repeat; */
+    /* background: url(/img/svg/radio.svg) no-repeat; */
     background: #fff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -9652,7 +9652,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
       display: block;
       width: 100%;
       height: 100%;
-      background: url(../img/svg/select-arrow.svg) no-repeat right;
+      background: url(/img/svg/select-arrow.svg) no-repeat right;
       background-size: 18px;
       -webkit-transition: all 300ms;
       -moz-transition: all 300ms;
@@ -10204,7 +10204,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
       display: block;
       width: 100%;
       height: 100%;
-      background: url(../img/svg/select-arrow.svg) no-repeat right;
+      background: url(/img/svg/select-arrow.svg) no-repeat right;
       background-size: 18px;
       -webkit-transition: all 300ms;
       -moz-transition: all 300ms;
@@ -10268,7 +10268,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
       position: absolute;
       top: 0;
       left: 0;
-      background: url(../img/svg/radio.svg) no-repeat;
+      background: url(/img/svg/radio.svg) no-repeat;
       width: 18px;
       height: 18px;
       background-size: 18px;
@@ -10281,7 +10281,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
       position: absolute;
       top: 0;
       left: 0;
-      background: url(../img/svg/radio-checked.svg) no-repeat;
+      background: url(/img/svg/radio-checked.svg) no-repeat;
       width: 18px;
       height: 18px;
       background-size: 18px;
@@ -10915,17 +10915,17 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   background-color: #EAC40A; }
 
 .bg-people {
-  background-image: url(../img/svg/class.svg);
+  background-image: url(/img/svg/class.svg);
   background-repeat: no-repeat;
   background-position: 90% 90%; }
 
 .bg-cloud {
-  background-image: url(../img/svg/book.svg);
+  background-image: url(/img/svg/book.svg);
   background-repeat: no-repeat;
   background-position: 90% 90%; }
 
 .bg-book {
-  background-image: url(../img/svg/bg-book.svg);
+  background-image: url(/img/svg/bg-book.svg);
   background-repeat: no-repeat;
   background-position: 90% 90%; }
 
@@ -10992,82 +10992,82 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     text-transform: uppercase; }
 
 .teacher-1 {
-  background: url(../img/temp/teacher-1.jpg) center no-repeat;
+  background: url(/img/temp/teacher-1.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-2 {
-  background: url(../img/temp/teacher-2.jpg) center no-repeat;
+  background: url(/img/temp/teacher-2.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-3 {
-  background: url(../img/temp/teacher-3.jpg) center no-repeat;
+  background: url(/img/temp/teacher-3.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-4 {
-  background: url(../img/temp/teacher-4.jpg) center no-repeat;
+  background: url(/img/temp/teacher-4.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-5 {
-  background: url(../img/temp/teacher-5.jpg) center no-repeat;
+  background: url(/img/temp/teacher-5.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-6 {
-  background: url(../img/temp/teacher-6.jpg) center no-repeat;
+  background: url(/img/temp/teacher-6.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-7 {
-  background: url(../img/temp/teacher-7.jpg) center no-repeat;
+  background: url(/img/temp/teacher-7.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-8 {
-  background: url(../img/temp/teacher-8.jpg) center no-repeat;
+  background: url(/img/temp/teacher-8.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-9 {
-  background: url(../img/temp/teacher-9.jpg) center no-repeat;
+  background: url(/img/temp/teacher-9.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-10 {
-  background: url(../img/temp/teacher-10.jpg) center no-repeat;
+  background: url(/img/temp/teacher-10.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-11 {
-  background: url(../img/temp/teacher-11.jpg) center no-repeat;
+  background: url(/img/temp/teacher-11.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-12 {
-  background: url(../img/temp/teacher-12.jpg) center no-repeat;
+  background: url(/img/temp/teacher-12.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-13 {
-  background: url(../img/temp/teacher-13.jpg) center no-repeat;
+  background: url(/img/temp/teacher-13.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-14 {
-  background: url(../img/temp/teacher-14.jpg) center no-repeat;
+  background: url(/img/temp/teacher-14.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .teacher-15 {
-  background: url(../img/temp/teacher-15.jpg) center no-repeat;
+  background: url(/img/temp/teacher-15.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
 .m-block-small--bg-1 {
-  background-image: url(../img/block-small-bg-1.jpg);
+  background-image: url(/img/block-small-bg-1.jpg);
   background-position: center;
   -webkit-background-size: cover;
   background-size: cover; }
@@ -11099,7 +11099,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     margin-top: 0; }
 
 .m-block-wide--bg-1 {
-  background: #ccc url(../img/block-wide-bg-1.jpg) center no-repeat;
+  background: #ccc url(/img/block-wide-bg-1.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
   .m-block-wide--bg-1 h1 {
@@ -11210,7 +11210,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 .m-block-xtra-large {
   width: 480px;
   height: 480px;
-  background: #ccc url(../img/xtra-large-block-bg.jpg) center no-repeat;
+  background: #ccc url(/img/xtra-large-block-bg.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
   .m-block-xtra-large:hover .icon_play-btn {
@@ -11408,7 +11408,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   .lesson-sidebar .typical-select .chosen-container-active.chosen-with-drop .chosen-single {
     border: 1px solid #fff; }
     .lesson-sidebar .typical-select .chosen-container-active.chosen-with-drop .chosen-single div b {
-      background-image: url(../img/sprite.png);
+      background-image: url(/img/sprite.png);
       background-position: -474px -320px;
       width: 14px;
       height: 7px; }
@@ -11419,7 +11419,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   .lesson-sidebar .typical-select .chosen-container-single .chosen-search input[type=text] {
     border: 1px solid #044f87; }
   .lesson-sidebar .typical-select .chosen-container-single .chosen-single div b {
-    background-image: url(../img/sprite.png);
+    background-image: url(/img/sprite.png);
     background-position: -474px -320px;
     width: 14px;
     height: 7px; }
@@ -11646,7 +11646,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   .lesson-sidebar .lesson-status.complete {
     border-color: #c9c9c9; }
     .lesson-sidebar .lesson-status.complete:after {
-      background: url(../img/svg/sidebar-checked.svg) no-repeat;
+      background: url(/img/svg/sidebar-checked.svg) no-repeat;
       background-size: 27px; }
   .lesson-sidebar .lesson-block {
     position: relative;
@@ -11662,7 +11662,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   .lesson-sidebar .lesson-block:hover {
     cursor: pointer; }
     .lesson-sidebar .lesson-block:hover .lesson-status.complete:after {
-      background: url(../img/svg/sidebar-checked.svg) no-repeat;
+      background: url(/img/svg/sidebar-checked.svg) no-repeat;
       background-size: 27px; }
     .lesson-sidebar .lesson-block:hover .lesson-desc__wrap {
       box-shadow: -1px 4px 28px -8px rgba(0, 0, 0, 0.75); }
@@ -11867,7 +11867,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   .lesson-video__player .icon-video-play {
     width: 80px;
     height: 80px;
-    background: url(../img/svg/video-play.svg) no-repeat;
+    background: url(/img/svg/video-play.svg) no-repeat;
     background-size: 79px;
     position: absolute;
     top: 50%;
@@ -12110,7 +12110,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
       .lesson-video__text ol li:after {
         content: "";
         display: block;
-        background: url(../img/svg/link-symbol.svg) no-repeat;
+        background: url(/img/svg/link-symbol.svg) no-repeat;
         background-size: 17px;
         width: 17px;
         height: 17px;
@@ -12465,11 +12465,11 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   top: -3px;
   right: 13px;
   cursor: pointer;
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -446px -246px;
   width: 24px;
   height: 24px;
-  /*  background: url(../img/svg/lesson-stat-open.svg) no-repeat;
+  /*  background: url(/img/svg/lesson-stat-open.svg) no-repeat;
     background-size: 26px;
     width: 30px;
     height: 30px;
@@ -12600,7 +12600,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
       position: absolute;
       top: 12px;
       left: 8px;
-      background-image: url(../img/sprite.png);
+      background-image: url(/img/sprite.png);
       background-position: -381px -290px;
       width: 27px;
       height: 20px; }
@@ -12633,7 +12633,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 .lk-wrapper {
   padding-top: 45px;
   margin-bottom: 40px;
-  background: #f4f4f4 url(../img/lk-background-01.jpg) top center no-repeat;
+  background: #f4f4f4 url(/img/lk-background-01.jpg) top center no-repeat;
   background-size: 100% 830px; }
 
 .lk-top-nav {
@@ -12702,7 +12702,7 @@ p.lk-wish {
   padding: 20px 15px 20px 25px; }
 
 .lk-user-block {
-  background: #ccc url(../img/temp/pupil-01.jpg) center no-repeat;
+  background: #ccc url(/img/temp/pupil-01.jpg) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
 
@@ -12945,13 +12945,13 @@ p.lk-wish {
     left: 0;
     margin-right: 5px;
     vertical-align: middle;
-    background-image: url(../img/sprite.png);
+    background-image: url(/img/sprite.png);
     background-position: -240px -258px;
     width: 21px;
     height: 21px; }
   .lk-themes-all-btn.checked:before,
   .lk-themes-list-btn.checked:before {
-    background-image: url(../img/sprite.png);
+    background-image: url(/img/sprite.png);
     background-position: -412px -320px;
     width: 21px;
     height: 21px; }
@@ -13005,7 +13005,7 @@ p.lk-wish {
         display: inline-block;
         vertical-align: middle;
         margin-right: 10px;
-        background-image: url(../img/sprite.png);
+        background-image: url(/img/sprite.png);
         background-position: -441px -351px;
         width: 18px;
         height: 14px; }
@@ -13014,7 +13014,7 @@ p.lk-wish {
       display: inline-block;
       vertical-align: middle;
       margin-right: 10px;
-      background-image: url(../img/sprite.png);
+      background-image: url(/img/sprite.png);
       background-position: -469px -351px;
       width: 18px;
       height: 14px; }
@@ -13037,7 +13037,7 @@ p.lk-wish {
   cursor: pointer;
   width: 20px;
   height: 20px;
-  background: url(../img/svg/calendar.svg) no-repeat;
+  background: url(/img/svg/calendar.svg) no-repeat;
   background-size: cover; }
 
 .lk-training-date__end-study {
@@ -13145,7 +13145,7 @@ p.lk-wish {
     margin: 0 7px; }
     .lk-pages li:first-of-type a {
       display: block;
-      background: url(../img/svg/left-arrow.svg) no-repeat;
+      background: url(/img/svg/left-arrow.svg) no-repeat;
       background-size: 12px;
       width: 15px;
       height: 25px;
@@ -13165,7 +13165,7 @@ p.lk-wish {
       vertical-align: middle; }
       .lk-pages li:last-of-type a {
         display: block;
-        background: url(../img/svg/right-arrow.svg) no-repeat;
+        background: url(/img/svg/right-arrow.svg) no-repeat;
         background-size: 12px;
         width: 15px;
         height: 25px;
@@ -13213,7 +13213,7 @@ p.lk-wish {
       display: inline-block;
       width: 18px;
       height: 18px;
-      background: url(../img/svg/sort.svg) no-repeat;
+      background: url(/img/svg/sort.svg) no-repeat;
       background-size: 18px;
       vertical-align: middle;
       margin-left: 5px;
@@ -13514,7 +13514,7 @@ p.lk-wish {
     right: 30px;
     width: 18px;
     height: 18px;
-    background: url(../img/svg/sort.svg) no-repeat;
+    background: url(/img/svg/sort.svg) no-repeat;
     background-size: 18px;
     vertical-align: middle;
     margin-left: 5px;
@@ -13681,94 +13681,94 @@ p.lk-wish {
   display: inline-block; }
 
 .icon-owl {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -261px 0px;
   width: 110px;
   height: 119px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-owl {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .icon-clock {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -381px 0px;
   width: 107px;
   height: 111px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-clock {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .icon-student {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -120px -258px;
   width: 110px;
   height: 110px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-student {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .icon-rocket {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: 0px 0px;
   width: 114px;
   height: 127px;
   display: inline-block; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-rocket {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .icon-pie {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: 0px -137px;
   width: 111px;
   height: 111px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-pie {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .icon-books {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -124px 0px;
   width: 127px;
   height: 111px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-books {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .icon-cup {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -121px -137px;
   width: 111px;
   height: 111px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-cup {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .icon-calendar {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: 0px -258px;
   width: 110px;
   height: 111px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-calendar {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .icon-globe {
-  background-image: url(../img/sprite.png);
+  background-image: url(/img/sprite.png);
   background-position: -242px -137px;
   width: 111px;
   height: 111px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .icon-globe {
-      background-image: url(../img/sprite2x.png);
+      background-image: url(/img/sprite2x.png);
       background-size: 488px 420px; } }
 
 .lk-message__options {
@@ -13827,7 +13827,7 @@ p.lk-wish {
     top: 7px;
     width: 11px;
     height: 6px;
-    background: url(../img/svg/msg-check.svg) no-repeat center;
+    background: url(/img/svg/msg-check.svg) no-repeat center;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: translateY(-180%);
@@ -13850,7 +13850,7 @@ p.lk-wish {
     top: 6px;
     width: 12px;
     height: 7px;
-    background: url(../img/svg/msg-check.svg) no-repeat center;
+    background: url(/img/svg/msg-check.svg) no-repeat center;
     opacity: 1;
     visibility: visible;
     -webkit-transform: translateY(0);
@@ -15170,7 +15170,9 @@ tr.tbl-timetable__content-last td {
         color: #fafafa; }
   .teachers-box .teachers-block__img {
     width: 237px;
-    height: 193px; }
+    height: 226px;
+    background-size: contain;
+    background-repeat: no-repeat; }
   .teachers-box .teachers-block__name {
     transition: .3s;
     margin-top: 8px;
@@ -15633,7 +15635,7 @@ tr.tbl-timetable__content-last td {
   display: inline-block;
   width: 18px;
   height: 18px;
-  background: url(../img/svg/sort.svg) no-repeat;
+  background: url(/img/svg/sort.svg) no-repeat;
   background-size: 18px;
   vertical-align: middle;
   margin-left: 5px;
@@ -15850,7 +15852,7 @@ tr.tbl-timetable__content-last td {
   -webkit-border-radius: 50% 0 0 50%;
   -moz-border-radius: 50% 0 0 50%;
   border-radius: 50% 0 0 50%;
-  background: #32d7c0 url(../img/svg/arrow-small-left.svg) center no-repeat;
+  background: #32d7c0 url(/img/svg/arrow-small-left.svg) center no-repeat;
   font-size: 50px; }
   .main-carousel .owl-controls .owl-buttons .owl-prev:hover {
     background-color: #27c8b2; }
@@ -15859,7 +15861,7 @@ tr.tbl-timetable__content-last td {
   -webkit-border-radius: 0 50% 50% 0;
   -moz-border-radius: 0 50% 50% 0;
   border-radius: 0 50% 50% 0;
-  background: #32d7c0 url(../img/svg/arrow-small-right.svg) center no-repeat; }
+  background: #32d7c0 url(/img/svg/arrow-small-right.svg) center no-repeat; }
   .main-carousel .owl-controls .owl-buttons .owl-next:hover {
     background-color: #27c8b2; }
 
