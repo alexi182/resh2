@@ -8694,8 +8694,8 @@ corresponds to the arrow we want to display */
       transition: all 500ms; }
 
 .footer__menu {
-  margin-top: 40px;
-  margin-bottom: 55px; }
+   margin-bottom: 55px;
+   padding-top: 30px; }
 
 .footer__menu-list {
   list-style: none;
