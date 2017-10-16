@@ -4,6 +4,7 @@ $('.search-js').on('click', function () {
     t.addClass('active');
     t.find('.collection-search-close').removeClass('search-close_hide');
     $('.mask').fadeIn();
+
 });
 
 $('.collection-search-close').on('click', function (e) {

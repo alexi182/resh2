@@ -1,3 +1,4 @@
+/*
 var search = document.getElementById('film_search');
 
 function filterSearch() {
@@ -8,14 +9,14 @@ function filterSearch() {
    mainBlock = document.getElementsByClassName('teachers-box')[0];
    blocks = mainBlock.getElementsByClassName('teachers-block');
 
-   /*Object.keys(mainBlock).forEach(function(item) {
+   /!*Object.keys(mainBlock).forEach(function(item) {
     if (name.innerHTML.toLowerCase().indexOf(filter) > -1 ) {
     item.style.display = "";
     } else {
     item.style.display = "none";
     }
     item.style.dispay = "none";
-    });*/
+    });*!/
 
    for (var i=0; i<blocks.length; i++) {
       name = blocks[i].getElementsByTagName('span')[0];
@@ -27,9 +28,10 @@ function filterSearch() {
       }
    }
 
-    /*console.log(filter);*/
-   /*console.log(name);*/
+    /!*console.log(filter);*!/
+   /!*console.log(name);*!/
 }
 
 search.addEventListener("input", filterSearch);
 
+*/
