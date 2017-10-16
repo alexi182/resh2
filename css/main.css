@@ -12435,7 +12435,9 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   font: 16px/21px robotoregular, sans-serif;
   margin-top: 13px; }
   .teachers-block__name span {
-    display: block; }
+    display: block;
+    line-height: 0.9;
+  }
 
 .lesson-teachers__button {
   transition: .5s;
