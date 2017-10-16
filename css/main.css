@@ -15174,13 +15174,14 @@ tr.tbl-timetable__content-last td {
         color: #fafafa; }
   .teachers-box .teachers-block__img {
     width: 237px;
-    height: 226px;
+    height: 222px;
     background-size: contain;
     background-repeat: no-repeat; }
   .teachers-box .teachers-block__name {
     transition: .3s;
     margin-top: 8px;
-    color: #262626; }
+    color: #262626;
+    line-height: 0.9; }
 
 .teachers-info-wrap {
   height: 110px;
@@ -15190,7 +15191,7 @@ tr.tbl-timetable__content-last td {
 
 .teachers-subject {
   transition: .3s;
-  padding: 6px 0 0;
+  padding: 5px 0 0;
   font: 13px robotoregular, sans-serif;
   color: #000; }
 
