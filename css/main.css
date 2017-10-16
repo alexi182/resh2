@@ -8694,8 +8694,8 @@ corresponds to the arrow we want to display */
       transition: all 500ms; }
 
 .footer__menu {
-   margin-bottom: 55px;
-   padding-top: 30px; }
+  padding-top: 30px;
+  margin-bottom: 55px; }
 
 .footer__menu-list {
   list-style: none;
@@ -12435,9 +12435,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   font: 16px/21px robotoregular, sans-serif;
   margin-top: 13px; }
   .teachers-block__name span {
-    display: block;
-    line-height: 0.9;
-  }
+    display: block; }
 
 .lesson-teachers__button {
   transition: .5s;
@@ -15143,9 +15141,12 @@ tr.tbl-timetable__content-last td {
 
 .teachers-box {
   margin-top: 34px;
-  display: table;
+  /*display: table;*/
   width: 100%;
-  font-size: 0; }
+  font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
   .teachers-box .teachers-block {
     position: relative;
     transition: .3s;
@@ -15156,11 +15157,12 @@ tr.tbl-timetable__content-last td {
     height: 396px;
     overflow: hidden;
     border: 1px solid #acacac;
-    margin: 0 13px 13px 0;
+    margin: 0 0 13px 0;
     text-align: center;
-    /* padding: 0px 15px 0;*/ }
-    .teachers-box .teachers-block:nth-child(4n) {
-      margin-right: 0; }
+    /* padding: 0px 15px 0;*/
+    /* &:nth-child(4n) {
+      margin-right: 0;
+    }*/ }
     .teachers-box .teachers-block:hover {
       background: #3fb9e6;
       color: #fff; }
@@ -15188,7 +15190,7 @@ tr.tbl-timetable__content-last td {
 
 .teachers-subject {
   transition: .3s;
-  padding: 5px 0 0;
+  padding: 6px 0 0;
   font: 13px robotoregular, sans-serif;
   color: #000; }
 

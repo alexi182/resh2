@@ -39,9 +39,12 @@
 
 .teachers-box {
   margin-top: 34px;
-  display: table;
+  /*display: table;*/
   width: 100%;
   font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   .teachers-block {
     position: relative;
     transition: .3s;
@@ -52,12 +55,12 @@
     height: 396px;
     overflow: hidden;
     border: 1px solid #acacac;
-    margin: 0 13px 13px 0;
+    margin: 0 0 13px 0;
     text-align: center;
    /* padding: 0px 15px 0;*/
-    &:nth-child(4n) {
+   /* &:nth-child(4n) {
       margin-right: 0;
-    }
+    }*/
     &:hover {
       background: $light-blue;
       color: #fff;
